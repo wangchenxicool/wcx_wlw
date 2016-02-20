@@ -1,0 +1,234 @@
+/*
+ * _  _ ____ ___  ___  _  _ ____    ___ ____ ____ ___
+ * |\/| |  | |  \ |__] |  | [__      |  |___ [__   |
+ * |  | |__| |__/ |__] |__| ___]     |  |___ ___]  |
+ *
+ */
+
+#include <stdio.h>
+#include <unistd.h>
+#include <string.h>
+#include <stdlib.h>
+#include <getopt.h>
+/*#include <time.h>  */
+#include <sys/timeb.h>
+#include "modbus.h"
+#include "INIFileOP.h"
+
+#define SLAVE         0x01
+#define ADDRESS_START    0
+/*#define ADDRESS_END      500*/
+
+
+static int slaves = 1; // 从机个数
+static int step = 0; // 是否单步运行
+static int free_time = 50; // modbus总线空闲时间
+
+void print_usage (const char *prog)
+{
+    printf ("\nUsage: < %s serial slave fun addr len DataType -nsfh >\n\n", prog);
+    puts ("---DataType:\n"
+          "  0 --int8_t\n"
+          "  1 --uint8_t\n"
+          "  2 --int16_t\n"
+          "  3 --uint16_t\n"
+          "  4 --int32_t\n"
+          "  5 --uint32_t\n"
+          "  6 --int64_t\n"
+          "  7 --uint64_t\n"
+          "  8 --flaot\n"
+          "  9 --double\n"
+          "---nsfh:\n"
+          "  -n: 从机个数\n"
+          "  -s: 单步运行\n"
+          "  -f: modbus总线空闲时间\n"
+          "  -h: help\n");
+    exit (1);
+}
+
+void parse_opts (int argc, char *argv[])
+{
+    int ret, ch;
+    opterr = 0;
+    char key_value[128];
+
+    while ( (ch = getopt (argc, argv, "n:sf:")) != EOF)
+    {
+        switch (ch)
+        {
+        case 'n':
+            slaves = atoi (optarg);
+            break;
+        case 's':
+            step = 1;
+            break;
+        case 'f':
+            free_time = atoi (optarg);
+            break;
+        case 'h':
+        case '?':
+            print_usage (argv[0]);
+            break;
+        default:
+            break;
+        } /* end switch */
+    } /* end while */
+}
+
+/**
+ * @brief    modbus test
+ *
+ * @param   argc  argv nums
+ * @param   argv[]: [cmd slave  fun addr len]
+ *
+ * @return 0
+ */
+int main (int argc, char *argv[])
+{
+    int i, j, nb, ret;
+    uint16_t test_count;
+    uint32_t *tab_registers;
+    modbus_param_t mb_param;
+    char key_value[256]; /* file node */
+
+    struct timeb time_send; //记录发送时间
+    struct timeb time_rcv; //记录接收时间
+    float time_use; //记录modbus采集使用时间
+
+    if (argc < 7)
+    {
+        print_usage (argv[0]);
+    }
+
+    /* get query frame from argv */
+    int serial = (unsigned int) strtol (argv[1], NULL, 10);
+    int slave = (unsigned char) strtol (argv[2], NULL, 10);
+    int fun = (unsigned char) strtol (argv[3], NULL, 10);
+    uint16_t addr = (unsigned int) strtol (argv[4], NULL, 10);
+    uint16_t len = (unsigned int) strtol (argv[5], NULL, 10);
+    int DataType = (int) strtol (argv[6], NULL, 10);
+
+    /* get the test count from config file */
+    ret = ConfigGetKey ("config", "test:0", "count", key_value);
+    if (ret != 0)
+    {
+        printf ("config error!\n");
+        exit (1);
+    }
+    test_count = (int) strtol (key_value, NULL, 10);
+
+    /* get the file node from config file */
+    memset (key_value, 0, sizeof (key_value));
+    switch (serial)
+    {
+    case 0:
+        ret = ConfigGetKey ("config", "Serial:0", "file_node", key_value);
+        break;
+    case 1:
+        ret = ConfigGetKey ("config", "Serial:1", "file_node", key_value);
+        break;
+    case 2:
+        ret = ConfigGetKey ("config", "Serial:2", "file_node", key_value);
+        break;
+    case 3:
+        ret = ConfigGetKey ("config", "Serial:3", "file_node", key_value);
+        break;
+    case 4:
+        ret = ConfigGetKey ("config", "Serial:4", "file_node", key_value);
+        break;
+    case 5:
+        ret = ConfigGetKey ("config", "Serial:5", "file_node", key_value);
+        break;
+    case 6:
+        ret = ConfigGetKey ("config", "Serial:6", "file_node", key_value);
+        break;
+    default:
+        printf ("serial no error!\n");
+        exit (1);
+    }
+    if (ret != 0)
+    {
+        printf ("config error!\n");
+        exit (1);
+    }
+
+    /* RTU parity : none, even, odd */
+    modbus_init_rtu (&mb_param, key_value, 9600, "none", 8, 1, SLAVE);
+    modbus_set_debug (&mb_param, TRUE);
+    if (modbus_connect (&mb_param) == -1)
+    {
+        perror ("[modbus_connect]");
+        exit (1);
+    }
+
+    /* Allocate and initialize the different memory spaces */
+    nb = ADDRESS_END - ADDRESS_START;
+    tab_registers = (uint32_t *) malloc (nb * sizeof (uint32_t));
+    memset (tab_registers, 0, nb * sizeof (uint32_t));
+
+    mb_param.slave = slave;
+
+    parse_opts (argc, argv);
+
+    switch (fun)
+    {
+    case FC_READ_COIL_STATUS:
+        ret = read_coil_status (&mb_param, addr, len, (uint8_t*) tab_registers, 300);
+        break;
+    case FC_READ_INPUT_STATUS:
+        printf (" fun not define!\n ");
+        break;
+    case FC_READ_HOLDING_REGISTERS:
+        for (i = 0; i < test_count; i++)
+        {
+            for (j = slave; j < slave + slaves ; j++)
+            {
+                mb_param.slave = j;
+                ftime (&time_send);
+                printf ("DataType:%d\n", DataType);
+                ret = read_holding_registers (&mb_param, addr, len, (uint32_t*) tab_registers, DataType, 5000);
+                ftime (&time_rcv);
+                time_use = (time_rcv.time - time_send.time) * 1000 + (time_rcv.millitm - time_send.millitm);
+                printf ("Serial<%d>,slave<%d> ------ time_use[%4dms]\n", serial, slave, (int) time_use);
+                /*for ( j = 0; j < len; j++ )*/
+                /*printf ( "{%03d}", tab_registers[j] );*/
+                /*printf ( "\n" );*/
+                MySleep (0, free_time * 1000);
+                if (step)
+                {
+                    getchar ();
+                }
+            }
+        }
+
+        break;
+    case FC_READ_INPUT_REGISTERS:
+        printf (" fun not define!\n ");
+        break;
+    case FC_FORCE_SINGLE_COIL:
+        force_single_coil (&mb_param, addr, len, 300);
+        break;
+    case FC_PRESET_SINGLE_REGISTER:
+        printf (" fun not define!\n ");
+        break;
+    case FC_READ_EXCEPTION_STATUS:
+        printf (" fun not define!\n ");
+        break;
+    case FC_FORCE_MULTIPLE_COILS:
+        printf (" fun not define!\n ");
+        break;
+    case FC_PRESET_MULTIPLE_REGISTERS:
+        printf (" fun not define!\n ");
+        break;
+    case FC_REPORT_SLAVE_ID:
+        printf (" fun not define!\n ");
+        break;
+    default:
+        printf ("fun code default!\n");
+    }
+
+    free (tab_registers);
+    modbus_close (&mb_param);
+
+    return 0;
+}

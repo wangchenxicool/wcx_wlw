@@ -1,0 +1,151 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CFLAG	Makefile	/^CFLAG:=-g -rdynamic $/;"	m
+CFLAG	test/Makefile	/^CFLAG:=-g -O0 -rdynamic -fstack-protector-all$/;"	m
+CIRCLEQ_EMPTY	queue.h	436;"	d
+CIRCLEQ_END	queue.h	433;"	d
+CIRCLEQ_ENTRY	queue.h	422;"	d
+CIRCLEQ_FIRST	queue.h	431;"	d
+CIRCLEQ_FOREACH	queue.h	439;"	d
+CIRCLEQ_FOREACH_REVERSE	queue.h	444;"	d
+CIRCLEQ_HEAD	queue.h	413;"	d
+CIRCLEQ_HEAD_INITIALIZER	queue.h	419;"	d
+CIRCLEQ_INIT	queue.h	452;"	d
+CIRCLEQ_INSERT_AFTER	queue.h	457;"	d
+CIRCLEQ_INSERT_BEFORE	queue.h	467;"	d
+CIRCLEQ_INSERT_HEAD	queue.h	477;"	d
+CIRCLEQ_INSERT_TAIL	queue.h	487;"	d
+CIRCLEQ_LAST	queue.h	432;"	d
+CIRCLEQ_NEXT	queue.h	434;"	d
+CIRCLEQ_PREV	queue.h	435;"	d
+CIRCLEQ_REMOVE	queue.h	497;"	d
+CIRCLEQ_REPLACE	queue.h	512;"	d
+CROSS	Makefile	/^CROSS=arm-linux-$/;"	m
+CROSS	test/Makefile	/^CROSS=arm-linux-$/;"	m
+HANDLER_TYPE_CALLBACK	logger.c	/^    HANDLER_TYPE_CALLBACK,$/;"	e	enum:__anon1	file:
+HANDLER_TYPE_FILE	logger.c	/^    HANDLER_TYPE_FILE,$/;"	e	enum:__anon1	file:
+HANDLER_TYPE_FP	logger.c	/^    HANDLER_TYPE_FP,$/;"	e	enum:__anon1	file:
+HANDLER_TYPE_NONE	logger.c	/^    HANDLER_TYPE_NONE = 0,$/;"	e	enum:__anon1	file:
+HANDLER_TYPE_ROTATE	logger.c	/^    HANDLER_TYPE_ROTATE,$/;"	e	enum:__anon1	file:
+INSTALL	Makefile	/^INSTALL=install -o $(USER) -g $(USER)$/;"	m
+IPATH	test/Makefile	/^IPATH:=-I..\/$/;"	m
+LIST_EMPTY	queue.h	186;"	d
+LIST_END	queue.h	185;"	d
+LIST_ENTRY	queue.h	175;"	d
+LIST_FIRST	queue.h	184;"	d
+LIST_FOREACH	queue.h	189;"	d
+LIST_HEAD	queue.h	167;"	d
+LIST_HEAD_INITIALIZER	queue.h	172;"	d
+LIST_INIT	queue.h	197;"	d
+LIST_INSERT_AFTER	queue.h	201;"	d
+LIST_INSERT_BEFORE	queue.h	209;"	d
+LIST_INSERT_HEAD	queue.h	216;"	d
+LIST_NEXT	queue.h	187;"	d
+LIST_REMOVE	queue.h	223;"	d
+LIST_REPLACE	queue.h	232;"	d
+LOGGER_H	logger.h	31;"	d
+LOG_LEVEL_DEBUG	logger.h	/^        LOG_LEVEL_DEBUG,\/**< Debug. *\/$/;"	e	enum:log_levels
+LOG_LEVEL_INFO	logger.h	/^        LOG_LEVEL_INFO,\/**< Informational. *\/$/;"	e	enum:log_levels
+LOG_LEVEL_NONE	logger.h	/^        LOG_LEVEL_NONE = 0,$/;"	e	enum:log_levels
+LPATH	test/Makefile	/^LPATH:=-L..\/$/;"	m
+OBJS	Makefile	/^OBJS:=$(filter %.o, $(OBJS))$/;"	m
+OBJS	Makefile	/^OBJS:=$(patsubst %.S, %.o, $(SRC))$/;"	m
+SIMPLEQ_EMPTY	queue.h	264;"	d
+SIMPLEQ_END	queue.h	263;"	d
+SIMPLEQ_ENTRY	queue.h	254;"	d
+SIMPLEQ_FIRST	queue.h	262;"	d
+SIMPLEQ_FOREACH	queue.h	267;"	d
+SIMPLEQ_HEAD	queue.h	245;"	d
+SIMPLEQ_HEAD_INITIALIZER	queue.h	251;"	d
+SIMPLEQ_INIT	queue.h	275;"	d
+SIMPLEQ_INSERT_AFTER	queue.h	292;"	d
+SIMPLEQ_INSERT_HEAD	queue.h	280;"	d
+SIMPLEQ_INSERT_TAIL	queue.h	286;"	d
+SIMPLEQ_NEXT	queue.h	265;"	d
+SIMPLEQ_REMOVE_HEAD	queue.h	298;"	d
+SLIST_EMPTY	queue.h	112;"	d
+SLIST_END	queue.h	111;"	d
+SLIST_ENTRY	queue.h	102;"	d
+SLIST_FIRST	queue.h	110;"	d
+SLIST_FOREACH	queue.h	115;"	d
+SLIST_FOREACH_PREVPTR	queue.h	120;"	d
+SLIST_HEAD	queue.h	94;"	d
+SLIST_HEAD_INITIALIZER	queue.h	99;"	d
+SLIST_INIT	queue.h	128;"	d
+SLIST_INSERT_AFTER	queue.h	132;"	d
+SLIST_INSERT_HEAD	queue.h	137;"	d
+SLIST_NEXT	queue.h	113;"	d
+SLIST_REMOVE	queue.h	150;"	d
+SLIST_REMOVE_HEAD	queue.h	146;"	d
+SLIST_REMOVE_NEXT	queue.h	142;"	d
+SRC	Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+SRC	test/Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+TAILQ_EMPTY	queue.h	332;"	d
+TAILQ_END	queue.h	325;"	d
+TAILQ_ENTRY	queue.h	315;"	d
+TAILQ_FIRST	queue.h	324;"	d
+TAILQ_FOREACH	queue.h	335;"	d
+TAILQ_FOREACH_REVERSE	queue.h	340;"	d
+TAILQ_HEAD	queue.h	306;"	d
+TAILQ_HEAD_INITIALIZER	queue.h	312;"	d
+TAILQ_INIT	queue.h	348;"	d
+TAILQ_INSERT_AFTER	queue.h	370;"	d
+TAILQ_INSERT_BEFORE	queue.h	380;"	d
+TAILQ_INSERT_HEAD	queue.h	353;"	d
+TAILQ_INSERT_TAIL	queue.h	363;"	d
+TAILQ_LAST	queue.h	327;"	d
+TAILQ_NEXT	queue.h	326;"	d
+TAILQ_PREV	queue.h	330;"	d
+TAILQ_REMOVE	queue.h	387;"	d
+TAILQ_REPLACE	queue.h	398;"	d
+TARGET	Makefile	/^TARGET:=liblogger_arm.so$/;"	m
+TARGET	Makefile	/^TARGET:=liblogger_ubuntu.so$/;"	m
+TARGET	test/Makefile	/^TARGET:=log_arm.bin$/;"	m
+TARGET	test/Makefile	/^TARGET:=log_ubuntu.bin$/;"	m
+_GNU_SOURCE	logger.c	31;"	d	file:
+_Q_INVALIDATE	queue.h	86;"	d
+_Q_INVALIDATE	queue.h	88;"	d
+_SYS_QUEUE_H_	queue.h	36;"	d
+arg	logger.c	/^            void *arg;$/;"	m	struct:log_handler::__anon2::__anon3	file:
+cb	logger.c	/^            void (*cb) (char *msg, void *arg);$/;"	m	struct:log_handler::__anon2::__anon3	file:
+cb_info	logger.c	/^        } cb_info;$/;"	m	union:log_handler::__anon2	typeref:struct:log_handler::__anon2::__anon3	file:
+cb_log_handler_output	logger.c	/^static void   cb_log_handler_output (log_handler_t *handler, const char *date,       const char *msg)$/;"	f	file:
+count	logger.c	/^            int count;$/;"	m	struct:log_handler::__anon2::rotating_info	file:
+cursize	logger.c	/^            int cursize;$/;"	m	struct:log_handler::__anon2::rotating_info	file:
+filename	logger.c	/^            char filename[FILENAME_MAX];$/;"	m	struct:log_handler::__anon2::rotating_info	file:
+fp	logger.c	/^            FILE *fp;$/;"	m	struct:log_handler::__anon2::__anon4	file:
+fp	logger.c	/^            FILE *fp;$/;"	m	struct:log_handler::__anon2::rotating_info	file:
+fp_info	logger.c	/^        } fp_info;$/;"	m	union:log_handler::__anon2	typeref:struct:log_handler::__anon2::__anon4	file:
+fp_log_handler_output	logger.c	/^static void   fp_log_handler_output (log_handler_t *handler, const char *date,       const char *msg)$/;"	f	file:
+initialized	logger.c	/^    int initialized;$/;"	m	struct:logger	file:
+log_callback	test/demo.c	/^void   log_callback (char *msg, void *arg)$/;"	f
+log_debug	logger.c	/^void   log_debug (const char *fmt, ...)$/;"	f
+log_handler	logger.c	/^struct log_handler$/;"	s	file:
+log_handler_t	logger.h	/^    typedef struct log_handler log_handler_t;$/;"	t	typeref:struct:log_handler
+log_info	logger.c	/^void   log_info (const char *fmt, ...)$/;"	f
+log_level	logger.c	/^    int log_level;$/;"	m	struct:logger	file:
+log_levels	logger.h	/^    enum log_levels {$/;"	g
+logger	logger.c	/^static struct logger logger;$/;"	v	typeref:struct:logger	file:
+logger	logger.c	/^struct logger$/;"	s	file:
+logger_add_callback_handler	logger.c	/^log_handler_t *   logger_add_callback_handler (void (*cb) (char *msg, void *arg), void *arg)$/;"	f
+logger_add_file_handler	logger.c	/^log_handler_t *   logger_add_file_handler (char *filename, int append)$/;"	f
+logger_add_fp_handler	logger.c	/^log_handler_t *   logger_add_fp_handler (FILE *fp)$/;"	f
+logger_add_handler	logger.c	/^static void   logger_add_handler (log_handler_t *handler)$/;"	f	file:
+logger_add_rotating_handler	logger.c	/^log_handler_t *   logger_add_rotating_handler (const char *filename, int size, int count)$/;"	f
+logger_init	logger.c	/^void   logger_init (int log_level)$/;"	f
+logger_log	logger.c	/^static void   logger_log (int log_level, const char *fmt, va_list ap)$/;"	f	file:
+logger_remove_handler	logger.c	/^void   logger_remove_handler (log_handler_t *handler)$/;"	f
+logger_reset	logger.c	/^void   logger_reset (void)$/;"	f
+main	test/demo.c	/^int   main (int argc, char **argv)$/;"	f
+maxsize	logger.c	/^            int maxsize;$/;"	m	struct:log_handler::__anon2::rotating_info	file:
+output	logger.c	/^    void (*output) (log_handler_t *handler, const char *date, const char *msg);$/;"	m	struct:log_handler	file:
+rotating_info	logger.c	/^        struct rotating_info$/;"	s	union:log_handler::__anon2	file:
+rotating_info	logger.c	/^        } rotating_info;$/;"	m	union:log_handler::__anon2	typeref:struct:log_handler::__anon2::rotating_info	file:
+rotating_log_handler_output	logger.c	/^static void   rotating_log_handler_output (log_handler_t *handler, const char *date,       const char *msg)$/;"	f	file:
+rotating_log_handler_rotate	logger.c	/^static void   rotating_log_handler_rotate (struct rotating_info *ri)$/;"	f	file:
+type	logger.c	/^    int type;$/;"	m	struct:log_handler	file:
+u	logger.c	/^    } u;$/;"	m	struct:log_handler	typeref:union:log_handler::__anon2	file:

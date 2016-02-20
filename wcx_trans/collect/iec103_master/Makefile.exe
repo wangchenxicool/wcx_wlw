@@ -1,0 +1,36 @@
+#ARCH=ARM
+OTHERSLIBPWD=/home/project/usr/local/src
+
+SRC:=$(shell ls *.c)
+SRC+=$(shell ls *.cpp)
+
+ifeq ($(ARCH),ARM)
+CROSS=arm-linux-
+endif
+
+CFLAG:=-g -rdynamic 
+CFLAG+=-fno-stack-protector
+
+ifeq ($(ARCH),ARM)
+	IPATH:=-I$(OTHERSLIBPWD)/sqlite-3.7.3/output/arm/include
+	LPATH:=-L$(OTHERSLIBPWD)/sqlite-3.7.3/output/arm/lib
+else
+	IPATH:=-I$(OTHERSLIBPWD)/sqlite-3.7.3/output/ubuntu/include
+	LPATH:=-L$(OTHERSLIBPWD)/sqlite-3.7.3/output/ubuntu/lib
+endif
+
+LIBS:=-lpthread
+LIBS+=-lsqlite3
+
+ifeq ($(ARCH),ARM)
+TARGET:=iec103_master_test_arm.bin
+else
+TARGET:=iec103_master_test_ubuntu.bin
+endif
+
+$(TARGET) : $(SRC)
+	$(CROSS)g++ $(CFLAG) -o  $(TARGET)  $^ $(IPATH) $(LPATH) $(LIBS) 
+
+clean:
+	rm -f  *.bin  *.dis  *.elf  *.o
+

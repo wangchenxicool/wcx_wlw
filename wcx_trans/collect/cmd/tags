@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CFLAG	Makefile	/^CFLAG:=-g -O0 -rdynamic -fstack-protector-all$/;"	m
+CROSS	Makefile	/^	CROSS=arm-linux-$/;"	m
+KEY_DOWN	myconio.h	5;"	d
+KEY_ENTER	myconio.h	6;"	d
+KEY_UP	myconio.h	4;"	d
+LIBS	Makefile	/^LIBS:=-lpthread $/;"	m
+MAXLINE	cmd.c	10;"	d	file:
+SERV_PORT	cmd.c	11;"	d	file:
+SRC	Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+TARGET	Makefile	/^TARGET:=cmd.bin$/;"	m
+_MYCONIO_H	myconio.h	2;"	d
+dirGetInfo	myconio.c	/^char ** dirGetInfo (const char *pathname)$/;"	f
+getch	myconio.c	/^int getch()$/;"	f
+main	cmd.c	/^int main (int argc, char *argv[])$/;"	f
+menu	myconio.c	/^int menu (const char *menu[], int start_row)$/;"	f
+menu_main	cmd.c	/^static const char *menu_main[] =$/;"	v	file:

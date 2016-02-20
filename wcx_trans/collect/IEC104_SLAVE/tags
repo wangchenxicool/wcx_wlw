@@ -1,0 +1,800 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AIPH	memwatch.c	2373;"	d	file:
+AIPH	test/memwatch.c	2373;"	d	file:
+ASSERT	memwatch.h	556;"	d
+ASSERT	memwatch.h	594;"	d
+ASSERT	test/memwatch.h	556;"	d
+ASSERT	test/memwatch.h	594;"	d
+BOOL	iec104_slave.h	/^typedef bool  BOOL;$/;"	t
+BYTE	iec104_slave.h	/^typedef unsigned char  BYTE;$/;"	t
+C104_ASDU_SIZE	iec104_slave.h	111;"	d
+CFLAG	Makefile	/^CFLAG:=-g -rdynamic $/;"	m
+CFLAG	test/Makefile	/^CFLAG:=-g -rdynamic $/;"	m
+CHECK	memwatch.h	583;"	d
+CHECK	memwatch.h	643;"	d
+CHECK	test/memwatch.h	583;"	d
+CHECK	test/memwatch.h	643;"	d
+CHECK_BUFFER	memwatch.h	585;"	d
+CHECK_BUFFER	memwatch.h	645;"	d
+CHECK_BUFFER	test/memwatch.h	585;"	d
+CHECK_BUFFER	test/memwatch.h	645;"	d
+CHECK_THIS	memwatch.h	584;"	d
+CHECK_THIS	memwatch.h	644;"	d
+CHECK_THIS	test/memwatch.h	584;"	d
+CHECK_THIS	test/memwatch.h	644;"	d
+CHKVAL	memwatch.c	140;"	d	file:
+CHKVAL	test/memwatch.c	140;"	d	file:
+CIRCLEQ_EMPTY	queue.h	436;"	d
+CIRCLEQ_END	queue.h	433;"	d
+CIRCLEQ_ENTRY	queue.h	422;"	d
+CIRCLEQ_FIRST	queue.h	431;"	d
+CIRCLEQ_FOREACH	queue.h	439;"	d
+CIRCLEQ_FOREACH_REVERSE	queue.h	444;"	d
+CIRCLEQ_HEAD	queue.h	413;"	d
+CIRCLEQ_HEAD_INITIALIZER	queue.h	419;"	d
+CIRCLEQ_INIT	queue.h	452;"	d
+CIRCLEQ_INSERT_AFTER	queue.h	457;"	d
+CIRCLEQ_INSERT_BEFORE	queue.h	467;"	d
+CIRCLEQ_INSERT_HEAD	queue.h	477;"	d
+CIRCLEQ_INSERT_TAIL	queue.h	487;"	d
+CIRCLEQ_LAST	queue.h	432;"	d
+CIRCLEQ_NEXT	queue.h	434;"	d
+CIRCLEQ_PREV	queue.h	435;"	d
+CIRCLEQ_REMOVE	queue.h	497;"	d
+CIRCLEQ_REPLACE	queue.h	512;"	d
+CMDPORT	test/slave.c	161;"	d	file:
+COMMIT	memwatch.c	151;"	d	file:
+COMMIT	memwatch.c	153;"	d	file:
+COMMIT	test/memwatch.c	151;"	d	file:
+COMMIT	test/memwatch.c	153;"	d	file:
+CONF_FILE	iec104_slave.h	42;"	d
+CONNECTION_CLOSED	iec104_slave.h	54;"	d
+CPPTEXT	memwatch.c	157;"	d	file:
+CPPTEXT	memwatch.c	159;"	d	file:
+CPPTEXT	test/memwatch.c	157;"	d	file:
+CPPTEXT	test/memwatch.c	159;"	d	file:
+CROSS	Makefile	/^CROSS=arm-linux-$/;"	m
+CROSS	test/Makefile	/^CROSS=arm-linux-$/;"	m
+C_CS_NA	iec104_slave.h	87;"	d
+C_DC_NA	iec104_slave.h	84;"	d
+C_IC_NA	iec104_slave.h	86;"	d
+C_SC_NA	iec104_slave.h	83;"	d
+C_SE_NA	iec104_slave.h	85;"	d
+DEBUG	iec104_slave.cpp	37;"	d	file:
+DEBUG	test/slave.c	53;"	d	file:
+DWORD	iec104_slave.h	/^typedef unsigned long  DWORD;$/;"	t
+Display	iec104_slave.cpp	/^static void Display (struct IEC104_SLAVE *IEC104)$/;"	f	file:
+FALSE	iec104_slave.h	27;"	d
+FLUSH	memwatch.c	141;"	d	file:
+FLUSH	test/memwatch.c	141;"	d	file:
+IEC104SLAVE_AssociateAck	iec104_slave.cpp	/^static void IEC104SLAVE_AssociateAck (struct IEC104_SLAVE *IEC104)$/;"	f	file:
+IEC104SLAVE_C_DC_NA_ExeAck	iec104_slave.cpp	/^void IEC104SLAVE_C_DC_NA_ExeAck (struct IEC104_SLAVE *IEC104)$/;"	f
+IEC104SLAVE_C_DC_NA_PreAck	iec104_slave.cpp	/^void IEC104SLAVE_C_DC_NA_PreAck (struct IEC104_SLAVE *IEC104)$/;"	f
+IEC104SLAVE_C_DC_NA_TermAck	iec104_slave.cpp	/^void IEC104SLAVE_C_DC_NA_TermAck (struct IEC104_SLAVE *IEC104)$/;"	f
+IEC104SLAVE_C_SE_NA_EndAck	iec104_slave.cpp	/^void IEC104SLAVE_C_SE_NA_EndAck (struct IEC104_SLAVE *IEC104)$/;"	f
+IEC104SLAVE_C_SE_NA_NoAck	iec104_slave.cpp	/^void IEC104SLAVE_C_SE_NA_NoAck (struct IEC104_SLAVE *IEC104)$/;"	f
+IEC104SLAVE_C_SE_NA_OkAck	iec104_slave.cpp	/^void IEC104SLAVE_C_SE_NA_OkAck (struct IEC104_SLAVE *IEC104)$/;"	f
+IEC104SLAVE_Display	iec104_slave.cpp	/^int IEC104SLAVE_Display (void *arg)$/;"	f
+IEC104SLAVE_Exit	iec104_slave.cpp	/^int IEC104SLAVE_Exit (void *arg)$/;"	f
+IEC104SLAVE_M_EI_NA	iec104_slave.cpp	/^static void IEC104SLAVE_M_EI_NA (struct IEC104_SLAVE *IEC104)$/;"	f	file:
+IEC104SLAVE_RCV_LOG	iec104_slave.h	43;"	d
+IEC104SLAVE_Run	iec104_slave.cpp	/^int IEC104SLAVE_Run (void *arg)$/;"	f
+IEC104SLAVE_Sframe	iec104_slave.cpp	/^static void IEC104SLAVE_Sframe (struct IEC104_SLAVE *IEC104)$/;"	f	file:
+IEC104SLAVE_TestAck	iec104_slave.cpp	/^static void IEC104SLAVE_TestAck (struct IEC104_SLAVE *IEC104)$/;"	f	file:
+IEC104SLAVE_TestAct	iec104_slave.cpp	/^static void IEC104SLAVE_TestAct (struct IEC104_SLAVE *IEC104)$/;"	f	file:
+IEC104SLAVE_event_base	iec104_slave.cpp	/^static struct event_base    *IEC104SLAVE_event_base;$/;"	v	typeref:struct:event_base	file:
+IEC104_SLAVE	iec104_slave.h	/^struct IEC104_SLAVE$/;"	s
+INSTALL	Makefile	/^INSTALL=install -o $(USER) -g $(USER)$/;"	m
+INVALID_DATA	iec104_slave.h	48;"	d
+INVALID_EXCEPTION_CODE	iec104_slave.h	49;"	d
+IPATH	Makefile	/^IPATH:=-I$(OTHERSLIBPWD)\/socket-lib\/libevent-2.0.12-stable\/output\/arm\/include$/;"	m
+IPATH	Makefile	/^IPATH:=-I$(OTHERSLIBPWD)\/socket-lib\/libevent-2.0.12-stable\/output\/ubuntu\/include$/;"	m
+IPATH	test/Makefile	/^IPATH:=-I\/usr\/local\/src\/socket-lib\/libevent-2.0.12-stable\/output\/arm\/include$/;"	m
+IPATH	test/Makefile	/^IPATH:=-I\/usr\/local\/src\/socket-lib\/libevent-2.0.12-stable\/output\/ubuntu\/include$/;"	m
+IpAddr_Client	iec104_slave.h	/^    char               IpAddr_Client[50];$/;"	m	struct:IEC104_SLAVE
+LIBS	test/Makefile	/^LIBS:=-lpthread$/;"	m
+LIST_EMPTY	queue.h	186;"	d
+LIST_END	queue.h	185;"	d
+LIST_ENTRY	queue.h	175;"	d
+LIST_FIRST	queue.h	184;"	d
+LIST_FOREACH	queue.h	189;"	d
+LIST_HEAD	queue.h	167;"	d
+LIST_HEAD_INITIALIZER	queue.h	172;"	d
+LIST_INIT	queue.h	197;"	d
+LIST_INSERT_AFTER	queue.h	201;"	d
+LIST_INSERT_BEFORE	queue.h	209;"	d
+LIST_INSERT_HEAD	queue.h	216;"	d
+LIST_NEXT	queue.h	187;"	d
+LIST_REMOVE	queue.h	223;"	d
+LIST_REPLACE	queue.h	232;"	d
+LPATH	Makefile	/^LPATH:=-L$(OTHERSLIBPWD)\/socket-lib\/libevent-2.0.12-stable\/output\/arm\/lib$/;"	m
+LPATH	Makefile	/^LPATH:=-L$(OTHERSLIBPWD)\/socket-lib\/libevent-2.0.12-stable\/output\/ubuntu\/lib$/;"	m
+LPATH	test/Makefile	/^LPATH:=-L\/usr\/local\/src\/socket-lib\/libevent-2.0.12-stable\/output\/arm\/lib$/;"	m
+LPATH	test/Makefile	/^LPATH:=-L\/usr\/local\/src\/socket-lib\/libevent-2.0.12-stable\/output\/ubuntu\/lib$/;"	m
+MARK	memwatch.h	586;"	d
+MARK	memwatch.h	646;"	d
+MARK	test/memwatch.h	586;"	d
+MARK	test/memwatch.h	646;"	d
+MAXLINE	test/slave.c	160;"	d	file:
+MAX_DATA_LEN	iec104_slave.h	40;"	d
+MAX_K	iec104_slave.cpp	/^static int      MAX_K;$/;"	v	file:
+MAX_W	iec104_slave.cpp	/^static int      MAX_W;$/;"	v	file:
+MEMWATCH_NOCPP	memwatch.c	100;"	d	file:
+MEMWATCH_NOCPP	test/memwatch.c	100;"	d	file:
+MEMWATCH_STDIO	memwatch.c	103;"	d	file:
+MEMWATCH_STDIO	test/memwatch.c	103;"	d	file:
+MW_ARI_ABORT	memwatch.h	349;"	d
+MW_ARI_ABORT	test/memwatch.h	349;"	d
+MW_ARI_IGNORE	memwatch.h	351;"	d
+MW_ARI_IGNORE	test/memwatch.h	351;"	d
+MW_ARI_NULLREAD	memwatch.h	348;"	d
+MW_ARI_NULLREAD	test/memwatch.h	348;"	d
+MW_ARI_RETRY	memwatch.h	350;"	d
+MW_ARI_RETRY	test/memwatch.h	350;"	d
+MW_FREE_LIST	memwatch.h	379;"	d
+MW_FREE_LIST	test/memwatch.h	379;"	d
+MW_HAVE_MUTEX	memwatch.c	125;"	d	file:
+MW_HAVE_MUTEX	memwatch.c	130;"	d	file:
+MW_HAVE_MUTEX	test/memwatch.c	125;"	d	file:
+MW_HAVE_MUTEX	test/memwatch.c	130;"	d	file:
+MW_MUTEX_INIT	memwatch.c	169;"	d	file:
+MW_MUTEX_INIT	memwatch.c	174;"	d	file:
+MW_MUTEX_INIT	test/memwatch.c	169;"	d	file:
+MW_MUTEX_INIT	test/memwatch.c	174;"	d	file:
+MW_MUTEX_LOCK	memwatch.c	171;"	d	file:
+MW_MUTEX_LOCK	memwatch.c	176;"	d	file:
+MW_MUTEX_LOCK	test/memwatch.c	171;"	d	file:
+MW_MUTEX_LOCK	test/memwatch.c	176;"	d	file:
+MW_MUTEX_TERM	memwatch.c	170;"	d	file:
+MW_MUTEX_TERM	memwatch.c	175;"	d	file:
+MW_MUTEX_TERM	test/memwatch.c	170;"	d	file:
+MW_MUTEX_TERM	test/memwatch.c	175;"	d	file:
+MW_MUTEX_UNLOCK	memwatch.c	172;"	d	file:
+MW_MUTEX_UNLOCK	memwatch.c	177;"	d	file:
+MW_MUTEX_UNLOCK	test/memwatch.c	172;"	d	file:
+MW_MUTEX_UNLOCK	test/memwatch.c	177;"	d	file:
+MW_NML	memwatch.c	148;"	d	file:
+MW_NML	test/memwatch.c	148;"	d	file:
+MW_NML_ALL	memwatch.h	365;"	d
+MW_NML_ALL	test/memwatch.h	365;"	d
+MW_NML_DEFAULT	memwatch.h	366;"	d
+MW_NML_DEFAULT	test/memwatch.h	366;"	d
+MW_NML_FREE	memwatch.h	364;"	d
+MW_NML_FREE	test/memwatch.h	364;"	d
+MW_NML_NONE	memwatch.h	363;"	d
+MW_NML_NONE	test/memwatch.h	363;"	d
+MW_SAFEADDR	memwatch.c	2629;"	d	file:
+MW_SAFEADDR	memwatch.c	2651;"	d	file:
+MW_SAFEADDR	test/memwatch.c	2629;"	d	file:
+MW_SAFEADDR	test/memwatch.c	2651;"	d	file:
+MW_STAT_DEFAULT	memwatch.h	371;"	d
+MW_STAT_DEFAULT	test/memwatch.h	371;"	d
+MW_STAT_GLOBAL	memwatch.h	368;"	d
+MW_STAT_GLOBAL	test/memwatch.h	368;"	d
+MW_STAT_LINE	memwatch.h	370;"	d
+MW_STAT_LINE	test/memwatch.h	370;"	d
+MW_STAT_MODULE	memwatch.h	369;"	d
+MW_STAT_MODULE	test/memwatch.h	369;"	d
+MW_TEST_ALL	memwatch.h	358;"	d
+MW_TEST_ALL	test/memwatch.h	358;"	d
+MW_TEST_ALLOC	memwatch.h	360;"	d
+MW_TEST_ALLOC	test/memwatch.h	360;"	d
+MW_TEST_CHAIN	memwatch.h	359;"	d
+MW_TEST_CHAIN	test/memwatch.h	359;"	d
+MW_TEST_NML	memwatch.h	361;"	d
+MW_TEST_NML	test/memwatch.h	361;"	d
+MW_TRACE_BUFFER	memwatch.h	378;"	d
+MW_TRACE_BUFFER	test/memwatch.h	378;"	d
+MW_VAL_DEL	memwatch.h	354;"	d
+MW_VAL_DEL	test/memwatch.h	354;"	d
+MW_VAL_GRB	memwatch.h	356;"	d
+MW_VAL_GRB	test/memwatch.h	356;"	d
+MW_VAL_NEW	memwatch.h	353;"	d
+MW_VAL_NEW	test/memwatch.h	353;"	d
+MW_VAL_NML	memwatch.h	355;"	d
+MW_VAL_NML	test/memwatch.h	355;"	d
+M_BO_NA	iec104_slave.h	62;"	d
+M_BO_TB	iec104_slave.h	74;"	d
+M_DP_NA	iec104_slave.h	60;"	d
+M_DP_TB	iec104_slave.h	72;"	d
+M_EI_NA	iec104_slave.h	69;"	d
+M_EP_TD	iec104_slave.h	79;"	d
+M_EP_TE	iec104_slave.h	80;"	d
+M_EP_TF	iec104_slave.h	81;"	d
+M_IT_NA	iec104_slave.h	66;"	d
+M_IT_TB	iec104_slave.h	78;"	d
+M_ME_NA	iec104_slave.h	63;"	d
+M_ME_NB	iec104_slave.h	64;"	d
+M_ME_NC	iec104_slave.h	65;"	d
+M_ME_ND	iec104_slave.h	68;"	d
+M_ME_TD	iec104_slave.h	75;"	d
+M_ME_TE	iec104_slave.h	76;"	d
+M_ME_TF	iec104_slave.h	77;"	d
+M_PS_NA	iec104_slave.h	67;"	d
+M_SP_NA	iec104_slave.h	59;"	d
+M_SP_TB	iec104_slave.h	71;"	d
+M_ST_NA	iec104_slave.h	61;"	d
+M_ST_TB	iec104_slave.h	73;"	d
+MaxListDsp	iec104_slave.h	39;"	d
+NAME_SIZE	test/slave.c	51;"	d	file:
+OBJS	Makefile	/^OBJS:=$(filter %.o, $(OBJS))$/;"	m
+OBJS	Makefile	/^OBJS:=$(patsubst %.S, %.o, $(SRC))$/;"	m
+OFF	iec104_slave.h	33;"	d
+ON	iec104_slave.h	36;"	d
+OTHERSLIBPWD	Makefile	/^OTHERSLIBPWD=\/home\/project\/usr\/local\/src$/;"	m
+PORT	iec104_slave.cpp	/^static int      PORT; \/\/端口号$/;"	v	file:
+POSTCHK	memwatch.c	144;"	d	file:
+POSTCHK	test/memwatch.c	144;"	d	file:
+PRECHK	memwatch.c	143;"	d	file:
+PRECHK	test/memwatch.c	143;"	d	file:
+RTU_ADDR	iec104_slave.cpp	/^static int      RTU_ADDR;$/;"	v	file:
+RecvBuf	iec104_slave.h	/^    unsigned char   RecvBuf[MAX_DATA_LEN];$/;"	m	struct:IEC104_SLAVE
+RecvLen	iec104_slave.h	/^    volatile unsigned short  RecvLen;  \/\/已经接收到的数据长度$/;"	m	struct:IEC104_SLAVE
+RecvNum	iec104_slave.h	/^    volatile unsigned short  RecvNum;  \/\/已经接收到的帧$/;"	m	struct:IEC104_SLAVE
+SELECT_FAILURE	iec104_slave.h	52;"	d
+SELECT_TIMEOUT	iec104_slave.h	51;"	d
+SIMPLEQ_EMPTY	queue.h	264;"	d
+SIMPLEQ_END	queue.h	263;"	d
+SIMPLEQ_ENTRY	queue.h	254;"	d
+SIMPLEQ_FIRST	queue.h	262;"	d
+SIMPLEQ_FOREACH	queue.h	267;"	d
+SIMPLEQ_HEAD	queue.h	245;"	d
+SIMPLEQ_HEAD_INITIALIZER	queue.h	251;"	d
+SIMPLEQ_INIT	queue.h	275;"	d
+SIMPLEQ_INSERT_AFTER	queue.h	292;"	d
+SIMPLEQ_INSERT_HEAD	queue.h	280;"	d
+SIMPLEQ_INSERT_TAIL	queue.h	286;"	d
+SIMPLEQ_NEXT	queue.h	265;"	d
+SIMPLEQ_REMOVE_HEAD	queue.h	298;"	d
+SLIST_EMPTY	queue.h	112;"	d
+SLIST_END	queue.h	111;"	d
+SLIST_ENTRY	queue.h	102;"	d
+SLIST_FIRST	queue.h	110;"	d
+SLIST_FOREACH	queue.h	115;"	d
+SLIST_FOREACH_PREVPTR	queue.h	120;"	d
+SLIST_HEAD	queue.h	94;"	d
+SLIST_HEAD_INITIALIZER	queue.h	99;"	d
+SLIST_INIT	queue.h	128;"	d
+SLIST_INSERT_AFTER	queue.h	132;"	d
+SLIST_INSERT_HEAD	queue.h	137;"	d
+SLIST_NEXT	queue.h	113;"	d
+SLIST_REMOVE	queue.h	150;"	d
+SLIST_REMOVE_HEAD	queue.h	146;"	d
+SLIST_REMOVE_NEXT	queue.h	142;"	d
+SOCKET_FAILURE	iec104_slave.h	53;"	d
+SRC	Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+SRC	test/Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+SendBuf	iec104_slave.h	/^    unsigned char   SendBuf[MAX_DATA_LEN];$/;"	m	struct:IEC104_SLAVE
+SendLen	iec104_slave.h	/^    volatile unsigned short  SendLen;  \/\/已经发送了的数据长度$/;"	m	struct:IEC104_SLAVE
+SendNum	iec104_slave.h	/^    volatile unsigned short  SendNum;  \/\/已经发送出的帧$/;"	m	struct:IEC104_SLAVE
+T0	iec104_slave.cpp	/^static int      T0, T1, T2, T3;$/;"	v	file:
+T1	iec104_slave.cpp	/^static int      T0, T1, T2, T3;$/;"	v	file:
+T2	iec104_slave.cpp	/^static int      T0, T1, T2, T3;$/;"	v	file:
+T3	iec104_slave.cpp	/^static int      T0, T1, T2, T3;$/;"	v	file:
+TAILQ_EMPTY	queue.h	332;"	d
+TAILQ_END	queue.h	325;"	d
+TAILQ_ENTRY	queue.h	315;"	d
+TAILQ_FIRST	queue.h	324;"	d
+TAILQ_FOREACH	queue.h	335;"	d
+TAILQ_FOREACH_REVERSE	queue.h	340;"	d
+TAILQ_HEAD	queue.h	306;"	d
+TAILQ_HEAD_INITIALIZER	queue.h	312;"	d
+TAILQ_INIT	queue.h	348;"	d
+TAILQ_INSERT_AFTER	queue.h	370;"	d
+TAILQ_INSERT_BEFORE	queue.h	380;"	d
+TAILQ_INSERT_HEAD	queue.h	353;"	d
+TAILQ_INSERT_TAIL	queue.h	363;"	d
+TAILQ_LAST	queue.h	327;"	d
+TAILQ_NEXT	queue.h	326;"	d
+TAILQ_PREV	queue.h	330;"	d
+TAILQ_REMOVE	queue.h	387;"	d
+TAILQ_REPLACE	queue.h	398;"	d
+TARGET	Makefile	/^TARGET:=libiec104_slave_arm.so$/;"	m
+TARGET	Makefile	/^TARGET:=libiec104_slave_ubuntu.so$/;"	m
+TARGET	test/Makefile	/^TARGET:=slave_arm.bin$/;"	m
+TARGET	test/Makefile	/^TARGET:=slave_ubuntu.bin$/;"	m
+TEST	iec104_slave.cpp	38;"	d	file:
+TESTS	memwatch.c	142;"	d	file:
+TESTS	test/memwatch.c	142;"	d	file:
+TRACE	memwatch.h	568;"	d
+TRACE	memwatch.h	610;"	d
+TRACE	test/memwatch.h	568;"	d
+TRACE	test/memwatch.h	610;"	d
+TRUE	iec104_slave.h	30;"	d
+T_C104_ASDU	iec104_slave.h	/^} T_C104_ASDU;$/;"	t	typeref:struct:tagT_C104_ASDU
+T_C104_FRAME	iec104_slave.h	/^} T_C104_FRAME;$/;"	t	typeref:struct:tagT_C104_FRAME
+UNMARK	memwatch.h	587;"	d
+UNMARK	memwatch.h	647;"	d
+UNMARK	test/memwatch.h	587;"	d
+UNMARK	test/memwatch.h	647;"	d
+VERIFY	memwatch.h	562;"	d
+VERIFY	memwatch.h	601;"	d
+VERIFY	test/memwatch.h	562;"	d
+VERIFY	test/memwatch.h	601;"	d
+VERSION	memwatch.c	139;"	d	file:
+VERSION	test/memwatch.c	139;"	d	file:
+VOID	iec104_slave.h	/^typedef void  VOID;$/;"	t
+WIN32_LEAN_AND_MEAN	memwatch.c	2630;"	d	file:
+WIN32_LEAN_AND_MEAN	test/memwatch.c	2630;"	d	file:
+WORD	iec104_slave.h	/^typedef unsigned short WORD;$/;"	t
+_IEC104_SLAVE_H	iec104_slave.h	14;"	d
+_Q_INVALIDATE	queue.h	86;"	d
+_Q_INVALIDATE	queue.h	88;"	d
+_SYS_QUEUE_H_	queue.h	36;"	d
+__MEMWATCH_C	memwatch.c	97;"	d	file:
+__MEMWATCH_C	test/memwatch.c	97;"	d	file:
+__MEMWATCH_H	memwatch.h	329;"	d
+__MEMWATCH_H	test/memwatch.h	329;"	d
+addr	iec104_slave.h	/^    BYTE	addr;			\/* 公共地址 *\/$/;"	m	struct:tagT_C104_ASDU
+addr_low	iec104_slave.h	/^    BYTE	addr_low;$/;"	m	struct:tagT_C104_ASDU
+blob	memwatch.c	/^    char        blob[ 1024 - sizeof ( mwGrabData* ) - sizeof ( int ) ];$/;"	m	struct:mwGrabData_	file:
+blob	test/memwatch.c	/^    char        blob[ 1024 - sizeof ( mwGrabData* ) - sizeof ( int ) ];$/;"	m	struct:mwGrabData_	file:
+calloc	memwatch.h	581;"	d
+calloc	test/memwatch.h	581;"	d
+check	memwatch.c	/^    long        check;  \/* integrity check value *\/$/;"	m	struct:mwData_	file:
+check	test/memwatch.c	/^    long        check;  \/* integrity check value *\/$/;"	m	struct:mwData_	file:
+contral1	iec104_slave.h	/^    BYTE	contral1;		\/* 控制域 *\/$/;"	m	struct:tagT_C104_FRAME
+contral2	iec104_slave.h	/^    BYTE	contral2;		\/* 控制域 *\/$/;"	m	struct:tagT_C104_FRAME
+contral3	iec104_slave.h	/^    BYTE	contral3;		\/* 控制域 *\/$/;"	m	struct:tagT_C104_FRAME
+contral4	iec104_slave.h	/^    BYTE	contral4;		\/* 控制域 *\/$/;"	m	struct:tagT_C104_FRAME
+cot_high	iec104_slave.h	/^    BYTE	cot_high;		\/* 传送原因 *\/$/;"	m	struct:tagT_C104_ASDU
+cot_low	iec104_slave.h	/^    BYTE	cot_low;$/;"	m	struct:tagT_C104_ASDU
+count	memwatch.c	/^    long        count;  \/* action count *\/$/;"	m	struct:mwData_	file:
+count	test/memwatch.c	/^    long        count;  \/* action count *\/$/;"	m	struct:mwData_	file:
+curr	memwatch.c	/^    long        curr;   \/* current allocations *\/$/;"	m	struct:mwStat_	file:
+curr	test/memwatch.c	/^    long        curr;   \/* current allocations *\/$/;"	m	struct:mwStat_	file:
+data	iec104_slave.h	/^    BYTE	data[C104_ASDU_SIZE - 6];	\/* 信息体报文 *\/$/;"	m	struct:tagT_C104_ASDU
+debug	iec104_slave.cpp	/^static char                 debug; \/\/debug on\/off$/;"	v	file:
+ev_read	iec104_slave.h	/^    struct event    ev_read;$/;"	m	struct:IEC104_SLAVE	typeref:struct:IEC104_SLAVE::event
+ev_timer_sframe	iec104_slave.h	/^    struct event    ev_timer_sframe; \/\/发送S帧事件$/;"	m	struct:IEC104_SLAVE	typeref:struct:IEC104_SLAVE::event
+ev_timer_tframe	iec104_slave.h	/^    struct event    ev_timer_tframe; \/\/发送测试帧事件$/;"	m	struct:IEC104_SLAVE	typeref:struct:IEC104_SLAVE::event
+ev_write	iec104_slave.h	/^    struct event    ev_write;$/;"	m	struct:IEC104_SLAVE	typeref:struct:IEC104_SLAVE::event
+fd	iec104_slave.h	/^    int                fd;$/;"	m	struct:IEC104_SLAVE
+fd_io	iec104_slave.cpp	/^static int                  fd_io; \/\/kaichu fd$/;"	v	file:
+file	memwatch.c	/^    const char* file;   \/* file name where allocated *\/$/;"	m	struct:mwData_	file:
+file	memwatch.c	/^    const char* file;$/;"	m	struct:mwStat_	file:
+file	test/memwatch.c	/^    const char* file;   \/* file name where allocated *\/$/;"	m	struct:mwData_	file:
+file	test/memwatch.c	/^    const char* file;$/;"	m	struct:mwStat_	file:
+flag	memwatch.c	/^    unsigned    flag;   \/* flag word *\/$/;"	m	struct:mwData_	file:
+flag	test/memwatch.c	/^    unsigned    flag;   \/* flag word *\/$/;"	m	struct:mwData_	file:
+free	memwatch.h	582;"	d
+free	test/memwatch.h	582;"	d
+handle_abrt	test/slave.c	/^static void handle_abrt (int   sig)$/;"	f	file:
+handle_int	test/slave.c	/^static void handle_int (int   sig)$/;"	f	file:
+handle_pipe	test/slave.c	/^static void handle_pipe (int sig)$/;"	f	file:
+handle_quit	test/slave.c	/^static void handle_quit (int   sig)$/;"	f	file:
+handle_segv	test/slave.c	/^static void handle_segv (int   sig)$/;"	f	file:
+host	memwatch.c	/^    void *host;$/;"	m	struct:mwMarker_	file:
+host	test/memwatch.c	/^    void *host;$/;"	m	struct:mwMarker_	file:
+iec104_error_treat	iec104_slave.cpp	/^static void iec104_error_treat (int code, const char *string, void *arg)$/;"	f	file:
+init_sigaction	test/slave.c	/^static void init_sigaction()$/;"	f	file:
+is_connect	iec104_slave.h	/^    volatile int       is_connect; \/\/连接标志 TRUE: 已经连接 FALSE: 未连接$/;"	m	struct:IEC104_SLAVE
+is_idlesse	iec104_slave.h	/^    volatile char      is_idlesse; \/\/IEC104通道空闲标志, 如果置1,将定时发送测试帧$/;"	m	struct:IEC104_SLAVE
+is_send_sframe	iec104_slave.h	/^    volatile char      is_send_sframe; \/\/S帧发送标志$/;"	m	struct:IEC104_SLAVE
+k	iec104_slave.h	/^    volatile unsigned char   k; \/\/发送I格式应用规约数据单元的未认可帧数$/;"	m	struct:IEC104_SLAVE
+len	iec104_slave.h	/^    BYTE	len;			\/* APDU长度   *\/$/;"	m	struct:tagT_C104_FRAME
+level	memwatch.c	/^    int level;$/;"	m	struct:mwMarker_	file:
+level	test/memwatch.c	/^    int level;$/;"	m	struct:mwMarker_	file:
+line	memwatch.c	/^    int         line;   \/* line number where allocated *\/$/;"	m	struct:mwData_	file:
+line	memwatch.c	/^    int         line;$/;"	m	struct:mwStat_	file:
+line	test/memwatch.c	/^    int         line;   \/* line number where allocated *\/$/;"	m	struct:mwData_	file:
+line	test/memwatch.c	/^    int         line;$/;"	m	struct:mwStat_	file:
+load_config_from_file	iec104_slave.cpp	/^static void load_config_from_file (void)$/;"	f	file:
+log	iec104_slave.cpp	/^static struct log_tp        log;$/;"	v	typeref:struct:log_tp	file:
+main	test/slave.c	/^int main (int argc, char *argv[])$/;"	f
+malloc	memwatch.h	578;"	d
+malloc	test/memwatch.h	578;"	d
+max	memwatch.c	/^    long        max;    \/* max allocated at one time *\/$/;"	m	struct:mwStat_	file:
+max	test/memwatch.c	/^    long        max;    \/* max allocated at one time *\/$/;"	m	struct:mwStat_	file:
+mw16BIT	memwatch.c	199;"	d	file:
+mw16BIT	test/memwatch.c	199;"	d	file:
+mw32BIT	memwatch.c	206;"	d	file:
+mw32BIT	test/memwatch.c	206;"	d	file:
+mw64BIT	memwatch.c	195;"	d	file:
+mw64BIT	memwatch.c	203;"	d	file:
+mw64BIT	test/memwatch.c	195;"	d	file:
+mw64BIT	test/memwatch.c	203;"	d	file:
+mwARI	memwatch.c	/^static int mwARI ( const char *estr )$/;"	f	file:
+mwARI	test/memwatch.c	/^static int mwARI ( const char *estr )$/;"	f	file:
+mwASSERT	memwatch.h	553;"	d
+mwASSERT	memwatch.h	591;"	d
+mwASSERT	test/memwatch.h	553;"	d
+mwASSERT	test/memwatch.h	591;"	d
+mwAbort	memwatch.c	/^void mwAbort ( void )$/;"	f
+mwAbort	test/memwatch.c	/^void mwAbort ( void )$/;"	f
+mwAllocLimit	memwatch.c	/^static long     mwAllocLimit =  0L;$/;"	v	file:
+mwAllocLimit	test/memwatch.c	/^static long     mwAllocLimit =  0L;$/;"	v	file:
+mwAriAction	memwatch.c	/^static int      mwAriAction = MW_ARI_ABORT;$/;"	v	file:
+mwAriAction	test/memwatch.c	/^static int      mwAriAction = MW_ARI_ABORT;$/;"	v	file:
+mwAriFunction	memwatch.c	/^static int ( *mwAriFunction ) ( const char* ) = NULL;$/;"	v	file:
+mwAriFunction	test/memwatch.c	/^static int ( *mwAriFunction ) ( const char* ) = NULL;$/;"	v	file:
+mwAriHandler	memwatch.c	/^int mwAriHandler ( const char *estr )$/;"	f
+mwAriHandler	test/memwatch.c	/^int mwAriHandler ( const char *estr )$/;"	f
+mwAssert	memwatch.c	/^int mwAssert ( int exp, const char *exps, const char *fn, int ln )$/;"	f
+mwAssert	memwatch.h	639;"	d
+mwAssert	test/memwatch.c	/^int mwAssert ( int exp, const char *exps, const char *fn, int ln )$/;"	f
+mwAssert	test/memwatch.h	639;"	d
+mwAutoCheck	memwatch.c	/^void mwAutoCheck ( int onoff )$/;"	f
+mwAutoCheck	test/memwatch.c	/^void mwAutoCheck ( int onoff )$/;"	f
+mwAutoInit	memwatch.c	/^static void mwAutoInit ( void )$/;"	f	file:
+mwAutoInit	test/memwatch.c	/^static void mwAutoInit ( void )$/;"	f	file:
+mwBUFFER_TO_MW	memwatch.c	145;"	d	file:
+mwBUFFER_TO_MW	test/memwatch.c	145;"	d	file:
+mwBYTE	memwatch.c	/^typedef unsigned char mwBYTE;$/;"	t	file:
+mwBYTE	test/memwatch.c	/^typedef unsigned char mwBYTE;$/;"	t	file:
+mwBYTE_DEFINED	memwatch.c	190;"	d	file:
+mwBYTE_DEFINED	test/memwatch.c	190;"	d	file:
+mwBreakOut	memwatch.c	/^void mwBreakOut ( const char* cause )$/;"	f
+mwBreakOut	test/memwatch.c	/^void mwBreakOut ( const char* cause )$/;"	f
+mwCalloc	memwatch.c	/^void* mwCalloc ( size_t a, size_t b, const char *file, int line )$/;"	f
+mwCalloc	memwatch.h	633;"	d
+mwCalloc	test/memwatch.c	/^void* mwCalloc ( size_t a, size_t b, const char *file, int line )$/;"	f
+mwCalloc	test/memwatch.h	633;"	d
+mwCalloc_	memwatch.c	/^void* mwCalloc_ ( size_t a, size_t b )$/;"	f
+mwCalloc_	memwatch.h	637;"	d
+mwCalloc_	test/memwatch.c	/^void* mwCalloc_ ( size_t a, size_t b )$/;"	f
+mwCalloc_	test/memwatch.h	637;"	d
+mwCheckOF	memwatch.c	/^static int mwCheckOF ( const void *p )$/;"	f	file:
+mwCheckOF	test/memwatch.c	/^static int mwCheckOF ( const void *p )$/;"	f	file:
+mwCounter	memwatch.c	/^static unsigned long mwCounter = 0L;$/;"	v	file:
+mwCounter	test/memwatch.c	/^static unsigned long mwCounter = 0L;$/;"	v	file:
+mwDWORD	memwatch.c	/^typedef unsigned int mwDWORD;$/;"	t	file:
+mwDWORD	memwatch.c	/^typedef unsigned long mwDWORD;$/;"	t	file:
+mwDWORD	memwatch.c	/^typedef unsigned short mwDWORD;$/;"	t	file:
+mwDWORD	test/memwatch.c	/^typedef unsigned int mwDWORD;$/;"	t	file:
+mwDWORD	test/memwatch.c	/^typedef unsigned long mwDWORD;$/;"	t	file:
+mwDWORD	test/memwatch.c	/^typedef unsigned short mwDWORD;$/;"	t	file:
+mwDWORD_DEFINED	memwatch.c	223;"	d	file:
+mwDWORD_DEFINED	memwatch.c	230;"	d	file:
+mwDWORD_DEFINED	memwatch.c	237;"	d	file:
+mwDWORD_DEFINED	test/memwatch.c	223;"	d	file:
+mwDWORD_DEFINED	test/memwatch.c	230;"	d	file:
+mwDWORD_DEFINED	test/memwatch.c	237;"	d	file:
+mwData	memwatch.c	/^typedef struct mwData_ mwData;$/;"	t	typeref:struct:mwData_	file:
+mwData	test/memwatch.c	/^typedef struct mwData_ mwData;$/;"	t	typeref:struct:mwData_	file:
+mwDataSize	memwatch.c	/^static int		mwDataSize =	0;$/;"	v	file:
+mwDataSize	test/memwatch.c	/^static int		mwDataSize =	0;$/;"	v	file:
+mwData_	memwatch.c	/^struct mwData_$/;"	s	file:
+mwData_	test/memwatch.c	/^struct mwData_$/;"	s	file:
+mwDefaultAri	memwatch.h	625;"	d
+mwDefaultAri	test/memwatch.h	625;"	d
+mwDefaultOutFunc	memwatch.c	/^static void mwDefaultOutFunc ( int c )$/;"	f	file:
+mwDefaultOutFunc	test/memwatch.c	/^static void mwDefaultOutFunc ( int c )$/;"	f	file:
+mwDoFlush	memwatch.c	/^void mwDoFlush ( int onoff )$/;"	f
+mwDoFlush	memwatch.h	616;"	d
+mwDoFlush	test/memwatch.c	/^void mwDoFlush ( int onoff )$/;"	f
+mwDoFlush	test/memwatch.h	616;"	d
+mwDrop	memwatch.c	/^unsigned mwDrop ( unsigned kb )$/;"	f
+mwDrop	memwatch.h	620;"	d
+mwDrop	test/memwatch.c	/^unsigned mwDrop ( unsigned kb )$/;"	f
+mwDrop	test/memwatch.h	620;"	d
+mwDropAll	memwatch.c	/^static void mwDropAll()$/;"	f	file:
+mwDropAll	test/memwatch.c	/^static void mwDropAll()$/;"	f	file:
+mwDrop_	memwatch.c	/^static unsigned mwDrop_ ( unsigned kb, int type, int silent )$/;"	f	file:
+mwDrop_	test/memwatch.c	/^static unsigned mwDrop_ ( unsigned kb, int type, int silent )$/;"	f	file:
+mwDummy	memwatch.c	/^static char mwDummy ( char c )$/;"	f	file:
+mwDummy	test/memwatch.c	/^static char mwDummy ( char c )$/;"	f	file:
+mwErrors	memwatch.c	/^static long     mwErrors =      0L;$/;"	v	file:
+mwErrors	test/memwatch.c	/^static long     mwErrors =      0L;$/;"	v	file:
+mwFBI	memwatch.c	/^static int      mwFBI =         0;$/;"	v	file:
+mwFBI	test/memwatch.c	/^static int      mwFBI =         0;$/;"	v	file:
+mwFirstMark	memwatch.c	/^static mwMarker* mwFirstMark = NULL;$/;"	v	file:
+mwFirstMark	test/memwatch.c	/^static mwMarker* mwFirstMark = NULL;$/;"	v	file:
+mwFlush	memwatch.c	/^static void mwFlush()$/;"	f	file:
+mwFlush	test/memwatch.c	/^static void mwFlush()$/;"	f	file:
+mwFlushNow	memwatch.c	/^void mwFlushNow ( void )$/;"	f
+mwFlushNow	test/memwatch.c	/^void mwFlushNow ( void )$/;"	f
+mwFlushR	memwatch.c	/^static int mwFlushR()$/;"	f	file:
+mwFlushR	test/memwatch.c	/^static int mwFlushR()$/;"	f	file:
+mwFlushW	memwatch.c	/^static void mwFlushW ( int n )$/;"	f	file:
+mwFlushW	test/memwatch.c	/^static void mwFlushW ( int n )$/;"	f	file:
+mwFlushing	memwatch.c	/^static int      mwFlushing =    0;$/;"	v	file:
+mwFlushing	test/memwatch.c	/^static int      mwFlushing =    0;$/;"	v	file:
+mwFlushingB1	memwatch.c	/^static int      mwFlushingB1 =  0;$/;"	v	file:
+mwFlushingB1	test/memwatch.c	/^static int      mwFlushingB1 =  0;$/;"	v	file:
+mwFlushingB2	memwatch.c	/^static int      mwFlushingB2 =  0;$/;"	v	file:
+mwFlushingB2	test/memwatch.c	/^static int      mwFlushingB2 =  0;$/;"	v	file:
+mwFree	memwatch.c	/^void mwFree ( void* p, const char* file, int line )$/;"	f
+mwFree	memwatch.h	634;"	d
+mwFree	test/memwatch.c	/^void mwFree ( void* p, const char* file, int line )$/;"	f
+mwFree	test/memwatch.h	634;"	d
+mwFreeUp	memwatch.c	/^static size_t mwFreeUp ( size_t needed, int urgent )$/;"	f	file:
+mwFreeUp	test/memwatch.c	/^static size_t mwFreeUp ( size_t needed, int urgent )$/;"	f	file:
+mwFree_	memwatch.c	/^void mwFree_ ( void *p )$/;"	f
+mwFree_	memwatch.h	638;"	d
+mwFree_	test/memwatch.c	/^void mwFree_ ( void *p )$/;"	f
+mwFree_	test/memwatch.h	638;"	d
+mwGlobalMutex	memwatch.c	/^static mwMutex	mwGlobalMutex;$/;"	v	file:
+mwGlobalMutex	test/memwatch.c	/^static mwMutex	mwGlobalMutex;$/;"	v	file:
+mwGrab	memwatch.c	/^unsigned mwGrab ( unsigned kb )$/;"	f
+mwGrab	memwatch.h	619;"	d
+mwGrab	test/memwatch.c	/^unsigned mwGrab ( unsigned kb )$/;"	f
+mwGrab	test/memwatch.h	619;"	d
+mwGrabData	memwatch.c	/^typedef struct mwGrabData_ mwGrabData;$/;"	t	typeref:struct:mwGrabData_	file:
+mwGrabData	test/memwatch.c	/^typedef struct mwGrabData_ mwGrabData;$/;"	t	typeref:struct:mwGrabData_	file:
+mwGrabData_	memwatch.c	/^struct mwGrabData_$/;"	s	file:
+mwGrabData_	test/memwatch.c	/^struct mwGrabData_$/;"	s	file:
+mwGrabList	memwatch.c	/^static mwGrabData* mwGrabList = NULL;$/;"	v	file:
+mwGrabList	test/memwatch.c	/^static mwGrabData* mwGrabList = NULL;$/;"	v	file:
+mwGrabSize	memwatch.c	/^static long     mwGrabSize = 0L;$/;"	v	file:
+mwGrabSize	test/memwatch.c	/^static long     mwGrabSize = 0L;$/;"	v	file:
+mwGrabType	memwatch.c	/^static const char *mwGrabType ( int type )$/;"	f	file:
+mwGrabType	test/memwatch.c	/^static const char *mwGrabType ( int type )$/;"	f	file:
+mwGrab_	memwatch.c	/^static unsigned mwGrab_ ( unsigned kb, int type, int silent )$/;"	f	file:
+mwGrab_	test/memwatch.c	/^static unsigned mwGrab_ ( unsigned kb, int type, int silent )$/;"	f	file:
+mwHead	memwatch.c	/^static mwData*  mwHead = 		NULL;$/;"	v	file:
+mwHead	test/memwatch.c	/^static mwData*  mwHead = 		NULL;$/;"	v	file:
+mwIncErr	memwatch.c	/^static void mwIncErr()$/;"	f	file:
+mwIncErr	test/memwatch.c	/^static void mwIncErr()$/;"	f	file:
+mwInfoWritten	memwatch.c	/^static int      mwInfoWritten = 0;$/;"	v	file:
+mwInfoWritten	test/memwatch.c	/^static int      mwInfoWritten = 0;$/;"	v	file:
+mwInit	memwatch.c	/^void mwInit ( void )$/;"	f
+mwInit	memwatch.h	618;"	d
+mwInit	test/memwatch.c	/^void mwInit ( void )$/;"	f
+mwInit	test/memwatch.h	618;"	d
+mwInited	memwatch.c	/^static int      mwInited =      0;$/;"	v	file:
+mwInited	test/memwatch.c	/^static int      mwInited =      0;$/;"	v	file:
+mwIsHeapOK	memwatch.c	/^static int mwIsHeapOK ( mwData *includes_mw )$/;"	f	file:
+mwIsHeapOK	test/memwatch.c	/^static int mwIsHeapOK ( mwData *includes_mw )$/;"	f	file:
+mwIsOwned	memwatch.c	/^static int mwIsOwned ( mwData* mw, const char *file, int line )$/;"	f	file:
+mwIsOwned	test/memwatch.c	/^static int mwIsOwned ( mwData* mw, const char *file, int line )$/;"	f	file:
+mwIsReadAddr	memwatch.c	/^int mwIsReadAddr ( const void *p, unsigned len )$/;"	f
+mwIsReadAddr	test/memwatch.c	/^int mwIsReadAddr ( const void *p, unsigned len )$/;"	f
+mwIsSafeAddr	memwatch.c	/^int mwIsSafeAddr ( void *p, unsigned len )$/;"	f
+mwIsSafeAddr	test/memwatch.c	/^int mwIsSafeAddr ( void *p, unsigned len )$/;"	f
+mwLFcur	memwatch.c	/^static int      mwLFcur = 0;$/;"	v	file:
+mwLFcur	test/memwatch.c	/^static int      mwLFcur = 0;$/;"	v	file:
+mwLFfile	memwatch.c	/^static const char *mwLFfile[MW_FREE_LIST];$/;"	v	file:
+mwLFfile	test/memwatch.c	/^static const char *mwLFfile[MW_FREE_LIST];$/;"	v	file:
+mwLFline	memwatch.c	/^static int      mwLFline[MW_FREE_LIST];$/;"	v	file:
+mwLFline	test/memwatch.c	/^static int      mwLFline[MW_FREE_LIST];$/;"	v	file:
+mwLastFree	memwatch.c	/^static void *   mwLastFree[MW_FREE_LIST];$/;"	v	file:
+mwLastFree	test/memwatch.c	/^static void *   mwLastFree[MW_FREE_LIST];$/;"	v	file:
+mwLimit	memwatch.c	/^void mwLimit ( long lim )$/;"	f
+mwLimit	memwatch.h	621;"	d
+mwLimit	test/memwatch.c	/^void mwLimit ( long lim )$/;"	f
+mwLimit	test/memwatch.h	621;"	d
+mwLog	memwatch.c	/^static FILE*    mwLog =         NULL;$/;"	v	file:
+mwLog	test/memwatch.c	/^static FILE*    mwLog =         NULL;$/;"	v	file:
+mwLogB1	memwatch.c	/^static FILE*    mwLogB1 =       NULL;$/;"	v	file:
+mwLogB1	test/memwatch.c	/^static FILE*    mwLogB1 =       NULL;$/;"	v	file:
+mwLogB2	memwatch.c	/^static FILE*    mwLogB2 =       NULL;$/;"	v	file:
+mwLogB2	test/memwatch.c	/^static FILE*    mwLogB2 =       NULL;$/;"	v	file:
+mwLogFile	memwatch.c	/^static void mwLogFile ( const char *name )$/;"	f	file:
+mwLogFile	test/memwatch.c	/^static void mwLogFile ( const char *name )$/;"	f	file:
+mwLogR	memwatch.c	/^static FILE *mwLogR()$/;"	f	file:
+mwLogR	test/memwatch.c	/^static FILE *mwLogR()$/;"	f	file:
+mwLogW	memwatch.c	/^static void mwLogW ( FILE *p )$/;"	f	file:
+mwLogW	test/memwatch.c	/^static void mwLogW ( FILE *p )$/;"	f	file:
+mwMalloc	memwatch.c	/^void* mwMalloc ( size_t size, const char* file, int line )$/;"	f
+mwMalloc	memwatch.h	630;"	d
+mwMalloc	test/memwatch.c	/^void* mwMalloc ( size_t size, const char* file, int line )$/;"	f
+mwMalloc	test/memwatch.h	630;"	d
+mwMalloc_	memwatch.c	/^void* mwMalloc_ ( size_t size )$/;"	f
+mwMalloc_	memwatch.h	635;"	d
+mwMalloc_	test/memwatch.c	/^void* mwMalloc_ ( size_t size )$/;"	f
+mwMalloc_	test/memwatch.h	635;"	d
+mwMark	memwatch.c	/^void * mwMark ( void *p, const char *desc, const char *file, unsigned line )$/;"	f
+mwMark	memwatch.h	628;"	d
+mwMark	test/memwatch.c	/^void * mwMark ( void *p, const char *desc, const char *file, unsigned line )$/;"	f
+mwMark	test/memwatch.h	628;"	d
+mwMarker	memwatch.c	/^typedef struct mwMarker_ mwMarker;$/;"	t	typeref:struct:mwMarker_	file:
+mwMarker	test/memwatch.c	/^typedef struct mwMarker_ mwMarker;$/;"	t	typeref:struct:mwMarker_	file:
+mwMarker_	memwatch.c	/^struct mwMarker_$/;"	s	file:
+mwMarker_	test/memwatch.c	/^struct mwMarker_$/;"	s	file:
+mwMutex	memwatch.c	/^typedef HANDLE          mwMutex;$/;"	t	file:
+mwMutex	memwatch.c	/^typedef pthread_mutex_t mwMutex;$/;"	t	file:
+mwMutex	test/memwatch.c	/^typedef HANDLE          mwMutex;$/;"	t	file:
+mwMutex	test/memwatch.c	/^typedef pthread_mutex_t mwMutex;$/;"	t	file:
+mwMutexInit	memwatch.c	/^static void	mwMutexInit ( void )$/;"	f	file:
+mwMutexInit	test/memwatch.c	/^static void	mwMutexInit ( void )$/;"	f	file:
+mwMutexLock	memwatch.c	/^static void	mwMutexLock ( void )$/;"	f	file:
+mwMutexLock	test/memwatch.c	/^static void	mwMutexLock ( void )$/;"	f	file:
+mwMutexTerm	memwatch.c	/^static void	mwMutexTerm ( void )$/;"	f	file:
+mwMutexTerm	test/memwatch.c	/^static void	mwMutexTerm ( void )$/;"	f	file:
+mwMutexUnlock	memwatch.c	/^static void	mwMutexUnlock ( void )$/;"	f	file:
+mwMutexUnlock	test/memwatch.c	/^static void	mwMutexUnlock ( void )$/;"	f	file:
+mwNML	memwatch.c	/^static int      mwNML =         MW_NML_DEFAULT;$/;"	v	file:
+mwNML	test/memwatch.c	/^static int      mwNML =         MW_NML_DEFAULT;$/;"	v	file:
+mwNmlCurAlloc	memwatch.c	/^static long     mwNmlCurAlloc = 0L;$/;"	v	file:
+mwNmlCurAlloc	test/memwatch.c	/^static long     mwNmlCurAlloc = 0L;$/;"	v	file:
+mwNmlNumAlloc	memwatch.c	/^static long     mwNmlNumAlloc = 0L;$/;"	v	file:
+mwNmlNumAlloc	test/memwatch.c	/^static long     mwNmlNumAlloc = 0L;$/;"	v	file:
+mwNoMansLand	memwatch.c	/^void mwNoMansLand ( int level )$/;"	f
+mwNoMansLand	test/memwatch.c	/^void mwNoMansLand ( int level )$/;"	f
+mwNomansland	memwatch.h	626;"	d
+mwNomansland	test/memwatch.h	626;"	d
+mwNumCurAlloc	memwatch.c	/^static long     mwNumCurAlloc = 0L;$/;"	v	file:
+mwNumCurAlloc	test/memwatch.c	/^static long     mwNumCurAlloc = 0L;$/;"	v	file:
+mwOldSIGSEGV	memwatch.c	/^mwSignalHandlerPtr mwOldSIGSEGV = ( mwSignalHandlerPtr ) 0;$/;"	v
+mwOldSIGSEGV	test/memwatch.c	/^mwSignalHandlerPtr mwOldSIGSEGV = ( mwSignalHandlerPtr ) 0;$/;"	v
+mwOutFunction	memwatch.c	/^static void ( *mwOutFunction ) ( int ) = NULL;$/;"	v	file:
+mwOutFunction	test/memwatch.c	/^static void ( *mwOutFunction ) ( int ) = NULL;$/;"	v	file:
+mwOverflowZoneSize	memwatch.c	/^static int		mwOverflowZoneSize = mwROUNDALLOC;$/;"	v	file:
+mwOverflowZoneSize	test/memwatch.c	/^static int		mwOverflowZoneSize = mwROUNDALLOC;$/;"	v	file:
+mwOverflowZoneTemplate	memwatch.c	/^static unsigned char mwOverflowZoneTemplate[] = "mEmwAtch";$/;"	v	file:
+mwOverflowZoneTemplate	test/memwatch.c	/^static unsigned char mwOverflowZoneTemplate[] = "mEmwAtch";$/;"	v	file:
+mwPrintBuf	memwatch.c	/^static char     mwPrintBuf[MW_TRACE_BUFFER + 8];$/;"	v	file:
+mwPrintBuf	test/memwatch.c	/^static char     mwPrintBuf[MW_TRACE_BUFFER + 8];$/;"	v	file:
+mwPuts	memwatch.h	617;"	d
+mwPuts	test/memwatch.h	617;"	d
+mwROUNDALLOC	memwatch.c	217;"	d	file:
+mwROUNDALLOC	test/memwatch.c	217;"	d	file:
+mwROUNDALLOC_DEFAULT	memwatch.c	196;"	d	file:
+mwROUNDALLOC_DEFAULT	memwatch.c	200;"	d	file:
+mwROUNDALLOC_DEFAULT	memwatch.c	204;"	d	file:
+mwROUNDALLOC_DEFAULT	memwatch.c	207;"	d	file:
+mwROUNDALLOC_DEFAULT	test/memwatch.c	196;"	d	file:
+mwROUNDALLOC_DEFAULT	test/memwatch.c	200;"	d	file:
+mwROUNDALLOC_DEFAULT	test/memwatch.c	204;"	d	file:
+mwROUNDALLOC_DEFAULT	test/memwatch.c	207;"	d	file:
+mwRealloc	memwatch.c	/^void* mwRealloc ( void *p, size_t size, const char* file, int line )$/;"	f
+mwRealloc	memwatch.h	632;"	d
+mwRealloc	test/memwatch.c	/^void* mwRealloc ( void *p, size_t size, const char* file, int line )$/;"	f
+mwRealloc	test/memwatch.h	632;"	d
+mwRealloc_	memwatch.c	/^void* mwRealloc_ ( void *p, size_t size )$/;"	f
+mwRealloc_	memwatch.h	636;"	d
+mwRealloc_	test/memwatch.c	/^void* mwRealloc_ ( void *p, size_t size )$/;"	f
+mwRealloc_	test/memwatch.h	636;"	d
+mwRelink	memwatch.c	/^static int mwRelink ( mwData* mw, const char* file, int line )$/;"	f	file:
+mwRelink	test/memwatch.c	/^static int mwRelink ( mwData* mw, const char* file, int line )$/;"	f	file:
+mwSIGSEGV	memwatch.c	/^static void mwSIGSEGV ( int n )$/;"	f	file:
+mwSIGSEGV	test/memwatch.c	/^static void mwSIGSEGV ( int n )$/;"	f	file:
+mwSIGSEGVjump	memwatch.c	/^jmp_buf mwSIGSEGVjump;$/;"	v
+mwSIGSEGVjump	test/memwatch.c	/^jmp_buf mwSIGSEGVjump;$/;"	v
+mwSTDERR	memwatch.c	163;"	d	file:
+mwSTDERR	memwatch.c	165;"	d	file:
+mwSTDERR	test/memwatch.c	163;"	d	file:
+mwSTDERR	test/memwatch.c	165;"	d	file:
+mwSetAriAction	memwatch.c	/^void mwSetAriAction ( int action )$/;"	f
+mwSetAriAction	test/memwatch.c	/^void mwSetAriAction ( int action )$/;"	f
+mwSetAriFunc	memwatch.c	/^void mwSetAriFunc ( int ( *func ) ( const char * ) )$/;"	f
+mwSetAriFunc	memwatch.h	624;"	d
+mwSetAriFunc	test/memwatch.c	/^void mwSetAriFunc ( int ( *func ) ( const char * ) )$/;"	f
+mwSetAriFunc	test/memwatch.h	624;"	d
+mwSetOutFunc	memwatch.c	/^void mwSetOutFunc ( void ( *func ) ( int ) )$/;"	f
+mwSetOutFunc	memwatch.h	623;"	d
+mwSetOutFunc	test/memwatch.c	/^void mwSetOutFunc ( void ( *func ) ( int ) )$/;"	f
+mwSetOutFunc	test/memwatch.h	623;"	d
+mwSignalHandlerPtr	memwatch.c	/^typedef void ( *mwSignalHandlerPtr ) ( int );$/;"	t	file:
+mwSignalHandlerPtr	test/memwatch.c	/^typedef void ( *mwSignalHandlerPtr ) ( int );$/;"	t	file:
+mwStat	memwatch.c	/^typedef struct mwStat_ mwStat;$/;"	t	typeref:struct:mwStat_	file:
+mwStat	test/memwatch.c	/^typedef struct mwStat_ mwStat;$/;"	t	typeref:struct:mwStat_	file:
+mwStatAlloc	memwatch.c	/^static void mwStatAlloc ( size_t size, const char* file, int line )$/;"	f	file:
+mwStatAlloc	test/memwatch.c	/^static void mwStatAlloc ( size_t size, const char* file, int line )$/;"	f	file:
+mwStatCurAlloc	memwatch.c	/^static long     mwStatCurAlloc = 0L;$/;"	v	file:
+mwStatCurAlloc	test/memwatch.c	/^static long     mwStatCurAlloc = 0L;$/;"	v	file:
+mwStatFree	memwatch.c	/^static void mwStatFree ( size_t size, const char* file, int line )$/;"	f	file:
+mwStatFree	test/memwatch.c	/^static void mwStatFree ( size_t size, const char* file, int line )$/;"	f	file:
+mwStatGet	memwatch.c	/^static mwStat* mwStatGet ( const char *file, int line, int makenew )$/;"	f	file:
+mwStatGet	test/memwatch.c	/^static mwStat* mwStatGet ( const char *file, int line, int makenew )$/;"	f	file:
+mwStatLevel	memwatch.c	/^static int      mwStatLevel =   MW_STAT_DEFAULT;$/;"	v	file:
+mwStatLevel	test/memwatch.c	/^static int      mwStatLevel =   MW_STAT_DEFAULT;$/;"	v	file:
+mwStatList	memwatch.c	/^static mwStat*  mwStatList = NULL;$/;"	v	file:
+mwStatList	test/memwatch.c	/^static mwStat*  mwStatList = NULL;$/;"	v	file:
+mwStatMaxAlloc	memwatch.c	/^static long     mwStatMaxAlloc = 0L;$/;"	v	file:
+mwStatMaxAlloc	test/memwatch.c	/^static long     mwStatMaxAlloc = 0L;$/;"	v	file:
+mwStatNumAlloc	memwatch.c	/^static long     mwStatNumAlloc = 0L;$/;"	v	file:
+mwStatNumAlloc	test/memwatch.c	/^static long     mwStatNumAlloc = 0L;$/;"	v	file:
+mwStatReport	memwatch.c	/^static void mwStatReport()$/;"	f	file:
+mwStatReport	test/memwatch.c	/^static void mwStatReport()$/;"	f	file:
+mwStatTotAlloc	memwatch.c	/^static long     mwStatTotAlloc = 0L;$/;"	v	file:
+mwStatTotAlloc	test/memwatch.c	/^static long     mwStatTotAlloc = 0L;$/;"	v	file:
+mwStat_	memwatch.c	/^struct mwStat_$/;"	s	file:
+mwStat_	test/memwatch.c	/^struct mwStat_$/;"	s	file:
+mwStatistics	memwatch.c	/^void mwStatistics ( int level )$/;"	f
+mwStatistics	memwatch.h	627;"	d
+mwStatistics	test/memwatch.c	/^void mwStatistics ( int level )$/;"	f
+mwStatistics	test/memwatch.h	627;"	d
+mwStrCmpI	memwatch.c	/^static int mwStrCmpI ( const char *s1, const char *s2 )$/;"	f	file:
+mwStrCmpI	test/memwatch.c	/^static int mwStrCmpI ( const char *s1, const char *s2 )$/;"	f	file:
+mwStrdup	memwatch.c	/^char *mwStrdup ( const char* str, const char* file, int line )$/;"	f
+mwStrdup	memwatch.h	631;"	d
+mwStrdup	test/memwatch.c	/^char *mwStrdup ( const char* str, const char* file, int line )$/;"	f
+mwStrdup	test/memwatch.h	631;"	d
+mwTRACE	memwatch.h	565;"	d
+mwTRACE	memwatch.h	606;"	d
+mwTRACE	test/memwatch.h	565;"	d
+mwTRACE	test/memwatch.h	606;"	d
+mwTail	memwatch.c	/^static mwData*  mwTail = 		NULL;$/;"	v	file:
+mwTail	test/memwatch.c	/^static mwData*  mwTail = 		NULL;$/;"	v	file:
+mwTerm	memwatch.c	/^void mwTerm ( void )$/;"	f
+mwTerm	test/memwatch.c	/^void mwTerm ( void )$/;"	f
+mwTest	memwatch.c	/^int mwTest ( const char *file, int line, int items )$/;"	f
+mwTest	memwatch.h	622;"	d
+mwTest	test/memwatch.c	/^int mwTest ( const char *file, int line, int items )$/;"	f
+mwTest	test/memwatch.h	622;"	d
+mwTestAlways	memwatch.c	/^static int      mwTestAlways =  0;$/;"	v	file:
+mwTestAlways	test/memwatch.c	/^static int      mwTestAlways =  0;$/;"	v	file:
+mwTestBuf	memwatch.c	/^static int mwTestBuf ( mwData* mw, const char* file, int line )$/;"	f	file:
+mwTestBuf	test/memwatch.c	/^static int mwTestBuf ( mwData* mw, const char* file, int line )$/;"	f	file:
+mwTestBuffer	memwatch.c	/^int mwTestBuffer ( const char *file, int line, void *p )$/;"	f
+mwTestBuffer	memwatch.h	642;"	d
+mwTestBuffer	test/memwatch.c	/^int mwTestBuffer ( const char *file, int line, void *p )$/;"	f
+mwTestBuffer	test/memwatch.h	642;"	d
+mwTestFlags	memwatch.c	/^static int      mwTestFlags =   0;$/;"	v	file:
+mwTestFlags	test/memwatch.c	/^static int      mwTestFlags =   0;$/;"	v	file:
+mwTestMem	memwatch.c	/^static const void * mwTestMem ( const void *p, unsigned len, int c )$/;"	f	file:
+mwTestMem	test/memwatch.c	/^static const void * mwTestMem ( const void *p, unsigned len, int c )$/;"	f	file:
+mwTestNow	memwatch.c	/^static int mwTestNow ( const char *file, int line, int always_invoked )$/;"	f	file:
+mwTestNow	test/memwatch.c	/^static int mwTestNow ( const char *file, int line, int always_invoked )$/;"	f	file:
+mwTrace	memwatch.c	/^void mwTrace ( const char *format, ... )$/;"	f
+mwTrace	memwatch.h	641;"	d
+mwTrace	test/memwatch.c	/^void mwTrace ( const char *format, ... )$/;"	f
+mwTrace	test/memwatch.h	641;"	d
+mwUnlink	memwatch.c	/^static void mwUnlink ( mwData* mw, const char* file, int line )$/;"	f	file:
+mwUnlink	test/memwatch.c	/^static void mwUnlink ( mwData* mw, const char* file, int line )$/;"	f	file:
+mwUnmark	memwatch.c	/^void* mwUnmark ( void *p, const char *file, unsigned line )$/;"	f
+mwUnmark	memwatch.h	629;"	d
+mwUnmark	test/memwatch.c	/^void* mwUnmark ( void *p, const char *file, unsigned line )$/;"	f
+mwUnmark	test/memwatch.h	629;"	d
+mwUseAtexit	memwatch.c	/^static int      mwUseAtexit =   0;$/;"	v	file:
+mwUseAtexit	test/memwatch.c	/^static int      mwUseAtexit =   0;$/;"	v	file:
+mwUseLimit	memwatch.c	/^static int      mwUseLimit =    0;$/;"	v	file:
+mwUseLimit	test/memwatch.c	/^static int      mwUseLimit =    0;$/;"	v	file:
+mwVERIFY	memwatch.h	559;"	d
+mwVERIFY	memwatch.h	598;"	d
+mwVERIFY	test/memwatch.h	559;"	d
+mwVERIFY	test/memwatch.h	598;"	d
+mwVerify	memwatch.c	/^int mwVerify ( int exp, const char *exps, const char *fn, int ln )$/;"	f
+mwVerify	memwatch.h	640;"	d
+mwVerify	test/memwatch.c	/^int mwVerify ( int exp, const char *exps, const char *fn, int ln )$/;"	f
+mwVerify	test/memwatch.h	640;"	d
+mwWrite	memwatch.c	/^static void mwWrite ( const char *format, ... )$/;"	f	file:
+mwWrite	test/memwatch.c	/^static void mwWrite ( const char *format, ... )$/;"	f	file:
+mwWriteOF	memwatch.c	/^static void mwWriteOF ( void *p )$/;"	f	file:
+mwWriteOF	test/memwatch.c	/^static void mwWriteOF ( void *p )$/;"	f	file:
+next	memwatch.c	/^    mwData*     next;   \/* next allocation in chain *\/$/;"	m	struct:mwData_	file:
+next	memwatch.c	/^    mwGrabData* next;$/;"	m	struct:mwGrabData_	file:
+next	memwatch.c	/^    mwMarker *next;$/;"	m	struct:mwMarker_	file:
+next	memwatch.c	/^    mwStat*     next;   \/* next statistic buffer *\/$/;"	m	struct:mwStat_	file:
+next	test/memwatch.c	/^    mwData*     next;   \/* next allocation in chain *\/$/;"	m	struct:mwData_	file:
+next	test/memwatch.c	/^    mwGrabData* next;$/;"	m	struct:mwGrabData_	file:
+next	test/memwatch.c	/^    mwMarker *next;$/;"	m	struct:mwMarker_	file:
+next	test/memwatch.c	/^    mwStat*     next;   \/* next statistic buffer *\/$/;"	m	struct:mwStat_	file:
+num	memwatch.c	/^    long        num;    \/* total number of allocations *\/$/;"	m	struct:mwStat_	file:
+num	test/memwatch.c	/^    long        num;    \/* total number of allocations *\/$/;"	m	struct:mwStat_	file:
+on_accept	iec104_slave.cpp	/^static void on_accept (int fd, short ev, void *arg)$/;"	f	file:
+on_read	iec104_slave.cpp	/^static void on_read (int fd, short ev, void *arg)$/;"	f	file:
+on_timer	iec104_slave.cpp	/^static void on_timer (int fd, short event, void *arg)$/;"	f	file:
+on_timer_sframe	iec104_slave.cpp	/^static void on_timer_sframe (int fd, short event, void *arg)$/;"	f	file:
+on_timer_tframe	iec104_slave.cpp	/^static void on_timer_tframe (int fd, short event, void *arg)$/;"	f	file:
+on_write	iec104_slave.cpp	/^static void on_write (int fd, short ev, void *arg)$/;"	f	file:
+on_write	iec104_slave.cpp	/^static void on_write (void *arg)$/;"	f	file:
+prev	memwatch.c	/^    mwData*     prev;   \/* previous allocation in chain *\/$/;"	m	struct:mwData_	file:
+prev	test/memwatch.c	/^    mwData*     prev;   \/* previous allocation in chain *\/$/;"	m	struct:mwData_	file:
+read_cmd	test/slave.c	/^static void  *read_cmd (void *data)$/;"	f	file:
+realloc	memwatch.h	580;"	d
+realloc	test/memwatch.h	580;"	d
+setnonblock	iec104_slave.cpp	/^static int setnonblock (int fd)$/;"	f	file:
+size	memwatch.c	/^    size_t      size;   \/* size of allocation *\/$/;"	m	struct:mwData_	file:
+size	test/memwatch.c	/^    size_t      size;   \/* size of allocation *\/$/;"	m	struct:mwData_	file:
+start	iec104_slave.h	/^    BYTE	start;			\/* 启动字符 *\/$/;"	m	struct:tagT_C104_FRAME
+strdup	memwatch.h	575;"	d
+strdup	memwatch.h	579;"	d
+strdup	test/memwatch.h	575;"	d
+strdup	test/memwatch.h	579;"	d
+tagT_C104_ASDU	iec104_slave.h	/^typedef struct tagT_C104_ASDU$/;"	s
+tagT_C104_FRAME	iec104_slave.h	/^typedef struct tagT_C104_FRAME$/;"	s
+text	memwatch.c	/^    char *text;$/;"	m	struct:mwMarker_	file:
+text	test/memwatch.c	/^    char *text;$/;"	m	struct:mwMarker_	file:
+thread_exit	test/slave.c	/^char thread_exit; \/\/thread exit flg$/;"	v
+total	memwatch.c	/^    long        total;  \/* total bytes allocated *\/$/;"	m	struct:mwStat_	file:
+total	test/memwatch.c	/^    long        total;  \/* total bytes allocated *\/$/;"	m	struct:mwStat_	file:
+tv_read	iec104_slave.cpp	/^static struct timeval       tv_read; \/\/read timeout$/;"	v	typeref:struct:timeval	file:
+tv_timer_sframe	iec104_slave.h	/^    struct timeval  tv_timer_sframe; \/\/S帧定时器$/;"	m	struct:IEC104_SLAVE	typeref:struct:IEC104_SLAVE::timeval
+tv_timer_tframe	iec104_slave.h	/^    struct timeval  tv_timer_tframe; \/\/测试帧定时器$/;"	m	struct:IEC104_SLAVE	typeref:struct:IEC104_SLAVE::timeval
+type	iec104_slave.h	/^    BYTE	type;			\/* 类型标识 *\/$/;"	m	struct:tagT_C104_ASDU
+type	memwatch.c	/^    int         type;$/;"	m	struct:mwGrabData_	file:
+type	test/memwatch.c	/^    int         type;$/;"	m	struct:mwGrabData_	file:
+vsq	iec104_slave.h	/^    BYTE	vsq;			\/* 可变结构限定词 *\/$/;"	m	struct:tagT_C104_ASDU
+w	iec104_slave.h	/^    volatile unsigned char   w; \/\/接收I格式应用规约数据单元的帧数$/;"	m	struct:IEC104_SLAVE
+wprintf	iec104_slave.cpp	42;"	d	file:
+wprintf	iec104_slave.cpp	46;"	d	file:
+wprintf	test/slave.c	56;"	d	file:
+wprintf	test/slave.c	59;"	d	file:

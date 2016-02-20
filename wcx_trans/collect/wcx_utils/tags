@@ -1,0 +1,177 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARCH	Makefile	/^ARCH=ARM$/;"	m
+CFG_ERR	INIFileOP.cpp	33;"	d	file:
+CFG_ERR_CREATE_FILE	INIFileOP.cpp	36;"	d	file:
+CFG_ERR_EXCEED_BUF_SIZE	INIFileOP.cpp	43;"	d	file:
+CFG_ERR_FILE	INIFileOP.cpp	34;"	d	file:
+CFG_ERR_FILE_FORMAT	INIFileOP.cpp	39;"	d	file:
+CFG_ERR_INTERNAL	INIFileOP.cpp	42;"	d	file:
+CFG_ERR_OPEN_FILE	INIFileOP.cpp	35;"	d	file:
+CFG_ERR_READ_FILE	INIFileOP.cpp	37;"	d	file:
+CFG_ERR_SYSTEM	INIFileOP.cpp	40;"	d	file:
+CFG_ERR_SYSTEM_CALL	INIFileOP.cpp	41;"	d	file:
+CFG_ERR_WRITE_FILE	INIFileOP.cpp	38;"	d	file:
+CFG_KEY_NOT_FOUND	INIFileOP.cpp	32;"	d	file:
+CFG_OK	INIFileOP.cpp	30;"	d	file:
+CFG_SECTION_NOT_FOUND	INIFileOP.cpp	31;"	d	file:
+CFG_key_line_no	INIFileOP.cpp	/^int  CFG_section_line_no, CFG_key_line_no, CFG_key_lines;$/;"	v
+CFG_key_lines	INIFileOP.cpp	/^int  CFG_section_line_no, CFG_key_line_no, CFG_key_lines;$/;"	v
+CFG_nis	INIFileOP.cpp	/^char CFG_nis = ':';                 \/*name 与 index 之间的分隔符 *\/$/;"	v
+CFG_nts	INIFileOP.cpp	/^char CFG_nts = '#';                 \/*注释符*\/$/;"	v
+CFG_section_line_no	INIFileOP.cpp	/^int  CFG_section_line_no, CFG_key_line_no, CFG_key_lines;$/;"	v
+CFG_ssl	INIFileOP.cpp	/^char CFG_ssl = '[', CFG_ssr = ']';  \/* 项标志符Section Symbol --可根据特殊需要进行定义更改，如 { }等*\/$/;"	v
+CFG_ssr	INIFileOP.cpp	/^char CFG_ssl = '[', CFG_ssr = ']';  \/* 项标志符Section Symbol --可根据特殊需要进行定义更改，如 { }等*\/$/;"	v
+CFLAG	Makefile	/^CFLAG:=-g -rdynamic $/;"	m
+CIRCLEQ_EMPTY	queue.h	436;"	d
+CIRCLEQ_END	queue.h	433;"	d
+CIRCLEQ_ENTRY	queue.h	422;"	d
+CIRCLEQ_FIRST	queue.h	431;"	d
+CIRCLEQ_FOREACH	queue.h	439;"	d
+CIRCLEQ_FOREACH_REVERSE	queue.h	444;"	d
+CIRCLEQ_HEAD	queue.h	413;"	d
+CIRCLEQ_HEAD_INITIALIZER	queue.h	419;"	d
+CIRCLEQ_INIT	queue.h	452;"	d
+CIRCLEQ_INSERT_AFTER	queue.h	457;"	d
+CIRCLEQ_INSERT_BEFORE	queue.h	467;"	d
+CIRCLEQ_INSERT_HEAD	queue.h	477;"	d
+CIRCLEQ_INSERT_TAIL	queue.h	487;"	d
+CIRCLEQ_LAST	queue.h	432;"	d
+CIRCLEQ_NEXT	queue.h	434;"	d
+CIRCLEQ_PREV	queue.h	435;"	d
+CIRCLEQ_REMOVE	queue.h	497;"	d
+CIRCLEQ_REPLACE	queue.h	512;"	d
+COPYF_ERR_CREATE_FILE	INIFileOP.cpp	47;"	d	file:
+COPYF_ERR_OPEN_FILE	INIFileOP.cpp	46;"	d	file:
+COPYF_ERR_READ_FILE	INIFileOP.cpp	48;"	d	file:
+COPYF_ERR_WRITE_FILE	INIFileOP.cpp	49;"	d	file:
+COPYF_OK	INIFileOP.cpp	45;"	d	file:
+CROSS	Makefile	/^CROSS=arm-linux-$/;"	m
+CallCrc16	wcx_utils.cpp	/^unsigned int CallCrc16 (unsigned char *p, unsigned char Len)$/;"	f
+ConfigGetKey	INIFileOP.cpp	/^int  ConfigGetKey ( const void *CFG_file, const void *section, const void *key, void *buf )$/;"	f
+ConfigGetKeys	INIFileOP.cpp	/^int  ConfigGetKeys ( void *CFG_file, void *section, char *keys[] )$/;"	f
+ConfigGetSections	INIFileOP.cpp	/^int  ConfigGetSections ( void *CFG_file, char *sections[] )$/;"	f
+ConfigSetKey	INIFileOP.cpp	/^int  ConfigSetKey ( const void *CFG_file, const void *section, const void *key, const void *buf )$/;"	f
+FailedRet	INIFileOP.cpp	26;"	d	file:
+FileCopy	INIFileOP.cpp	/^int  FileCopy ( const void *source_file, const void *dest_file )$/;"	f
+FileGetLine	INIFileOP.cpp	/^int  FileGetLine ( FILE *fp, char *buffer, int maxlen )$/;"	f
+GetCsvFileCol	wcx_utils.cpp	/^int  GetCsvFileCol (const char *source, const int nCsvFileCol, char *pCsvFileCol)$/;"	f
+INIFileTstmain	INIFileOP.cpp	/^void INIFileTstmain ( void )$/;"	f
+INSTALL	Makefile	/^INSTALL=install -o $(USER) -g $(USER)$/;"	m
+IPATH	Makefile	/^IPATH:=-I\/usr\/local\/src\/socket-lib\/libevent-2.0.12-stable\/output\/arm\/include$/;"	m
+IPATH	Makefile	/^IPATH:=-I\/usr\/local\/src\/socket-lib\/libevent-2.0.12-stable\/output\/ubuntu\/include$/;"	m
+JoinNameIndexToSection	INIFileOP.cpp	/^int JoinNameIndexToSection ( char **section, const char *name, char *index )$/;"	f
+LIST_EMPTY	queue.h	186;"	d
+LIST_END	queue.h	185;"	d
+LIST_ENTRY	queue.h	175;"	d
+LIST_FIRST	queue.h	184;"	d
+LIST_FOREACH	queue.h	189;"	d
+LIST_HEAD	queue.h	167;"	d
+LIST_HEAD_INITIALIZER	queue.h	172;"	d
+LIST_INIT	queue.h	197;"	d
+LIST_INSERT_AFTER	queue.h	201;"	d
+LIST_INSERT_BEFORE	queue.h	209;"	d
+LIST_INSERT_HEAD	queue.h	216;"	d
+LIST_NEXT	queue.h	187;"	d
+LIST_REMOVE	queue.h	223;"	d
+LIST_REPLACE	queue.h	232;"	d
+LOG_APPEND	wcx_utils.h	5;"	d
+LOG_NEW	wcx_utils.h	4;"	d
+LOG_NOTIME	wcx_utils.h	7;"	d
+LOG_TIME	wcx_utils.h	6;"	d
+LPATH	Makefile	/^LPATH:=-L\/usr\/local\/src\/socket-lib\/libevent-2.0.12-stable\/output\/arm\/lib$/;"	m
+LPATH	Makefile	/^LPATH:=-L\/usr\/local\/src\/socket-lib\/libevent-2.0.12-stable\/output\/ubuntu\/lib$/;"	m
+MAX_CFG_BUF	INIFileOP.cpp	28;"	d	file:
+MySleep	wcx_utils.cpp	/^void MySleep (long int s, long int us)$/;"	f
+OBJS	Makefile	/^OBJS:=$(filter %.o, $(OBJS))$/;"	m
+OBJS	Makefile	/^OBJS:=$(patsubst %.S, %.o, $(SRC))$/;"	m
+OUTCHAR	wcx_log.cpp	42;"	d	file:
+SIMPLEQ_EMPTY	queue.h	264;"	d
+SIMPLEQ_END	queue.h	263;"	d
+SIMPLEQ_ENTRY	queue.h	254;"	d
+SIMPLEQ_FIRST	queue.h	262;"	d
+SIMPLEQ_FOREACH	queue.h	267;"	d
+SIMPLEQ_HEAD	queue.h	245;"	d
+SIMPLEQ_HEAD_INITIALIZER	queue.h	251;"	d
+SIMPLEQ_INIT	queue.h	275;"	d
+SIMPLEQ_INSERT_AFTER	queue.h	292;"	d
+SIMPLEQ_INSERT_HEAD	queue.h	280;"	d
+SIMPLEQ_INSERT_TAIL	queue.h	286;"	d
+SIMPLEQ_NEXT	queue.h	265;"	d
+SIMPLEQ_REMOVE_HEAD	queue.h	298;"	d
+SLIST_EMPTY	queue.h	112;"	d
+SLIST_END	queue.h	111;"	d
+SLIST_ENTRY	queue.h	102;"	d
+SLIST_FIRST	queue.h	110;"	d
+SLIST_FOREACH	queue.h	115;"	d
+SLIST_FOREACH_PREVPTR	queue.h	120;"	d
+SLIST_HEAD	queue.h	94;"	d
+SLIST_HEAD_INITIALIZER	queue.h	99;"	d
+SLIST_INIT	queue.h	128;"	d
+SLIST_INSERT_AFTER	queue.h	132;"	d
+SLIST_INSERT_HEAD	queue.h	137;"	d
+SLIST_NEXT	queue.h	113;"	d
+SLIST_REMOVE	queue.h	150;"	d
+SLIST_REMOVE_HEAD	queue.h	146;"	d
+SLIST_REMOVE_NEXT	queue.h	142;"	d
+SRC	Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+SplitKeyValue	INIFileOP.cpp	/^int  SplitKeyValue ( char *buf, char **key, char **val )$/;"	f
+SplitSectionToNameIndex	INIFileOP.cpp	/^int  SplitSectionToNameIndex ( char *section, char **name, char **index )$/;"	f
+StrToHex	wcx_utils.cpp	/^unsigned long StrToHex (char *str)$/;"	f
+SuccessRet	INIFileOP.cpp	25;"	d	file:
+TAILQ_EMPTY	queue.h	332;"	d
+TAILQ_END	queue.h	325;"	d
+TAILQ_ENTRY	queue.h	315;"	d
+TAILQ_FIRST	queue.h	324;"	d
+TAILQ_FOREACH	queue.h	335;"	d
+TAILQ_FOREACH_REVERSE	queue.h	340;"	d
+TAILQ_HEAD	queue.h	306;"	d
+TAILQ_HEAD_INITIALIZER	queue.h	312;"	d
+TAILQ_INIT	queue.h	348;"	d
+TAILQ_INSERT_AFTER	queue.h	370;"	d
+TAILQ_INSERT_BEFORE	queue.h	380;"	d
+TAILQ_INSERT_HEAD	queue.h	353;"	d
+TAILQ_INSERT_TAIL	queue.h	363;"	d
+TAILQ_LAST	queue.h	327;"	d
+TAILQ_NEXT	queue.h	326;"	d
+TAILQ_PREV	queue.h	330;"	d
+TAILQ_REMOVE	queue.h	387;"	d
+TAILQ_REPLACE	queue.h	398;"	d
+TARGET	Makefile	/^TARGET:=libwcx_utils_arm.so$/;"	m
+TARGET	Makefile	/^TARGET:=libwcx_utils_ubuntu.so$/;"	m
+TXTF_ERR_DELETE_FILE	INIFileOP.cpp	55;"	d	file:
+TXTF_ERR_NOT_FOUND	INIFileOP.cpp	56;"	d	file:
+TXTF_ERR_OPEN_FILE	INIFileOP.cpp	52;"	d	file:
+TXTF_ERR_READ_FILE	INIFileOP.cpp	53;"	d	file:
+TXTF_ERR_WRITE_FILE	INIFileOP.cpp	54;"	d	file:
+TXTF_OK	INIFileOP.cpp	51;"	d	file:
+WCX_UTILS	wcx_utils.h	2;"	d
+_CRC16_H	crc16.h	4;"	d
+_INIFILEOP	INIFileOP.h	2;"	d
+_Q_INVALIDATE	queue.h	86;"	d
+_Q_INVALIDATE	queue.h	88;"	d
+_SYS_QUEUE_H_	queue.h	36;"	d
+_WCX_LOG	wcx_log.h	2;"	d
+crc16	crc16.cpp	/^unsigned int crc16 ( unsigned char *buffer, unsigned int buffer_length )$/;"	f
+fd	wcx_log.h	/^    char fd[128];$/;"	m	struct:log_tp
+getch	wcx_utils.cpp	/^int getch()$/;"	f
+head_flg	wcx_log.cpp	/^static int head_flg = 1;$/;"	v	file:
+log_init	wcx_log.cpp	/^void log_init (struct log_tp *log, const char *file, const char *soft, const char* version,$/;"	f
+log_tp	wcx_log.h	/^struct log_tp$/;"	s
+seg	wcx_log.h	/^    unsigned int seg;$/;"	m	struct:log_tp
+slprintf	wcx_log.cpp	/^int slprintf (char *buf, int buflen, char *fmt, ...)$/;"	f
+strlcat	wcx_utils.cpp	/^size_t strlcat (char *dest, const char *src, size_t len)$/;"	f
+strlcpy	wcx_utils.cpp	/^size_t strlcpy (char *dest, const char *src, size_t len)$/;"	f
+strtriml	INIFileOP.cpp	/^char * strtriml ( char * buf )$/;"	f
+strtrimr	INIFileOP.cpp	/^char * strtrimr ( char * buf )$/;"	f
+table_crc_hi	crc16.cpp	/^static unsigned char table_crc_hi[] =$/;"	v	file:
+table_crc_lo	crc16.cpp	/^static unsigned char table_crc_lo[] =$/;"	v	file:
+vslprintf	wcx_log.cpp	/^int vslprintf (char *buf, int buflen, const char *fmt, va_list args)$/;"	f
+wcx_log	wcx_log.cpp	/^void wcx_log (const char *file, const char *fmt, ...)$/;"	f
+write_log	wcx_log.cpp	/^void write_log (struct log_tp *log, int error_code, const char *fun, const char *fmt, ...)$/;"	f
+write_to_log	wcx_utils.cpp	/^void write_to_log (char *file_name, const char *msg, char flg)$/;"	f
+write_to_log	wcx_utils.cpp	/^void write_to_log (const char *path, const char *file_name, const char *msg, char flg)$/;"	f

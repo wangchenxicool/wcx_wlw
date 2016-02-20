@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CFLAGS	Makefile	/^CFLAGS:=-Wall -D_REENTRANT -D_GNU_SOURCE -g -fPIC $/;"	m
+CROSS	Makefile	/^CROSS=arm-linux-$/;"	m
+IPATH	Makefile	/^IPATH:=-I$(OTHERSLIBPWD)\/dxflib-2.2.0.0-1.src\/output\/ubuntu\/include\/dxflib\/$/;"	m
+LIBS	Makefile	/^LIBS:=-lpthread -ldxflib -lX11$/;"	m
+LPATH	Makefile	/^LPATH:=-L$(OTHERSLIBPWD)\/dxflib-2.2.0.0-1.src\/output\/ubuntu\/lib\/$/;"	m
+OTHERSLIBPWD	Makefile	/^OTHERSLIBPWD=\/home\/project\/usr\/local\/src$/;"	m
+O_BINARY	test_creationclass.cpp	31;"	d	file:
+PI	test_creationclass.h	28;"	d
+SRC	Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+TARGET	Makefile	/^TARGET:=dxf_to_svg.bin$/;"	m
+TARGET	Makefile	/^TARGET:=dxf_to_svg_ubuntu.bin$/;"	m
+TEST_CREATIONCLASS_H	test_creationclass.h	26;"	d
+Test_CreationClass	test_creationclass.cpp	/^Test_CreationClass::Test_CreationClass()$/;"	f	class:Test_CreationClass
+Test_CreationClass	test_creationclass.h	/^class Test_CreationClass : public DL_CreationAdapter$/;"	c
+X0	test_creationclass.h	/^    int X0;$/;"	m	class:Test_CreationClass
+Y0	test_creationclass.h	/^    int Y0;$/;"	m	class:Test_CreationClass
+add3dFace	test_creationclass.cpp	/^void Test_CreationClass::add3dFace (const DL_3dFaceData& data)$/;"	f	class:Test_CreationClass
+addArc	test_creationclass.cpp	/^void Test_CreationClass::addArc (const DL_ArcData& data)$/;"	f	class:Test_CreationClass
+addCircle	test_creationclass.cpp	/^void Test_CreationClass::addCircle (const DL_CircleData& data)$/;"	f	class:Test_CreationClass
+addEllipse	test_creationclass.cpp	/^void Test_CreationClass::addEllipse (const DL_EllipseData& data)$/;"	f	class:Test_CreationClass
+addLayer	test_creationclass.cpp	/^void Test_CreationClass::addLayer (const DL_LayerData& data)$/;"	f	class:Test_CreationClass
+addLine	test_creationclass.cpp	/^void Test_CreationClass::addLine (const DL_LineData& data)$/;"	f	class:Test_CreationClass
+addMText	test_creationclass.cpp	/^void Test_CreationClass::addMText (const DL_MTextData& data)$/;"	f	class:Test_CreationClass
+addPoint	test_creationclass.cpp	/^void Test_CreationClass::addPoint (const DL_PointData& data)$/;"	f	class:Test_CreationClass
+addPolyline	test_creationclass.cpp	/^void Test_CreationClass::addPolyline (const DL_PolylineData& data)$/;"	f	class:Test_CreationClass
+addText	test_creationclass.cpp	/^void Test_CreationClass::addText (const DL_TextData& data)$/;"	f	class:Test_CreationClass
+addVertex	test_creationclass.cpp	/^void Test_CreationClass::addVertex (const DL_VertexData& data)$/;"	f	class:Test_CreationClass
+color_value	test_creationclass.cpp	/^unsigned char color_value[][3] =$/;"	v
+dirGetInfo	main.cpp	/^char ** dirGetInfo (const char *pathname)$/;"	f
+fp	test_creationclass.h	/^    FILE *fp;$/;"	m	class:Test_CreationClass
+g	test_creationclass.h	/^    mxml_node_t *g;$/;"	m	class:Test_CreationClass
+get_attributes	test_creationclass.cpp	/^void Test_CreationClass::get_attributes (int *width,$/;"	f	class:Test_CreationClass
+main	main.cpp	/^int main (int argc, char** argv)$/;"	f
+svg	test_creationclass.h	/^    mxml_node_t *svg;$/;"	m	class:Test_CreationClass
+testReading	main.cpp	/^void testReading (char* file)$/;"	f
+testWriting	main.cpp	/^void testWriting()$/;"	f
+usage	main.cpp	/^void usage()$/;"	f
+wprintf	test_creationclass.cpp	38;"	d	file:
+wprintf	test_creationclass.cpp	41;"	d	file:
+xml	test_creationclass.h	/^    mxml_node_t *xml;$/;"	m	class:Test_CreationClass
+~Test_CreationClass	test_creationclass.cpp	/^Test_CreationClass::~Test_CreationClass()$/;"	f	class:Test_CreationClass

@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARCH	Makefile	/^ARCH=ARM$/;"	m
+CFLAG	Makefile	/^CFLAG:=-g -O0 -rdynamic -fstack-protector-all$/;"	m
+CFLAG	Makefile	/^CFLAG:=-g -rdynamic -fno-stack-protector $/;"	m
+COUNTS	main.c	/^static int COUNTS = 1;$/;"	v	file:
+CROSS	Makefile	/^CROSS=arm-linux-$/;"	m
+IPATH	Makefile	/^IPATH:=-I$(OTHERSLIBPWD)\/sqlite-3.7.3\/output\/arm\/include$/;"	m
+IPATH	Makefile	/^IPATH:=-I$(OTHERSLIBPWD)\/sqlite-3.7.3\/output\/ubuntu\/include$/;"	m
+LIBS	Makefile	/^LIBS:=-lwcx_utils_arm$/;"	m
+LIBS	Makefile	/^LIBS:=-lwcx_utils_ubuntu$/;"	m
+LPATH	Makefile	/^LPATH:=-L$(OTHERSLIBPWD)\/sqlite-3.7.3\/output\/arm\/lib$/;"	m
+LPATH	Makefile	/^LPATH:=-L$(OTHERSLIBPWD)\/sqlite-3.7.3\/output\/ubuntu\/lib$/;"	m
+OTHERSLIBPWD	Makefile	/^OTHERSLIBPWD=\/home\/project\/usr\/local\/src$/;"	m
+SLAVE	main.c	20;"	d	file:
+SPACE_TIME	main.c	/^static int SPACE_TIME = 50;$/;"	v	file:
+SRC	Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+STEP_MODE	main.c	/^static int STEP_MODE = 0;$/;"	v	file:
+TARGET	Makefile	/^TARGET:=LD_B10_220_test_arm.bin$/;"	m
+TARGET	Makefile	/^TARGET:=LD_B10_220_test_ubuntu.bin$/;"	m
+main	main.c	/^int main (int argc, char *argv[])$/;"	f
+parse_opts	main.c	/^void parse_opts (int argc, char *argv[])$/;"	f
+print_usage	main.c	/^void print_usage (const char *prog)$/;"	f

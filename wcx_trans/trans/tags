@@ -1,0 +1,512 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOOL	trans.h	/^typedef bool  BOOL;$/;"	t
+BYTE	trans.h	/^typedef unsigned char  BYTE;$/;"	t
+C104_APDU_LEN	trans.h	20;"	d
+C104_APDU_SATRT	trans.h	19;"	d
+C104_APDU_SIZE	trans.h	21;"	d
+C104_ASDU_SIZE	trans.h	22;"	d
+C104_DATA_SIZE	trans.h	23;"	d
+CFG_ERR	INIFileOP.cpp	32;"	d	file:
+CFG_ERR_CREATE_FILE	INIFileOP.cpp	35;"	d	file:
+CFG_ERR_EXCEED_BUF_SIZE	INIFileOP.cpp	42;"	d	file:
+CFG_ERR_FILE	INIFileOP.cpp	33;"	d	file:
+CFG_ERR_FILE_FORMAT	INIFileOP.cpp	38;"	d	file:
+CFG_ERR_INTERNAL	INIFileOP.cpp	41;"	d	file:
+CFG_ERR_OPEN_FILE	INIFileOP.cpp	34;"	d	file:
+CFG_ERR_READ_FILE	INIFileOP.cpp	36;"	d	file:
+CFG_ERR_SYSTEM	INIFileOP.cpp	39;"	d	file:
+CFG_ERR_SYSTEM_CALL	INIFileOP.cpp	40;"	d	file:
+CFG_ERR_WRITE_FILE	INIFileOP.cpp	37;"	d	file:
+CFG_KEY_NOT_FOUND	INIFileOP.cpp	31;"	d	file:
+CFG_OK	INIFileOP.cpp	29;"	d	file:
+CFG_SECTION_NOT_FOUND	INIFileOP.cpp	30;"	d	file:
+CFG_key_line_no	INIFileOP.cpp	/^int  CFG_section_line_no, CFG_key_line_no, CFG_key_lines;$/;"	v
+CFG_key_lines	INIFileOP.cpp	/^int  CFG_section_line_no, CFG_key_line_no, CFG_key_lines;$/;"	v
+CFG_nis	INIFileOP.cpp	/^char CFG_nis = ':';                 \/*name 与 index 之间的分隔符 *\/$/;"	v
+CFG_nts	INIFileOP.cpp	/^char CFG_nts = '#';                 \/*注释符*\/$/;"	v
+CFG_section_line_no	INIFileOP.cpp	/^int  CFG_section_line_no, CFG_key_line_no, CFG_key_lines;$/;"	v
+CFG_ssl	INIFileOP.cpp	/^char CFG_ssl = '[', CFG_ssr = ']';  \/* 项标志符Section Symbol --可根据特殊需要进行定义更改，如 { }等*\/$/;"	v
+CFG_ssr	INIFileOP.cpp	/^char CFG_ssl = '[', CFG_ssr = ']';  \/* 项标志符Section Symbol --可根据特殊需要进行定义更改，如 { }等*\/$/;"	v
+CFLAGS	Makefile	/^CFLAGS=-c -W -O2$/;"	m
+CLIENT_PORT	trans.h	5;"	d
+COPYF_ERR_CREATE_FILE	INIFileOP.cpp	46;"	d	file:
+COPYF_ERR_OPEN_FILE	INIFileOP.cpp	45;"	d	file:
+COPYF_ERR_READ_FILE	INIFileOP.cpp	47;"	d	file:
+COPYF_ERR_WRITE_FILE	INIFileOP.cpp	48;"	d	file:
+COPYF_OK	INIFileOP.cpp	44;"	d	file:
+CROSS	Makefile	/^CROSS=arm-linux-$/;"	m
+CallCrc16	wcx_utils.cpp	/^unsigned int CallCrc16 (unsigned char *p, unsigned char Len)$/;"	f
+ConfigGetKey	INIFileOP.cpp	/^int  ConfigGetKey ( const void *CFG_file, const void *section, const void *key, void *buf )$/;"	f
+ConfigGetKeys	INIFileOP.cpp	/^int  ConfigGetKeys ( void *CFG_file, void *section, char *keys[] )$/;"	f
+ConfigGetSections	INIFileOP.cpp	/^int  ConfigGetSections ( void *CFG_file, char *sections[] )$/;"	f
+ConfigSetKey	INIFileOP.cpp	/^int  ConfigSetKey ( const void *CFG_file, const void *section, const void *key, const void *buf )$/;"	f
+DEBUG_FLG	trans.cpp	/^static int DEBUG_FLG;$/;"	v	file:
+DEBUG_MODE	trans.h	9;"	d
+DWORD	trans.h	/^typedef unsigned long  DWORD;$/;"	t
+EINPROGRESS	libiop/ubuntu/include/iop_util.h	38;"	d
+ERROR_LOG_FILE	trans.h	7;"	d
+EV_CLR_R	libiop/ubuntu/include/iop_def.h	54;"	d
+EV_CLR_W	libiop/ubuntu/include/iop_def.h	56;"	d
+EV_IS_SET_R	libiop/ubuntu/include/iop_def.h	50;"	d
+EV_IS_SET_W	libiop/ubuntu/include/iop_def.h	51;"	d
+EV_SET_R	libiop/ubuntu/include/iop_def.h	53;"	d
+EV_SET_RW	libiop/ubuntu/include/iop_def.h	58;"	d
+EV_SET_W	libiop/ubuntu/include/iop_def.h	55;"	d
+EV_TYPE_READ	libiop/ubuntu/include/iop_def.h	39;"	d
+EV_TYPE_RW	libiop/ubuntu/include/iop_def.h	59;"	d
+EV_TYPE_WRITE	libiop/ubuntu/include/iop_def.h	41;"	d
+FailedRet	INIFileOP.cpp	25;"	d	file:
+FileCopy	INIFileOP.cpp	/^int  FileCopy ( const void *source_file, const void *dest_file )$/;"	f
+FileGetLine	INIFileOP.cpp	/^int  FileGetLine ( FILE *fp, char *buffer, int maxlen )$/;"	f
+GetCsvFileCol	wcx_utils.cpp	/^int  GetCsvFileCol (const char *source, const int nCsvFileCol, char *pCsvFileCol)$/;"	f
+IGNORE_SIGNAL	libiop/ubuntu/include/iop_util.h	39;"	d
+IGNORE_SIGNAL	libiop/ubuntu/include/iop_util.h	67;"	d
+IGNORE_SIGPIPE	libiop/ubuntu/include/iop_util.h	40;"	d
+IGNORE_SIGPIPE	libiop/ubuntu/include/iop_util.h	68;"	d
+INET_NTOA_R	libiop/ubuntu/include/iop_util.h	91;"	d
+INIFileTstmain	INIFileOP.cpp	/^void INIFileTstmain ( void )$/;"	f
+INVALID_HANDLE	libiop/ubuntu/include/iop_config.h	47;"	d
+INVALID_HANDLE	libiop/ubuntu/include/iop_config.h	66;"	d
+IOP_ADD_PTIMER	libiop/ubuntu/include/iop_def.h	91;"	d
+IOP_ADD_TIMER	libiop/ubuntu/include/iop_def.h	90;"	d
+IOP_CB_ARG_INIT	libiop/ubuntu/include/iop_def.h	97;"	d
+IOP_CB_DISPATCH	libiop/ubuntu/include/iop_def.h	107;"	d
+IOP_ERR	libiop/ubuntu/include/iop_config.h	92;"	d
+IOP_ERR_EMPTY	libiop/ubuntu/include/iop_config.h	95;"	d
+IOP_ERR_FULL	libiop/ubuntu/include/iop_config.h	94;"	d
+IOP_ERR_NOT_FOUND	libiop/ubuntu/include/iop_config.h	96;"	d
+IOP_ERR_NO_MEM	libiop/ubuntu/include/iop_config.h	93;"	d
+IOP_ERR_SYS	libiop/ubuntu/include/iop_def.h	45;"	d
+IOP_ERR_TIMEOUT	libiop/ubuntu/include/iop_def.h	46;"	d
+IOP_GET	libiop/ubuntu/include/iop_def.h	120;"	d
+IOP_LIST_CLEAR	libiop/ubuntu/include/iop_list.h	137;"	d
+IOP_LIST_EMPTY	libiop/ubuntu/include/iop_list.h	55;"	d
+IOP_LIST_ERASE	libiop/ubuntu/include/iop_list.h	111;"	d
+IOP_LIST_FOR_EACH	libiop/ubuntu/include/iop_list.h	132;"	d
+IOP_LIST_FREE	libiop/ubuntu/include/iop_list.h	148;"	d
+IOP_LIST_INIT	libiop/ubuntu/include/iop_list.h	50;"	d
+IOP_LIST_INSERT	libiop/ubuntu/include/iop_list.h	90;"	d
+IOP_LIST_NEW_NODE	libiop/ubuntu/include/iop_list.h	57;"	d
+IOP_LIST_POP_FRONT	libiop/ubuntu/include/iop_list.h	98;"	d
+IOP_LIST_PUSH_BACK	libiop/ubuntu/include/iop_list.h	66;"	d
+IOP_LIST_PUSH_FRONT	libiop/ubuntu/include/iop_list.h	78;"	d
+IOP_LOG_DBG	libiop/ubuntu/include/iop_log_service.h	42;"	d
+IOP_LOG_ERR	libiop/ubuntu/include/iop_log_service.h	40;"	d
+IOP_LOG_INFO	libiop/ubuntu/include/iop_log_service.h	41;"	d
+IOP_MAKE_UINT64	libiop/ubuntu/include/iop_config.h	86;"	d
+IOP_MAX	libiop/ubuntu/include/iop_util.h	86;"	d
+IOP_MAX_LOG_BUF_SIZE	libiop/ubuntu/include/iop_log_service.h	45;"	d
+IOP_MAX_LOG_PATH	libiop/ubuntu/include/iop_log_service.h	44;"	d
+IOP_MIN	libiop/ubuntu/include/iop_util.h	87;"	d
+IOP_MODEL_DEV_POLL	libiop/ubuntu/include/iop_def.h	72;"	d
+IOP_MODEL_EPOLL	libiop/ubuntu/include/iop_def.h	70;"	d
+IOP_MODEL_EVENT_PORTS	libiop/ubuntu/include/iop_def.h	66;"	d
+IOP_MODEL_IOCP	libiop/ubuntu/include/iop_def.h	78;"	d
+IOP_MODEL_KQUEUE	libiop/ubuntu/include/iop_def.h	68;"	d
+IOP_MODEL_NULL	libiop/ubuntu/include/iop_def.h	64;"	d
+IOP_MODEL_POLL	libiop/ubuntu/include/iop_def.h	74;"	d
+IOP_MODEL_SELECT	libiop/ubuntu/include/iop_def.h	76;"	d
+IOP_MODEL_TIMER	libiop/ubuntu/include/iop_def.h	80;"	d
+IOP_OBJ_POOL_DESTROY	libiop/ubuntu/include/iop_obj_pool.h	59;"	d
+IOP_OBJ_POOL_FOR_EACH	libiop/ubuntu/include/iop_obj_pool.h	66;"	d
+IOP_OBJ_POOL_FREE	libiop/ubuntu/include/iop_obj_pool.h	78;"	d
+IOP_OBJ_POOL_INIT	libiop/ubuntu/include/iop_obj_pool.h	46;"	d
+IOP_OBJ_POOL_NEW	libiop/ubuntu/include/iop_obj_pool.h	73;"	d
+IOP_OK	libiop/ubuntu/include/iop_config.h	91;"	d
+IOP_SOCK_DGRAM	libiop/ubuntu/include/iop_util.h	124;"	d
+IOP_SOCK_STREAM	libiop/ubuntu/include/iop_util.h	123;"	d
+IOP_STATUS_EXIT	libiop/ubuntu/include/iop_def.h	87;"	d
+IOP_STATUS_NORMAL	libiop/ubuntu/include/iop_def.h	86;"	d
+IOP_STATUS_SUSPEND	libiop/ubuntu/include/iop_def.h	85;"	d
+IOP_SYS_BASE	libiop/ubuntu/include/iop.h	70;"	d
+IOP_UINT64_HIGH	libiop/ubuntu/include/iop_config.h	87;"	d
+IOP_UINT64_LOW	libiop/ubuntu/include/iop_config.h	88;"	d
+IPATH	Makefile	/^IPATH:=-I$(OTHERSLIBPWD)\/sqlite-3.7.3\/output\/arm\/include$/;"	m
+IPATH	Makefile	/^IPATH:=-I$(OTHERSLIBPWD)\/sqlite-3.7.3\/output\/ubuntu\/include$/;"	m
+IP_NTOA	libiop/ubuntu/include/iop_util.h	98;"	d
+JoinNameIndexToSection	INIFileOP.cpp	/^int JoinNameIndexToSection ( char **section, const char *name, char *index )$/;"	f
+LOG_APPEND	wcx_utils.h	5;"	d
+LOG_NEW	wcx_utils.h	4;"	d
+LOG_NOTIME	wcx_utils.h	7;"	d
+LOG_TIME	wcx_utils.h	6;"	d
+LPATH	Makefile	/^LPATH:=-L$(OTHERSLIBPWD)\/sqlite-3.7.3\/output\/arm\/lib$/;"	m
+LPATH	Makefile	/^LPATH:=-L$(OTHERSLIBPWD)\/sqlite-3.7.3\/output\/ubuntu\/lib$/;"	m
+MAKE_TIMEVAL	libiop/ubuntu/include/iop_util.h	114;"	d
+MAX_CFG_BUF	INIFileOP.cpp	27;"	d	file:
+MAX_SOCK_BUF_SIZE	libiop/ubuntu/include/iop_def.h	44;"	d
+MySleep	wcx_utils.cpp	/^void MySleep (long int s, long int us)$/;"	f
+OTHERSLIBPWD	Makefile	/^OTHERSLIBPWD=\/home\/project\/usr\/local\/src$/;"	m
+OUTCHAR	wcx_log.cpp	40;"	d	file:
+RTU_PORT	trans.h	4;"	d
+RUN_LOG_FILE	trans.h	8;"	d
+SET_RLIMIT_NOFILE	libiop/ubuntu/include/iop_util.h	41;"	d
+SET_RLIMIT_NOFILE	libiop/ubuntu/include/iop_util.h	70;"	d
+SOCKADDR_IN	libiop/ubuntu/include/iop_util.h	103;"	d
+SOCKET_EADDRINUSE	libiop/ubuntu/include/iop_config.h	72;"	d
+SOCKET_EAGAIN	libiop/ubuntu/include/iop_config.h	51;"	d
+SOCKET_EAGAIN	libiop/ubuntu/include/iop_config.h	70;"	d
+SOCKET_EINTR	libiop/ubuntu/include/iop_config.h	50;"	d
+SOCKET_EINTR	libiop/ubuntu/include/iop_config.h	69;"	d
+SOCKET_EWOULDBLOCK	libiop/ubuntu/include/iop_config.h	52;"	d
+SOCKET_EWOULDBLOCK	libiop/ubuntu/include/iop_config.h	71;"	d
+SOCK_CLEANUP	libiop/ubuntu/include/iop_util.h	48;"	d
+SOCK_CLEANUP	libiop/ubuntu/include/iop_util.h	77;"	d
+SOCK_STARTUP	libiop/ubuntu/include/iop_util.h	43;"	d
+SOCK_STARTUP	libiop/ubuntu/include/iop_util.h	76;"	d
+SOCK_TYPE_DGRAM	libiop/ubuntu/include/iop_util.h	127;"	d
+SOCK_TYPE_STREAM	libiop/ubuntu/include/iop_util.h	126;"	d
+SRC	Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+SYS_IOP_ADD_PTIMER	libiop/ubuntu/include/iop_def.h	94;"	d
+SYS_IOP_ADD_TIMER	libiop/ubuntu/include/iop_def.h	93;"	d
+SplitKeyValue	INIFileOP.cpp	/^int  SplitKeyValue ( char *buf, char **key, char **val )$/;"	f
+SplitSectionToNameIndex	INIFileOP.cpp	/^int  SplitSectionToNameIndex ( char *section, char **name, char **index )$/;"	f
+StrToHex	wcx_utils.cpp	/^unsigned long StrToHex (char *str)$/;"	f
+SuccessRet	INIFileOP.cpp	24;"	d	file:
+TARGET	Makefile	/^TARGET:=trans_arm.bin$/;"	m
+TARGET	Makefile	/^TARGET:=trans_ubuntu.bin$/;"	m
+TXTF_ERR_DELETE_FILE	INIFileOP.cpp	54;"	d	file:
+TXTF_ERR_NOT_FOUND	INIFileOP.cpp	55;"	d	file:
+TXTF_ERR_OPEN_FILE	INIFileOP.cpp	51;"	d	file:
+TXTF_ERR_READ_FILE	INIFileOP.cpp	52;"	d	file:
+TXTF_ERR_WRITE_FILE	INIFileOP.cpp	53;"	d	file:
+TXTF_OK	INIFileOP.cpp	50;"	d	file:
+TYPE_LOG_IN	trans.h	52;"	d
+T_C104_ASDU	trans.h	/^} T_C104_ASDU;$/;"	t	typeref:struct:tagT_C104_ASDU
+T_C104_FRAME	trans.h	/^} T_C104_FRAME;$/;"	t	typeref:struct:tagT_C104_FRAME
+T_LOG_IN_INF	trans.h	/^} T_LOG_IN_INF;$/;"	t	typeref:struct:__anon2
+TimeUse	TimeUse.cpp	/^TimeUse::TimeUse ()$/;"	f	class:TimeUse
+TimeUse	TimeUse.h	/^class TimeUse $/;"	c
+UC	libiop/ubuntu/include/iop_util.h	89;"	d
+VOID	trans.h	/^typedef void  VOID;$/;"	t
+WCX_DEBUG	trans.cpp	63;"	d	file:
+WCX_LOG	wcx_log.cpp	/^void WCX_LOG (struct log_tp *log, int error_code, const char *fun, const char *fmt, ...)$/;"	f
+WCX_PRINT	trans.cpp	59;"	d	file:
+WCX_UTILS	wcx_utils.h	2;"	d
+WIN32_LEAN_AND_MEAN	libiop/ubuntu/include/iop_config.h	44;"	d
+WORD	trans.h	/^typedef unsigned short WORD;$/;"	t
+_ARRAY_LIST_H_	libiop/ubuntu/include/array_list.h	30;"	d
+_CRC16_H	crc16.h	4;"	d
+_HAVE_EPOLL_	libiop/ubuntu/include/iop_config.h	56;"	d
+_HAVE_POLL_	libiop/ubuntu/include/iop_config.h	59;"	d
+_HAVE_SELECT_	libiop/ubuntu/include/iop_config.h	39;"	d
+_INIFILEOP	INIFileOP.h	2;"	d
+_IOP_AS_QUEUE_H_	libiop/ubuntu/include/iop_as_queue.h	29;"	d
+_IOP_BUF_H_	libiop/ubuntu/include/iop_buf.h	28;"	d
+_IOP_CONFIG_H_	libiop/ubuntu/include/iop_config.h	28;"	d
+_IOP_DEF_H_	libiop/ubuntu/include/iop_def.h	28;"	d
+_IOP_EPOLL_H_	libiop/ubuntu/include/iop_epoll.h	28;"	d
+_IOP_H_	libiop/ubuntu/include/iop.h	28;"	d
+_IOP_LIST_H_	libiop/ubuntu/include/iop_list.h	29;"	d
+_IOP_LOG_SERVICE_H_	libiop/ubuntu/include/iop_log_service.h	28;"	d
+_IOP_OBJ_POOL_H_	libiop/ubuntu/include/iop_obj_pool.h	28;"	d
+_IOP_POLL_H_	libiop/ubuntu/include/iop_poll.h	28;"	d
+_IOP_QUEUE_H	iop_queue.h	2;"	d
+_IOP_SELECT_H_	libiop/ubuntu/include/iop_select.h	28;"	d
+_IOP_SERVICE_H_	libiop/ubuntu/include/iop_service.h	29;"	d
+_IOP_THREAD_H_	libiop/ubuntu/include/iop_thread.h	29;"	d
+_IOP_TIMER_H_	libiop/ubuntu/include/iop_timer.h	29;"	d
+_IOP_URL_H_	libiop/ubuntu/include/iop_url.h	29;"	d
+_IOP_UTIL_H_	libiop/ubuntu/include/iop_util.h	29;"	d
+_TIMEUSE_H	TimeUse.h	2;"	d
+_TRANS_H	trans.h	2;"	d
+_WCX_LOG	wcx_log.h	2;"	d
+addr	libiop/ubuntu/include/iop.h	/^    iop_sockaddr_in addr;$/;"	m	struct:tag_iop_asyn_conn_arg
+addr_asdu_high	trans.h	/^    BYTE	addr_asdu_high;$/;"	m	struct:tagT_C104_ASDU
+addr_asdu_low	trans.h	/^    BYTE	addr_asdu_low;			\/* 公共地址 *\/$/;"	m	struct:tagT_C104_ASDU
+aq_proc	libiop/ubuntu/include/iop_def.h	/^        as_queue_item_proc aq_proc;$/;"	m	struct:tag_iop_base
+arg	libiop/ubuntu/include/iop.h	/^    void *arg;$/;"	m	struct:tag_iop_asyn_conn_arg
+arg	libiop/ubuntu/include/iop_buf.h	/^    void *arg;$/;"	m	struct:tag_iop_buf
+arg	libiop/ubuntu/include/iop_def.h	/^        void *arg;$/;"	m	struct:tag_iop_cb_arg
+arg	libiop/ubuntu/include/iop_service.h	/^    void *arg;$/;"	m	struct:tag_iop_task
+array_list_node_t	libiop/ubuntu/include/array_list.h	/^typedef struct tagArrayListNode array_list_node_t;$/;"	t	typeref:struct:tagArrayListNode
+array_list_t	libiop/ubuntu/include/array_list.h	/^typedef struct tagArrayList array_list_t;$/;"	t	typeref:struct:tagArrayList
+as_queue_item_proc	libiop/ubuntu/include/iop_def.h	/^    typedef  int (*as_queue_item_proc) (iop_base_t *, time_t, int, const void *, unsigned int);$/;"	t
+asq	libiop/ubuntu/include/iop_def.h	/^        iop_as_queue_t *asq;$/;"	m	struct:tag_iop_base
+auto_expand	libiop/ubuntu/include/array_list.h	/^ int auto_expand;$/;"	m	struct:tagArrayList
+ava_num	libiop/ubuntu/include/iop_obj_pool.h	/^    int ava_num;$/;"	m	struct:tag_iop_obj_pool
+base	libiop/ubuntu/include/iop_def.h	/^        iop_base_t *base;            \/\/pointer to iop_base.$/;"	m	struct:tag_iop
+base	libiop/ubuntu/include/iop_service.h	/^    iop_base_t *base;$/;"	m	struct:tag_iop_task
+base	libiop/ubuntu/include/iop_service.h	/^    iop_base_t *base;$/;"	m	struct:tag_iop_task_pool
+base_add	libiop/ubuntu/include/iop_def.h	/^        int (*base_add) (iop_base_t *, int, io_handle_t, unsigned int);$/;"	m	struct:tag_iop_op
+base_del	libiop/ubuntu/include/iop_def.h	/^        int (*base_del) (iop_base_t *, int, io_handle_t);$/;"	m	struct:tag_iop_op
+base_dispatch	libiop/ubuntu/include/iop_def.h	/^        int (*base_dispatch) (iop_base_t *, int); \/\/模型调度接口$/;"	m	struct:tag_iop_op
+base_free	libiop/ubuntu/include/iop_def.h	/^        void (*base_free) (iop_base_t *);       \/\/资源释放的接口$/;"	m	struct:tag_iop_op
+base_mod	libiop/ubuntu/include/iop_def.h	/^        int (*base_mod) (iop_base_t *, int, io_handle_t, unsigned int);$/;"	m	struct:tag_iop_op
+block_map	libiop/ubuntu/include/iop_buf.h	/^    int *block_map;$/;"	m	struct:tag_iop_buf_pool
+buf_pool	libiop/ubuntu/include/iop_buf.h	/^    iop_obj_pool_t *buf_pool;            \/\/data容器$/;"	m	struct:tag_iop_buf_pool
+c1	trans.h	/^    BYTE	c1;     		\/* 控制域 *\/$/;"	m	struct:tagT_C104_FRAME
+c2	trans.h	/^    BYTE	c2;	        	\/* 控制域 *\/$/;"	m	struct:tagT_C104_FRAME
+c3	trans.h	/^    BYTE	c3;     		\/* 控制域 *\/$/;"	m	struct:tagT_C104_FRAME
+c4	trans.h	/^    BYTE	c4;	        	\/* 控制域 *\/$/;"	m	struct:tagT_C104_FRAME
+capacity	libiop/ubuntu/include/iop_buf.h	/^    unsigned int capacity;$/;"	m	struct:tag_dbuf
+cb	libiop/ubuntu/include/iop_def.h	/^        iop_cb cb;                             \/\/事件发生时的处理函数$/;"	m	struct:tag_iop
+cb	libiop/ubuntu/include/iop_def.h	/^        iop_cb cb;$/;"	m	struct:tag_iop_ka_timer
+cb_arg	libiop/ubuntu/include/iop_def.h	/^        struct tag_iop_cb_arg cb_arg;          \/\/事件关联的数据$/;"	m	struct:tag_iop	typeref:struct:tag_iop::tag_iop_cb_arg
+check_ev_timer_interval	libiop/ubuntu/include/iop_def.h	/^        int check_ev_timer_interval;    \/\/检查event定时器间隔$/;"	m	struct:tag_iop_base
+client	iop_queue.h	/^    std::vector<client_tp> client;$/;"	m	class:iop_queue
+client_process	trans.cpp	/^int client_process (const void *buf, unsigned int len, iop_t *iop)$/;"	f
+client_protocol_parse	trans.cpp	/^static int client_protocol_parse (const void * buf, unsigned int len)$/;"	f	file:
+client_server	trans.cpp	/^int client_server (int num_thread)$/;"	f
+client_thread_server	trans.cpp	/^static void  *client_thread_server (void *data)$/;"	f	file:
+client_tp	iop_queue.h	/^} client_tp;$/;"	t	typeref:struct:__anon1
+connect_err_cb	libiop/ubuntu/include/iop.h	/^    iop_cb connect_err_cb;$/;"	m	struct:tag_iop_asyn_conn_arg
+connect_ok_cb	libiop/ubuntu/include/iop.h	/^    iop_cb connect_ok_cb;$/;"	m	struct:tag_iop_asyn_conn_arg
+cot_high	trans.h	/^    BYTE	cot_high;$/;"	m	struct:tagT_C104_ASDU
+cot_low	trans.h	/^    BYTE	cot_low;	        	\/* 传送原因 *\/$/;"	m	struct:tagT_C104_ASDU
+crc16	crc16.cpp	/^unsigned int crc16 ( unsigned char *buffer, unsigned int buffer_length )$/;"	f
+create_time	libiop/ubuntu/include/iop_def.h	/^        time_t create_time;            \/\/事件创建时间$/;"	m	struct:tag_iop
+ctime	libiop/ubuntu/include/iop_as_queue.h	/^    time_t ctime;$/;"	m	struct:tag_iop_as_queue_node_t
+ctime	libiop/ubuntu/include/iop_def.h	/^        time_t ctime;               \/\/this object create time.$/;"	m	struct:tag_iop
+cur_id	libiop/ubuntu/include/iop_def.h	/^        int cur_id;                 \/\/当前正在处理的事件$/;"	m	struct:tag_iop_base
+cur_size	libiop/ubuntu/include/iop_buf.h	/^    int cur_size;$/;"	m	struct:tag_iop_buf
+cur_time	libiop/ubuntu/include/iop_def.h	/^        time_t cur_time;            \/\/当前时间.误差0.5秒左右$/;"	m	struct:tag_iop_base
+data	libiop/ubuntu/include/iop_buf.h	/^    void *data;$/;"	m	struct:tag_dbuf
+data	libiop/ubuntu/include/iop_buf.h	/^    void *data;$/;"	m	struct:tag_iop_buf
+data	libiop/ubuntu/include/iop_list.h	/^    void *data;$/;"	m	struct:tag_iop_list_node_t
+data	trans.h	/^    BYTE	data[C104_DATA_SIZE];	\/* 信息体报文 *\/$/;"	m	struct:tagT_C104_ASDU
+dbuf_t	libiop/ubuntu/include/iop_buf.h	/^typedef struct tag_dbuf dbuf_t;$/;"	t	typeref:struct:tag_dbuf
+default_base	libiop/ubuntu/include/iop.h	/^    iop_base_t *default_base;$/;"	m	struct:tag_iop_setting
+dispatch_interval	libiop/ubuntu/include/iop_def.h	/^        volatile int dispatch_interval;$/;"	m	struct:tag_iop_base
+erase	iop_queue.cpp	/^int iop_queue::erase (client_tp p_client)$/;"	f	class:iop_queue
+error_log	iop_queue.h	/^    struct log_tp error_log;$/;"	m	class:iop_queue	typeref:struct:iop_queue::log_tp
+error_log	trans.cpp	/^static struct log_tp error_log;$/;"	v	typeref:struct:log_tp	file:
+ev_timer	libiop/ubuntu/include/iop_def.h	/^        iop_timer_t *ev_timer;                 \/\/定时器$/;"	m	struct:tag_iop
+ev_timer_head	libiop/ubuntu/include/iop_def.h	/^        int ev_timer_head;          \/\/第一个event定时器在iop_list中的索引$/;"	m	struct:tag_iop_base
+event	libiop/ubuntu/include/iop_def.h	/^        unsigned int event;            \/\/关注的事件.   事件可以组合$/;"	m	struct:tag_iop
+exit_loop	libiop/ubuntu/include/iop_def.h	/^        volatile int exit_loop;     \/\/是否要退出$/;"	m	struct:tag_iop_base
+ext_info	libiop/ubuntu/include/iop_def.h	/^        void *ext_info;             \/\/用户自定义的数据$/;"	m	struct:tag_iop_base
+ext_info	libiop/ubuntu/include/iop_service.h	/^    void *ext_info;$/;"	m	struct:tag_iop_task
+ext_info	libiop/ubuntu/include/iop_service.h	/^    void *ext_info;$/;"	m	struct:tag_iop_task_pool
+factor	libiop/ubuntu/include/iop_buf.h	/^    int factor;     \/\/  4$/;"	m	struct:tag_iop_buf_pool
+fd	wcx_log.h	/^    char fd[128];$/;"	m	struct:log_tp
+flag	libiop/ubuntu/include/iop.h	/^    int flag;$/;"	m	struct:tag_iop_asyn_conn_arg
+fp	libiop/ubuntu/include/iop_log_service.h	/^    FILE *fp;$/;"	m	struct:tag_iop_log_service
+free_arg	libiop/ubuntu/include/iop.h	/^    void (*free_arg)(void *);$/;"	m	struct:tag_iop_asyn_conn_arg
+free_cb	libiop/ubuntu/include/iop_def.h	/^        iop_free_cb free_cb;$/;"	m	struct:tag_iop_cb_arg
+free_head	libiop/ubuntu/include/array_list.h	/^ int free_head; \/\/空闲节点单链表头元素位置$/;"	m	struct:tagArrayList
+free_node	libiop/ubuntu/include/iop_list.h	/^    iop_list_node_t *free_node;$/;"	m	struct:tag_iop_list_head
+free_size	libiop/ubuntu/include/array_list.h	/^ int free_size;$/;"	m	struct:tagArrayList
+free_tail	libiop/ubuntu/include/array_list.h	/^ int free_tail; \/\/空闲节点单链表尾元素位置$/;"	m	struct:tagArrayList
+get_size	iop_queue.cpp	/^int iop_queue::get_size ()$/;"	f	class:iop_queue
+getch	wcx_utils.cpp	/^int getch()$/;"	f
+handle	libiop/ubuntu/include/iop_def.h	/^        io_handle_t handle;         \/\/INVALID_HANDLE代表没有关联的句柄$/;"	m	struct:tag_iop
+has_new_job	libiop/ubuntu/include/iop_service.h	/^    volatile int has_new_job;        \/\/是否有新的任务$/;"	m	struct:tag_iop_task_pool
+head	libiop/ubuntu/include/iop_as_queue.h	/^    iop_as_queue_node_t *head;$/;"	m	struct:tag_iop_as_queue_t
+head	libiop/ubuntu/include/iop_list.h	/^    iop_list_node_t *head;$/;"	m	struct:tag_iop_list_head
+head_flg	wcx_log.cpp	/^static int head_flg = 1;$/;"	v	file:
+id	libiop/ubuntu/include/iop_as_queue.h	/^    int id;$/;"	m	struct:tag_iop_as_queue_node_t
+id	libiop/ubuntu/include/iop_def.h	/^        int id;                      \/\/iop id$/;"	m	struct:tag_iop
+id	libiop/ubuntu/include/iop_def.h	/^        int id;                 \/\/事件id$/;"	m	struct:tag_iop_timer
+id	libiop/ubuntu/include/iop_def.h	/^        int id;$/;"	m	struct:tag_iop_ka_timer
+id	libiop/ubuntu/include/iop_service.h	/^    int id;$/;"	m	struct:tag_iop_task
+idx	libiop/ubuntu/include/array_list.h	/^ int idx;$/;"	m	struct:tagArrayListNode
+io_handle_t	libiop/ubuntu/include/iop_config.h	/^    typedef SOCKET io_handle_t;$/;"	t
+io_handle_t	libiop/ubuntu/include/iop_config.h	/^    typedef int io_handle_t;$/;"	t
+iop	iop_queue.h	/^    iop_t *iop;$/;"	m	struct:__anon1
+iop	libiop/ubuntu/include/iop.h	/^    iop_t *iop;$/;"	m	struct:tag_iop_tcp_conn_buf
+iop_as_queue_node_t	libiop/ubuntu/include/iop_as_queue.h	/^typedef struct tag_iop_as_queue_node_t iop_as_queue_node_t;$/;"	t	typeref:struct:tag_iop_as_queue_node_t
+iop_as_queue_t	libiop/ubuntu/include/iop_as_queue.h	/^typedef struct tag_iop_as_queue_t iop_as_queue_t;$/;"	t	typeref:struct:tag_iop_as_queue_t
+iop_asyn_conn_arg_t	libiop/ubuntu/include/iop.h	/^typedef struct tag_iop_asyn_conn_arg iop_asyn_conn_arg_t;$/;"	t	typeref:struct:tag_iop_asyn_conn_arg
+iop_base_t	libiop/ubuntu/include/iop_def.h	/^    typedef struct tag_iop_base iop_base_t;$/;"	t	typeref:struct:tag_iop_base
+iop_buf_pool_t	libiop/ubuntu/include/iop_buf.h	/^typedef struct tag_iop_buf_pool iop_buf_pool_t;$/;"	t	typeref:struct:tag_iop_buf_pool
+iop_buf_t	libiop/ubuntu/include/iop_buf.h	/^typedef struct tag_iop_buf iop_buf_t;$/;"	t	typeref:struct:tag_iop_buf
+iop_cb	libiop/ubuntu/include/iop_def.h	/^    typedef void (*iop_cb) (iop_t *iop);$/;"	t
+iop_cb_arg_t	libiop/ubuntu/include/iop_def.h	/^    typedef struct tag_iop_cb_arg iop_cb_arg_t;$/;"	t	typeref:struct:tag_iop_cb_arg
+iop_free_cb	libiop/ubuntu/include/iop_def.h	/^    typedef void (*iop_free_cb) (void *arg);$/;"	t
+iop_int16_t	libiop/ubuntu/include/iop_config.h	/^typedef short iop_int16_t;$/;"	t
+iop_int32_t	libiop/ubuntu/include/iop_config.h	/^typedef int iop_int32_t;$/;"	t
+iop_int64_t	libiop/ubuntu/include/iop_config.h	/^typedef long long iop_int64_t;$/;"	t
+iop_int8_t	libiop/ubuntu/include/iop_config.h	/^typedef char iop_int8_t;$/;"	t
+iop_ka_timer_t	libiop/ubuntu/include/iop_def.h	/^    typedef struct tag_iop_ka_timer iop_ka_timer_t;$/;"	t	typeref:struct:tag_iop_ka_timer
+iop_list	libiop/ubuntu/include/iop_def.h	/^        array_list_t iop_list;                  \/\/所有注册到这里的事件$/;"	m	struct:tag_iop_base
+iop_list_head_t	libiop/ubuntu/include/iop_list.h	/^typedef struct tag_iop_list_head iop_list_head_t;$/;"	t	typeref:struct:tag_iop_list_head
+iop_list_node_t	libiop/ubuntu/include/iop_list.h	/^typedef struct tag_iop_list_node_t iop_list_node_t;$/;"	t	typeref:struct:tag_iop_list_node_t
+iop_lock_t	libiop/ubuntu/include/iop_thread.h	/^    typedef CRITICAL_SECTION iop_lock_t;$/;"	t
+iop_lock_t	libiop/ubuntu/include/iop_thread.h	/^    typedef pthread_mutex_t iop_lock_t;$/;"	t
+iop_log_service_t	libiop/ubuntu/include/iop_log_service.h	/^typedef struct tag_iop_log_service iop_log_service_t;$/;"	t	typeref:struct:tag_iop_log_service
+iop_obj_pool_t	libiop/ubuntu/include/iop_obj_pool.h	/^typedef struct tag_iop_obj_pool iop_obj_pool_t;$/;"	t	typeref:struct:tag_iop_obj_pool
+iop_op_t	libiop/ubuntu/include/iop_def.h	/^    typedef struct tag_iop_op iop_op_t;$/;"	t	typeref:struct:tag_iop_op
+iop_protocol_parse_t	libiop/ubuntu/include/iop_def.h	/^    typedef int (*iop_protocol_parse_t) (const void *, unsigned int);$/;"	t
+iop_protocol_proc_t	libiop/ubuntu/include/iop_def.h	/^    typedef int (*iop_protocol_proc_t) (const void *, unsigned int, iop_t *);$/;"	t
+iop_protocol_t	libiop/ubuntu/include/iop_def.h	/^    typedef struct tag_iop_protocol iop_protocol_t;$/;"	t	typeref:struct:tag_iop_protocol
+iop_queue	iop_queue.cpp	/^iop_queue::iop_queue ()$/;"	f	class:iop_queue
+iop_queue	iop_queue.h	/^class iop_queue$/;"	c
+iop_setting_t	libiop/ubuntu/include/iop.h	/^typedef struct tag_iop_setting iop_setting_t;$/;"	t	typeref:struct:tag_iop_setting
+iop_sockaddr	libiop/ubuntu/include/iop_util.h	/^typedef struct sockaddr iop_sockaddr;$/;"	t	typeref:struct:sockaddr
+iop_sockaddr_in	libiop/ubuntu/include/iop_util.h	/^typedef struct sockaddr_in iop_sockaddr_in;$/;"	t	typeref:struct:sockaddr_in
+iop_socklen_t	libiop/ubuntu/include/iop_util.h	/^typedef int iop_socklen_t;$/;"	t
+iop_socklen_t	libiop/ubuntu/include/iop_util.h	/^typedef socklen_t iop_socklen_t;$/;"	t
+iop_t	libiop/ubuntu/include/iop_def.h	/^    typedef struct tag_iop iop_t;$/;"	t	typeref:struct:tag_iop
+iop_task_cb	libiop/ubuntu/include/iop_service.h	/^typedef int (*iop_task_cb)(iop_task_t *);$/;"	t
+iop_task_pool_t	libiop/ubuntu/include/iop_service.h	/^typedef struct tag_iop_task_pool iop_task_pool_t;$/;"	t	typeref:struct:tag_iop_task_pool
+iop_task_t	libiop/ubuntu/include/iop_service.h	/^typedef struct tag_iop_task iop_task_t;$/;"	t	typeref:struct:tag_iop_task
+iop_tcp_conn_buf_t	libiop/ubuntu/include/iop.h	/^typedef struct tag_iop_tcp_conn_buf iop_tcp_conn_buf_t;$/;"	t	typeref:struct:tag_iop_tcp_conn_buf
+iop_thread_t	libiop/ubuntu/include/iop_thread.h	/^    typedef HANDLE iop_thread_t;$/;"	t
+iop_thread_t	libiop/ubuntu/include/iop_thread.h	/^    typedef pthread_t iop_thread_t;$/;"	t
+iop_timer_t	libiop/ubuntu/include/iop_def.h	/^    typedef struct tag_iop_timer iop_timer_t;$/;"	t	typeref:struct:tag_iop_timer
+iop_uint16_t	libiop/ubuntu/include/iop_config.h	/^typedef unsigned short iop_uint16_t;$/;"	t
+iop_uint32_t	libiop/ubuntu/include/iop_config.h	/^typedef unsigned int iop_uint32_t;$/;"	t
+iop_uint64_t	libiop/ubuntu/include/iop_config.h	/^typedef unsigned long long iop_uint64_t;$/;"	t
+iop_uint8_t	libiop/ubuntu/include/iop_config.h	/^typedef unsigned char iop_uint8_t;$/;"	t
+iov_type	libiop/ubuntu/include/iop_util.h	/^typedef WSABUF iov_type;$/;"	t
+iov_type	libiop/ubuntu/include/iop_util.h	/^typedef struct iovec iov_type;$/;"	t	typeref:struct:iovec
+is_free	libiop/ubuntu/include/array_list.h	/^ char is_free;$/;"	m	struct:tagArrayListNode
+is_persist	libiop/ubuntu/include/iop_def.h	/^        int is_persist;         \/\/定时器是否是持久的.$/;"	m	struct:tag_iop_timer
+item	libiop/ubuntu/include/array_list.h	/^ void *item;        $/;"	m	struct:tagArrayListNode
+item	libiop/ubuntu/include/iop_as_queue.h	/^    void *item;$/;"	m	struct:tag_iop_as_queue_node_t
+job_list	libiop/ubuntu/include/iop_service.h	/^    iop_list_head_t job_list;      \/\/等待处理的工作列表$/;"	m	struct:tag_iop_task_pool
+ka_timer_id	libiop/ubuntu/include/iop_def.h	/^        int ka_timer_id;$/;"	m	struct:tag_iop_ka_timer
+last_ev_time	libiop/ubuntu/include/iop_def.h	/^        time_t last_ev_time;            \/\/上次检查event定时器的时间$/;"	m	struct:tag_iop_base
+last_time	libiop/ubuntu/include/iop_def.h	/^        time_t last_time;             \/\/上一次处理事件循环的时间$/;"	m	struct:tag_iop_base
+last_upd_time	libiop/ubuntu/include/iop_service.h	/^    volatile time_t last_upd_time;$/;"	m	struct:tag_iop_task
+len	libiop/ubuntu/include/iop_as_queue.h	/^    unsigned int len;$/;"	m	struct:tag_iop_as_queue_node_t
+len	trans.h	/^    BYTE	len;			\/* APDU长度   *\/$/;"	m	struct:tagT_C104_FRAME
+lock	libiop/ubuntu/include/iop_log_service.h	/^    iop_lock_t lock;$/;"	m	struct:tag_iop_log_service
+lock	libiop/ubuntu/include/iop_service.h	/^    iop_lock_t lock;$/;"	m	struct:tag_iop_task_pool
+log_buf	libiop/ubuntu/include/iop_log_service.h	/^    char log_buf[IOP_MAX_LOG_BUF_SIZE];$/;"	m	struct:tag_iop_log_service
+log_buf_size	libiop/ubuntu/include/iop_log_service.h	/^    int log_buf_size;$/;"	m	struct:tag_iop_log_service
+log_init	wcx_log.cpp	/^void log_init (struct log_tp *log, const char *file, const char *soft, const char* version,$/;"	f
+log_level	libiop/ubuntu/include/iop_log_service.h	/^    char log_level;$/;"	m	struct:tag_iop_log_service
+log_tp	wcx_log.h	/^struct log_tp$/;"	s
+login	trans.cpp	/^static inline int login (sqlite3 *db, const char *user, const char *passwd, int *sn)$/;"	f	file:
+m_client	trans.cpp	/^static iop_queue m_client;$/;"	v	file:
+m_day	libiop/ubuntu/include/iop_log_service.h	/^    int m_day;$/;"	m	struct:tag_iop_log_service
+main	trans.cpp	/^int main (int argc, char **argv)$/;"	f
+max_concurrent	libiop/ubuntu/include/iop_service.h	/^    int max_concurrent;             \/\/最大并发$/;"	m	struct:tag_iop_task_pool
+max_que_size	libiop/ubuntu/include/iop_as_queue.h	/^    int max_que_size;$/;"	m	struct:tag_iop_as_queue_t
+max_size	libiop/ubuntu/include/iop_buf.h	/^    int max_size;   \/\/16384$/;"	m	struct:tag_iop_buf_pool
+max_size	libiop/ubuntu/include/iop_buf.h	/^    int max_size;$/;"	m	struct:tag_iop_buf
+maxio	libiop/ubuntu/include/iop.h	/^    int maxio;$/;"	m	struct:tag_iop_setting
+min_size	libiop/ubuntu/include/iop_buf.h	/^    int min_size;   \/\/ 64$/;"	m	struct:tag_iop_buf_pool
+model_data	libiop/ubuntu/include/iop_def.h	/^        void *model_data;         \/\/事件模型特定的数据$/;"	m	struct:tag_iop_base
+mutex	iop_queue.h	/^    pthread_mutex_t mutex;$/;"	m	class:iop_queue
+name	libiop/ubuntu/include/iop_def.h	/^        const char *name;                               \/\/模型名称$/;"	m	struct:tag_iop_op
+new_job_num	libiop/ubuntu/include/iop_service.h	/^    int new_job_num;$/;"	m	struct:tag_iop_task_pool
+next	libiop/ubuntu/include/array_list.h	/^ int next;$/;"	m	struct:tagArrayListNode
+next	libiop/ubuntu/include/iop_as_queue.h	/^    struct tag_iop_as_queue_node_t *next;$/;"	m	struct:tag_iop_as_queue_node_t	typeref:struct:tag_iop_as_queue_node_t::tag_iop_as_queue_node_t
+next	libiop/ubuntu/include/iop_def.h	/^        int next;$/;"	m	struct:tag_iop_timer
+next	libiop/ubuntu/include/iop_list.h	/^    struct tag_iop_list_node_t *next;$/;"	m	struct:tag_iop_list_node_t	typeref:struct:tag_iop_list_node_t::tag_iop_list_node_t
+node	libiop/ubuntu/include/array_list.h	/^ array_list_node_t *node;    $/;"	m	struct:tagArrayList
+obj_pool	libiop/ubuntu/include/iop_buf.h	/^    iop_obj_pool_t** obj_pool;      \/\/实际的data$/;"	m	struct:tag_iop_buf_pool
+obj_pool	libiop/ubuntu/include/iop_obj_pool.h	/^    void **obj_pool;$/;"	m	struct:tag_iop_obj_pool
+obj_size	libiop/ubuntu/include/iop_obj_pool.h	/^    int obj_size;$/;"	m	struct:tag_iop_obj_pool
+on_create	libiop/ubuntu/include/iop_def.h	/^        iop_cb on_create;$/;"	m	struct:tag_iop_protocol
+on_destroy	libiop/ubuntu/include/iop_def.h	/^        iop_cb on_destroy;$/;"	m	struct:tag_iop_protocol
+on_task_exit	libiop/ubuntu/include/iop_service.h	/^    iop_task_cb on_task_exit;$/;"	m	struct:tag_iop_task_pool
+on_task_start	libiop/ubuntu/include/iop_service.h	/^    iop_task_cb on_task_start;$/;"	m	struct:tag_iop_task_pool
+op_imp	libiop/ubuntu/include/iop_def.h	/^        iop_op_t *op_imp;           \/\/事件模型的内部实现$/;"	m	struct:tag_iop_base
+owner	libiop/ubuntu/include/iop_buf.h	/^    iop_obj_pool_t *owner;  \/\/data is come from owner. if null, data is malloc$/;"	m	struct:tag_iop_buf
+parse_opts	trans.cpp	/^int parse_opts (int argc, char * argv[])$/;"	f
+passwd	trans.h	/^    char passwd[20];$/;"	m	struct:__anon2
+path	libiop/ubuntu/include/iop_log_service.h	/^    char path[IOP_MAX_LOG_PATH+1];$/;"	m	struct:tag_iop_log_service
+plock	libiop/ubuntu/include/iop_as_queue.h	/^    iop_lock_t *plock;$/;"	m	struct:tag_iop_as_queue_t
+pool_num	libiop/ubuntu/include/iop_buf.h	/^    int pool_num;   \/\/5$/;"	m	struct:tag_iop_buf_pool
+pool_size	libiop/ubuntu/include/iop_obj_pool.h	/^    int pool_size;$/;"	m	struct:tag_iop_obj_pool
+prefix	libiop/ubuntu/include/iop_log_service.h	/^    char prefix[IOP_MAX_LOG_PATH+1];$/;"	m	struct:tag_iop_log_service
+prev	libiop/ubuntu/include/array_list.h	/^ int prev;  $/;"	m	struct:tagArrayListNode
+prev	libiop/ubuntu/include/iop_def.h	/^        int prev;$/;"	m	struct:tag_iop_timer
+print_usage	trans.cpp	/^void print_usage (const char * prog)$/;"	f
+process	libiop/ubuntu/include/iop_def.h	/^        iop_protocol_proc_t process;$/;"	m	struct:tag_iop_protocol
+proto	libiop/ubuntu/include/iop.h	/^    iop_protocol_t *proto;      \/\/协议处理$/;"	m	struct:tag_iop_tcp_conn_buf
+proto	libiop/ubuntu/include/iop_service.h	/^    iop_protocol_t proto;$/;"	m	struct:tag_iop_task_pool
+protocol_parse	libiop/ubuntu/include/iop_def.h	/^        iop_protocol_parse_t protocol_parse;$/;"	m	struct:tag_iop_protocol
+ptr	libiop/ubuntu/include/iop.h	/^    void *ptr;                      \/\/用户可以自定义的数据$/;"	m	struct:tag_iop_tcp_conn_buf
+push	iop_queue.cpp	/^void iop_queue::push (client_tp p_client)$/;"	f	class:iop_queue
+que_size	libiop/ubuntu/include/iop_as_queue.h	/^    int que_size;$/;"	m	struct:tag_iop_as_queue_t
+rbuf	libiop/ubuntu/include/iop.h	/^    dbuf_t rbuf;                    \/\/socket 读缓存$/;"	m	struct:tag_iop_tcp_conn_buf
+revent	libiop/ubuntu/include/iop_def.h	/^        unsigned int revent;         \/\/current event. 当前发生的事件$/;"	m	struct:tag_iop
+rfd	libiop/ubuntu/include/iop_as_queue.h	/^    io_handle_t rfd;$/;"	m	struct:tag_iop_as_queue_t
+rtu_process	trans.cpp	/^int rtu_process (const void * buf, unsigned int len, iop_t *iop)$/;"	f
+rtu_protocol_parse	trans.cpp	/^static int rtu_protocol_parse (const void * buf, unsigned int len)$/;"	f	file:
+rtu_server	trans.cpp	/^int rtu_server (int num_thread)$/;"	f
+rtu_thread_server	trans.cpp	/^static void  *rtu_thread_server (void *data)$/;"	f	file:
+run_log	trans.cpp	/^static struct log_tp run_log;$/;"	v	typeref:struct:log_tp	file:
+seg	wcx_log.h	/^    unsigned int seg;$/;"	m	struct:log_tp
+size	libiop/ubuntu/include/iop_buf.h	/^    unsigned int size;$/;"	m	struct:tag_dbuf
+slprintf	wcx_log.cpp	/^int slprintf (char *buf, int buflen, char *fmt, ...)$/;"	f
+sn	iop_queue.h	/^    int sn;$/;"	m	struct:__anon1
+socket_errno	libiop/ubuntu/include/iop_config.h	49;"	d
+socket_errno	libiop/ubuntu/include/iop_config.h	68;"	d
+socket_error	libiop/ubuntu/include/iop_config.h	48;"	d
+socket_error	libiop/ubuntu/include/iop_config.h	67;"	d
+start	trans.h	/^    BYTE	start;			\/* 启动字符 *\/$/;"	m	struct:tagT_C104_FRAME
+status	libiop/ubuntu/include/iop_def.h	/^        int status;                  \/\/当前状态$/;"	m	struct:tag_iop
+status	libiop/ubuntu/include/iop_service.h	/^    volatile int status;$/;"	m	struct:tag_iop_task
+stop_flag	libiop/ubuntu/include/iop_log_service.h	/^    volatile int stop_flag;$/;"	m	struct:tag_iop_log_service
+strlcat	wcx_utils.cpp	/^size_t strlcat (char *dest, const char *src, size_t len)$/;"	f
+strlcpy	wcx_utils.cpp	/^size_t strlcpy (char *dest, const char *src, size_t len)$/;"	f
+strtriml	INIFileOP.cpp	/^char * strtriml ( char * buf )$/;"	f
+strtrimr	INIFileOP.cpp	/^char * strtrimr ( char * buf )$/;"	f
+sysdb	trans.cpp	/^static sqlite3 *sysdb; \/* 权限管理数据库 *\/$/;"	v	file:
+table_crc_hi	crc16.cpp	/^static unsigned char table_crc_hi[] =$/;"	v	file:
+table_crc_lo	crc16.cpp	/^static unsigned char table_crc_lo[] =$/;"	v	file:
+tagArrayList	libiop/ubuntu/include/array_list.h	/^struct tagArrayList$/;"	s
+tagArrayListNode	libiop/ubuntu/include/array_list.h	/^struct tagArrayListNode$/;"	s
+tagT_C104_ASDU	trans.h	/^typedef struct tagT_C104_ASDU$/;"	s
+tagT_C104_FRAME	trans.h	/^typedef struct tagT_C104_FRAME$/;"	s
+tag_dbuf	libiop/ubuntu/include/iop_buf.h	/^struct tag_dbuf$/;"	s
+tag_iop	libiop/ubuntu/include/iop_def.h	/^    struct tag_iop$/;"	s
+tag_iop_as_queue_node_t	libiop/ubuntu/include/iop_as_queue.h	/^struct tag_iop_as_queue_node_t$/;"	s
+tag_iop_as_queue_t	libiop/ubuntu/include/iop_as_queue.h	/^struct tag_iop_as_queue_t$/;"	s
+tag_iop_asyn_conn_arg	libiop/ubuntu/include/iop.h	/^struct tag_iop_asyn_conn_arg$/;"	s
+tag_iop_base	libiop/ubuntu/include/iop_def.h	/^    struct tag_iop_base$/;"	s
+tag_iop_buf	libiop/ubuntu/include/iop_buf.h	/^struct tag_iop_buf$/;"	s
+tag_iop_buf_pool	libiop/ubuntu/include/iop_buf.h	/^struct tag_iop_buf_pool$/;"	s
+tag_iop_cb_arg	libiop/ubuntu/include/iop_def.h	/^    struct tag_iop_cb_arg$/;"	s
+tag_iop_ka_timer	libiop/ubuntu/include/iop_def.h	/^    struct tag_iop_ka_timer$/;"	s
+tag_iop_list_head	libiop/ubuntu/include/iop_list.h	/^struct tag_iop_list_head$/;"	s
+tag_iop_list_node_t	libiop/ubuntu/include/iop_list.h	/^struct tag_iop_list_node_t$/;"	s
+tag_iop_log_service	libiop/ubuntu/include/iop_log_service.h	/^struct tag_iop_log_service$/;"	s
+tag_iop_obj_pool	libiop/ubuntu/include/iop_obj_pool.h	/^struct tag_iop_obj_pool$/;"	s
+tag_iop_op	libiop/ubuntu/include/iop_def.h	/^    struct tag_iop_op$/;"	s
+tag_iop_protocol	libiop/ubuntu/include/iop_def.h	/^    struct tag_iop_protocol$/;"	s
+tag_iop_setting	libiop/ubuntu/include/iop.h	/^struct tag_iop_setting$/;"	s
+tag_iop_task	libiop/ubuntu/include/iop_service.h	/^struct tag_iop_task$/;"	s
+tag_iop_task_pool	libiop/ubuntu/include/iop_service.h	/^struct tag_iop_task_pool$/;"	s
+tag_iop_tcp_conn_buf	libiop/ubuntu/include/iop.h	/^struct tag_iop_tcp_conn_buf$/;"	s
+tag_iop_timer	libiop/ubuntu/include/iop_def.h	/^    struct tag_iop_timer$/;"	s
+tail	libiop/ubuntu/include/iop_as_queue.h	/^    iop_as_queue_node_t *tail;$/;"	m	struct:tag_iop_as_queue_t
+tail	libiop/ubuntu/include/iop_list.h	/^    iop_list_node_t *tail;$/;"	m	struct:tag_iop_list_head
+task_num	libiop/ubuntu/include/iop_service.h	/^    int task_num;                       \/\/线程数$/;"	m	struct:tag_iop_task_pool
+task_pool	libiop/ubuntu/include/iop_service.h	/^    iop_task_t **task_pool;    $/;"	m	struct:tag_iop_task_pool
+thread_func_call	libiop/ubuntu/include/iop_thread.h	39;"	d
+thread_func_call	libiop/ubuntu/include/iop_thread.h	42;"	d
+thread_ret_type	libiop/ubuntu/include/iop_thread.h	/^    typedef unsigned int thread_ret_type;$/;"	t
+thread_ret_type	libiop/ubuntu/include/iop_thread.h	/^    typedef void * thread_ret_type;$/;"	t
+thread_start_routine	libiop/ubuntu/include/iop_thread.h	/^    typedef unsigned int ( __stdcall *thread_start_routine)( void * );$/;"	t
+thread_start_routine	libiop/ubuntu/include/iop_thread.h	/^    typedef void *(*thread_start_routine)( void * );$/;"	t
+tid	libiop/ubuntu/include/iop_log_service.h	/^    iop_thread_t tid;$/;"	m	struct:tag_iop_log_service
+tid	libiop/ubuntu/include/iop_service.h	/^    iop_thread_t tid;$/;"	m	struct:tag_iop_task
+time	libiop/ubuntu/include/iop_buf.h	/^    time_t time;$/;"	m	struct:tag_iop_buf
+time_end	TimeUse.h	/^    struct timeb time_end; $/;"	m	class:TimeUse	typeref:struct:TimeUse::timeb
+time_start	TimeUse.cpp	/^void TimeUse::time_start ()$/;"	f	class:TimeUse
+time_starte	TimeUse.h	/^    struct timeb time_starte; $/;"	m	class:TimeUse	typeref:struct:TimeUse::timeb
+time_use	TimeUse.h	/^    float time_use;$/;"	m	class:TimeUse
+time_used	TimeUse.cpp	/^float TimeUse::time_used ()$/;"	f	class:TimeUse
+timeout	libiop/ubuntu/include/iop.h	/^    int timeout;$/;"	m	struct:tag_iop_asyn_conn_arg
+timeout	libiop/ubuntu/include/iop_def.h	/^        int timeout;        \/\/定时器间隔时间(单位:秒)$/;"	m	struct:tag_iop_timer
+timeout	libiop/ubuntu/include/iop_def.h	/^        int timeout;$/;"	m	struct:tag_iop_ka_timer
+timeout_cb	libiop/ubuntu/include/iop.h	/^    iop_cb timeout_cb;$/;"	m	struct:tag_iop_asyn_conn_arg
+timer_cb	libiop/ubuntu/include/iop_def.h	/^        iop_cb timer_cb; \/\/回调函数$/;"	m	struct:tag_iop_timer
+total_size	libiop/ubuntu/include/array_list.h	/^ int total_size;                \/\/总容量total_size = free_size + used_size$/;"	m	struct:tagArrayList
+trigger_time	libiop/ubuntu/include/iop_def.h	/^        int trigger_time;   \/\/定时器下一次到期的时间(单位:秒)$/;"	m	struct:tag_iop_timer
+type	trans.h	/^    BYTE	type;       			\/* 类型标识 *\/$/;"	m	struct:tagT_C104_ASDU
+used_list_head	libiop/ubuntu/include/array_list.h	/^ int used_list_head;        \/\/已用节点又链表头元素位置,-1代表空$/;"	m	struct:tagArrayList
+used_list_tail	libiop/ubuntu/include/array_list.h	/^ int used_list_tail;        \/\/已用节点又链表头元素位置,-1代表空$/;"	m	struct:tagArrayList
+used_size	libiop/ubuntu/include/array_list.h	/^ int used_size;$/;"	m	struct:tagArrayList
+user_name	trans.h	/^    char user_name[20];$/;"	m	struct:__anon2
+vslprintf	wcx_log.cpp	/^int vslprintf (char *buf, int buflen, const char *fmt, va_list args)$/;"	f
+vsq	trans.h	/^    BYTE	vsq;	        		\/* 可变结构限定词 *\/$/;"	m	struct:tagT_C104_ASDU
+wbuf	libiop/ubuntu/include/iop.h	/^    dbuf_t wbuf;                    \/\/socket 写缓存$/;"	m	struct:tag_iop_tcp_conn_buf
+wcx_debug	trans.cpp	/^static void wcx_debug (const char *file, int line, const char *fmt, ...)$/;"	f	file:
+wcx_log	wcx_log.cpp	/^void wcx_log (const char *file, const char *fmt, ...)$/;"	f
+wfd	libiop/ubuntu/include/iop_as_queue.h	/^    io_handle_t wfd;$/;"	m	struct:tag_iop_as_queue_t
+write_to_log	wcx_utils.cpp	/^void write_to_log (const char *path, const char *file_name, const char *msg, char flg)$/;"	f
+write_to_log2	wcx_utils.cpp	/^void write_to_log2 (char *file_name, const char *msg, char flg)$/;"	f
+~TimeUse	TimeUse.cpp	/^TimeUse::~TimeUse ()$/;"	f	class:TimeUse
+~iop_queue	iop_queue.cpp	/^iop_queue::~iop_queue ()$/;"	f	class:iop_queue

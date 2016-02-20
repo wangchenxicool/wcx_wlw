@@ -1,0 +1,369 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARCH	cmd/Makefile	/^ARCH=ARM$/;"	m
+BOOL	iec104_master.h	/^typedef bool  BOOL;$/;"	t
+BYTE	iec104_master.h	/^typedef unsigned char  BYTE;$/;"	t
+C104_APDU_LEN	iec104_master.h	110;"	d
+C104_APDU_SATRT	iec104_master.h	109;"	d
+C104_APDU_SIZE	iec104_master.h	111;"	d
+C104_ASDU_SIZE	iec104_master.h	112;"	d
+CFLAG	Makefile	/^CFLAG:=-g -rdynamic $/;"	m
+CFLAG	cmd/Makefile	/^CFLAG:=-g -O0 -rdynamic -fstack-protector-all$/;"	m
+CFLAG	test/Makefile	/^CFLAG:=-g -rdynamic $/;"	m
+CIRCLEQ_EMPTY	queue.h	436;"	d
+CIRCLEQ_END	queue.h	433;"	d
+CIRCLEQ_ENTRY	queue.h	422;"	d
+CIRCLEQ_FIRST	queue.h	431;"	d
+CIRCLEQ_FOREACH	queue.h	439;"	d
+CIRCLEQ_FOREACH_REVERSE	queue.h	444;"	d
+CIRCLEQ_HEAD	queue.h	413;"	d
+CIRCLEQ_HEAD_INITIALIZER	queue.h	419;"	d
+CIRCLEQ_INIT	queue.h	452;"	d
+CIRCLEQ_INSERT_AFTER	queue.h	457;"	d
+CIRCLEQ_INSERT_BEFORE	queue.h	467;"	d
+CIRCLEQ_INSERT_HEAD	queue.h	477;"	d
+CIRCLEQ_INSERT_TAIL	queue.h	487;"	d
+CIRCLEQ_LAST	queue.h	432;"	d
+CIRCLEQ_NEXT	queue.h	434;"	d
+CIRCLEQ_PREV	queue.h	435;"	d
+CIRCLEQ_REMOVE	queue.h	497;"	d
+CIRCLEQ_REPLACE	queue.h	512;"	d
+CMDPORT	test/master.c	201;"	d	file:
+CONNECTION_CLOSED	iec104_master.h	65;"	d
+CONNECT_CHECK_TIME	iec104_master.h	45;"	d
+CROSS	Makefile	/^CROSS=arm-linux-$/;"	m
+CROSS	cmd/Makefile	/^	CROSS=arm-linux-$/;"	m
+CROSS	test/Makefile	/^CROSS=arm-linux-$/;"	m
+CSV_FILE_PATH	iec104_master.h	49;"	d
+C_CI_NA	iec104_master.h	98;"	d
+C_CI_NA_QOI	iec104_master.cpp	/^static int      C_CI_NA_QOI; \/\/电度总度召限定词$/;"	v	file:
+C_CS_NA	iec104_master.h	99;"	d
+C_DC_NA	iec104_master.h	95;"	d
+C_IC_NA	iec104_master.h	97;"	d
+C_IC_NA_QOI	iec104_master.cpp	/^static int      C_IC_NA_QOI; \/\/总召限定词$/;"	v	file:
+C_SC_NA	iec104_master.h	94;"	d
+C_SE_NA	iec104_master.h	96;"	d
+Connect	iec104_master.cpp	/^static int Connect (int i)$/;"	f	file:
+DBSERVER_PORT	iec104_master.h	42;"	d
+DEBUG	iec104_master.cpp	38;"	d	file:
+DEBUG	test/master.c	52;"	d	file:
+DWORD	iec104_master.h	/^typedef unsigned long  DWORD;$/;"	t
+FALSE	iec104_master.h	30;"	d
+IEC104MASTER_CONF_FILE	iec104_master.h	48;"	d
+IEC104MASTER_Display	iec104_master.cpp	/^static void IEC104MASTER_Display (struct IEC104_MASTER *IEC104)$/;"	f	file:
+IEC104MASTER_Exit	iec104_master.cpp	/^int IEC104MASTER_Exit (void *arg)$/;"	f
+IEC104MASTER_LOG	iec104_master.h	46;"	d
+IEC104MASTER_RCV_LOG	iec104_master.h	47;"	d
+IEC104MASTER_Run	iec104_master.cpp	/^int IEC104MASTER_Run (void *arg)$/;"	f
+IEC104_LongDataSend	iec104_master.cpp	/^void IEC104_LongDataSend (int i, int asdu_addr, uint32_t info_addr, unsigned char co)$/;"	f
+IEC104_MASTER	iec104_master.h	/^struct IEC104_MASTER$/;"	s
+IEC104_Master_Display	iec104_master.cpp	/^int IEC104_Master_Display (void *arg)$/;"	f
+IEC104_Master_LOGIN	iec104_master.cpp	/^static void IEC104_Master_LOGIN (int i)$/;"	f	file:
+IEC104_Master_sAssociateAck	iec104_master.cpp	/^static void IEC104_Master_sAssociateAck (int i)$/;"	f	file:
+IEC104_Master_sAssociateAct	iec104_master.cpp	/^static void IEC104_Master_sAssociateAct (int i)$/;"	f	file:
+IEC104_Master_sC_CI_NA	iec104_master.cpp	/^void IEC104_Master_sC_CI_NA (int i, int asdu_addr, uint32_t info_addr, int qoi)$/;"	f
+IEC104_Master_sC_CS_NA	iec104_master.cpp	/^void IEC104_Master_sC_CS_NA (int i)$/;"	f
+IEC104_Master_sC_DC_NA_Execute	iec104_master.cpp	/^void IEC104_Master_sC_DC_NA_Execute (int i, int asdu_addr, uint32_t info_addr, unsigned char co)$/;"	f
+IEC104_Master_sC_DC_NA_PreSet	iec104_master.cpp	/^void IEC104_Master_sC_DC_NA_PreSet (int i, int asdu_addr, uint32_t info_addr, unsigned char dco)$/;"	f
+IEC104_Master_sC_DC_NA_Term	iec104_master.cpp	/^void IEC104_Master_sC_DC_NA_Term (int i, int asdu_addr, uint32_t info_addr, unsigned char co)$/;"	f
+IEC104_Master_sC_IC_NA	iec104_master.cpp	/^void IEC104_Master_sC_IC_NA (int i, int asdu_addr, uint32_t info_addr, int qoi)$/;"	f
+IEC104_Master_sC_RD_NA	iec104_master.cpp	/^void IEC104_Master_sC_RD_NA (int i)$/;"	f
+IEC104_Master_sSFrame	iec104_master.cpp	/^static void IEC104_Master_sSFrame (int i)$/;"	f	file:
+IEC104_Master_sTestAck	iec104_master.cpp	/^static void IEC104_Master_sTestAck (int i)$/;"	f	file:
+IEC104_Master_sTestAct	iec104_master.cpp	/^static void IEC104_Master_sTestAct (int i)$/;"	f	file:
+IEC104_SLAVE_IP_NUMS	iec104_master.cpp	/^static int                  IEC104_SLAVE_IP_NUMS; \/\/ip地址数$/;"	v	file:
+IEC104_SLAVE_IP_NUMS_MAX	iec104_master.h	44;"	d
+IEC104_Slave_Addrs	test/master.c	/^const char *IEC104_Slave_Addrs[] =$/;"	v
+INSTALL	Makefile	/^INSTALL=install -o $(USER) -g $(USER)$/;"	m
+INVALID_CRC	iec104_master.h	59;"	d
+INVALID_DATA	iec104_master.h	58;"	d
+INVALID_EXCEPTION_CODE	iec104_master.h	60;"	d
+IPATH	Makefile	/^IPATH:=-I$(OTHERSLIBPWD)\/socket-lib\/libevent-2.0.12-stable\/output\/arm\/include$/;"	m
+IPATH	Makefile	/^IPATH:=-I$(OTHERSLIBPWD)\/socket-lib\/libevent-2.0.12-stable\/output\/ubuntu\/include$/;"	m
+IPATH	test/Makefile	/^IPATH:=-I$(OTHERSLIBPWD)\/socket-lib\/libevent-2.0.12-stable\/output\/arm\/include$/;"	m
+IPATH	test/Makefile	/^IPATH:=-I$(OTHERSLIBPWD)\/socket-lib\/libevent-2.0.12-stable\/output\/ubuntu\/include$/;"	m
+KEY_DOWN	cmd/myconio.h	5;"	d
+KEY_ENTER	cmd/myconio.h	6;"	d
+KEY_UP	cmd/myconio.h	4;"	d
+LIBS	Makefile	/^LIBS:=-lwcx_utils_arm$/;"	m
+LIBS	Makefile	/^LIBS:=-lwcx_utils_ubuntu$/;"	m
+LIBS	cmd/Makefile	/^LIBS:=-lpthread $/;"	m
+LIBS	test/Makefile	/^LIBS:=-lpthread$/;"	m
+LIST_EMPTY	queue.h	186;"	d
+LIST_END	queue.h	185;"	d
+LIST_ENTRY	queue.h	175;"	d
+LIST_FIRST	queue.h	184;"	d
+LIST_FOREACH	queue.h	189;"	d
+LIST_HEAD	queue.h	167;"	d
+LIST_HEAD_INITIALIZER	queue.h	172;"	d
+LIST_INIT	queue.h	197;"	d
+LIST_INSERT_AFTER	queue.h	201;"	d
+LIST_INSERT_BEFORE	queue.h	209;"	d
+LIST_INSERT_HEAD	queue.h	216;"	d
+LIST_NEXT	queue.h	187;"	d
+LIST_REMOVE	queue.h	223;"	d
+LIST_REPLACE	queue.h	232;"	d
+LPATH	Makefile	/^LPATH:=-L$(OTHERSLIBPWD)\/socket-lib\/libevent-2.0.12-stable\/output\/arm\/lib$/;"	m
+LPATH	Makefile	/^LPATH:=-L$(OTHERSLIBPWD)\/socket-lib\/libevent-2.0.12-stable\/output\/ubuntu\/lib$/;"	m
+LPATH	test/Makefile	/^LPATH:=-L$(OTHERSLIBPWD)\/socket-lib\/libevent-2.0.12-stable\/output\/arm\/lib$/;"	m
+LPATH	test/Makefile	/^LPATH:=-L$(OTHERSLIBPWD)\/socket-lib\/libevent-2.0.12-stable\/output\/ubuntu\/lib$/;"	m
+MAKE_REAL_TAG	iec104_master.cpp	/^void MAKE_REAL_TAG (int tag, double value, REAL_VAL_TAG *real_val_tag)$/;"	f
+MAXLINE	cmd/cmd.c	10;"	d	file:
+MAXLINE	test/master.c	200;"	d	file:
+MAX_DATA_LEN	iec104_master.h	52;"	d
+MB_EXCEPTION	iec104_master.h	66;"	d
+M_BO_NA	iec104_master.h	73;"	d
+M_BO_TB	iec104_master.h	85;"	d
+M_DP_NA	iec104_master.h	71;"	d
+M_DP_TB	iec104_master.h	83;"	d
+M_EI_NA	iec104_master.h	80;"	d
+M_EP_TD	iec104_master.h	90;"	d
+M_EP_TE	iec104_master.h	91;"	d
+M_EP_TF	iec104_master.h	92;"	d
+M_IT_NA	iec104_master.h	77;"	d
+M_IT_TB	iec104_master.h	89;"	d
+M_ME_NA	iec104_master.h	74;"	d
+M_ME_NB	iec104_master.h	75;"	d
+M_ME_NC	iec104_master.h	76;"	d
+M_ME_ND	iec104_master.h	79;"	d
+M_ME_TD	iec104_master.h	86;"	d
+M_ME_TE	iec104_master.h	87;"	d
+M_ME_TF	iec104_master.h	88;"	d
+M_PS_NA	iec104_master.h	78;"	d
+M_SP_NA	iec104_master.h	70;"	d
+M_SP_TB	iec104_master.h	82;"	d
+M_ST_NA	iec104_master.h	72;"	d
+M_ST_TB	iec104_master.h	84;"	d
+MaxListDsp	iec104_master.h	53;"	d
+Max_k	iec104_master.h	/^    unsigned char   Max_k;       \/\/发送状态变量的最大不同的接收序号$/;"	m	struct:IEC104_MASTER
+Max_w	iec104_master.h	/^    unsigned char   Max_w;       \/\/接收w个I格式APDUs之后的最后的认可$/;"	m	struct:IEC104_MASTER
+NAME_SIZE	test/master.c	50;"	d	file:
+OBJS	Makefile	/^OBJS:=$(filter %.o, $(OBJS))$/;"	m
+OBJS	Makefile	/^OBJS:=$(patsubst %.S, %.o, $(SRC))$/;"	m
+OFF	iec104_master.h	36;"	d
+ON	iec104_master.h	39;"	d
+OTHERSLIBPWD	Makefile	/^OTHERSLIBPWD=\/home\/project\/usr\/local\/src$/;"	m
+OTHERSLIBPWD	test/Makefile	/^OTHERSLIBPWD=\/home\/project\/usr\/local\/src$/;"	m
+PUSH_REAL_VAL_TAG	iec104_master.cpp	/^void PUSH_REAL_VAL_TAG (REAL_VAL_TAG tag)$/;"	f
+REAL_VAL_TAG	iec104_master.h	/^} REAL_VAL_TAG;$/;"	t	typeref:struct:__anon1
+REAL_VAL_TAG_COUNT	iec104_master.h	222;"	d
+REAL_VAL_TAG_SIZE	iec104_master.h	221;"	d
+RecvBuf	iec104_master.h	/^    unsigned char   RecvBuf[MAX_DATA_LEN];$/;"	m	struct:IEC104_MASTER
+RecvLen	iec104_master.h	/^    volatile unsigned short  RecvLen;  \/\/已经接收到的数据长度$/;"	m	struct:IEC104_MASTER
+RecvNum	iec104_master.h	/^    volatile unsigned short  RecvNum;  \/\/已经接收到的帧$/;"	m	struct:IEC104_MASTER
+SC104_DATA_SIZE	iec104_master.h	113;"	d
+SELECT_FAILURE	iec104_master.h	63;"	d
+SELECT_TIMEOUT	iec104_master.h	62;"	d
+SERV_PORT	cmd/cmd.c	11;"	d	file:
+SIMPLEQ_EMPTY	queue.h	264;"	d
+SIMPLEQ_END	queue.h	263;"	d
+SIMPLEQ_ENTRY	queue.h	254;"	d
+SIMPLEQ_FIRST	queue.h	262;"	d
+SIMPLEQ_FOREACH	queue.h	267;"	d
+SIMPLEQ_HEAD	queue.h	245;"	d
+SIMPLEQ_HEAD_INITIALIZER	queue.h	251;"	d
+SIMPLEQ_INIT	queue.h	275;"	d
+SIMPLEQ_INSERT_AFTER	queue.h	292;"	d
+SIMPLEQ_INSERT_HEAD	queue.h	280;"	d
+SIMPLEQ_INSERT_TAIL	queue.h	286;"	d
+SIMPLEQ_NEXT	queue.h	265;"	d
+SIMPLEQ_REMOVE_HEAD	queue.h	298;"	d
+SLIST_EMPTY	queue.h	112;"	d
+SLIST_END	queue.h	111;"	d
+SLIST_ENTRY	queue.h	102;"	d
+SLIST_FIRST	queue.h	110;"	d
+SLIST_FOREACH	queue.h	115;"	d
+SLIST_FOREACH_PREVPTR	queue.h	120;"	d
+SLIST_HEAD	queue.h	94;"	d
+SLIST_HEAD_INITIALIZER	queue.h	99;"	d
+SLIST_INIT	queue.h	128;"	d
+SLIST_INSERT_AFTER	queue.h	132;"	d
+SLIST_INSERT_HEAD	queue.h	137;"	d
+SLIST_NEXT	queue.h	113;"	d
+SLIST_REMOVE	queue.h	150;"	d
+SLIST_REMOVE_HEAD	queue.h	146;"	d
+SLIST_REMOVE_NEXT	queue.h	142;"	d
+SOCKET_FAILURE	iec104_master.h	64;"	d
+SRC	Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+SRC	cmd/Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+SRC	test/Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+SendBuf	iec104_master.h	/^    unsigned char   SendBuf[MAX_DATA_LEN];$/;"	m	struct:IEC104_MASTER
+SendLen	iec104_master.h	/^    volatile unsigned short  SendLen;  \/\/已经发送了的数据长度$/;"	m	struct:IEC104_MASTER
+SendNum	iec104_master.h	/^    volatile unsigned short  SendNum;  \/\/已经发送出的帧$/;"	m	struct:IEC104_MASTER
+Socket	iec104_master.cpp	/^static int Socket (int i)$/;"	f	file:
+TAG_FILE	iec104_master.h	50;"	d
+TAG_FILE_OPTIMIZED	iec104_master.h	51;"	d
+TAILQ_EMPTY	queue.h	332;"	d
+TAILQ_END	queue.h	325;"	d
+TAILQ_ENTRY	queue.h	315;"	d
+TAILQ_FIRST	queue.h	324;"	d
+TAILQ_FOREACH	queue.h	335;"	d
+TAILQ_FOREACH_REVERSE	queue.h	340;"	d
+TAILQ_HEAD	queue.h	306;"	d
+TAILQ_HEAD_INITIALIZER	queue.h	312;"	d
+TAILQ_INIT	queue.h	348;"	d
+TAILQ_INSERT_AFTER	queue.h	370;"	d
+TAILQ_INSERT_BEFORE	queue.h	380;"	d
+TAILQ_INSERT_HEAD	queue.h	353;"	d
+TAILQ_INSERT_TAIL	queue.h	363;"	d
+TAILQ_LAST	queue.h	327;"	d
+TAILQ_NEXT	queue.h	326;"	d
+TAILQ_PREV	queue.h	330;"	d
+TAILQ_REMOVE	queue.h	387;"	d
+TAILQ_REPLACE	queue.h	398;"	d
+TARGET	Makefile	/^TARGET:=libiec104_master_arm.so$/;"	m
+TARGET	Makefile	/^TARGET:=libiec104_master_ubuntu.so$/;"	m
+TARGET	cmd/Makefile	/^TARGET:=cmd.bin$/;"	m
+TARGET	test/Makefile	/^TARGET:=104_master_arm.bin$/;"	m
+TARGET	test/Makefile	/^TARGET:=104_master_ubuntu.bin$/;"	m
+TIME_OUT_WRITEDB	iec104_master.h	54;"	d
+TRUE	iec104_master.h	33;"	d
+TYPE_LOG_IN	iec104_master.h	259;"	d
+T_C104_ASDU	iec104_master.h	/^} T_C104_ASDU;$/;"	t	typeref:struct:tagT_C104_ASDU
+T_C104_FRAME	iec104_master.h	/^} T_C104_FRAME;$/;"	t	typeref:struct:tagT_C104_FRAME
+T_LOG_IN_INF	iec104_master.h	/^} T_LOG_IN_INF;$/;"	t	typeref:struct:__anon2
+TimeOut_C_CI_NA	iec104_master.h	/^    unsigned char   TimeOut_C_CI_NA;  \/\/电度总召唤请求周期$/;"	m	struct:IEC104_MASTER
+TimeOut_C_IC_NA	iec104_master.h	/^    unsigned char   TimeOut_C_IC_NA;  \/\/总召唤请求周期$/;"	m	struct:IEC104_MASTER
+TimeOut_clock	iec104_master.h	/^    unsigned char   TimeOut_clock;  \/\/时钟同步周期$/;"	m	struct:IEC104_MASTER
+TimeOut_t0	iec104_master.h	/^    unsigned char   TimeOut_t0;  \/\/连接建立超时值,单位s$/;"	m	struct:IEC104_MASTER
+TimeOut_t1	iec104_master.h	/^    unsigned char   TimeOut_t1;  \/\/APDU的发送或测试的超时时间,s$/;"	m	struct:IEC104_MASTER
+TimeOut_t2	iec104_master.h	/^    unsigned char   TimeOut_t2;  \/\/无数据报文t2<t1情况下认可的超时时间,s$/;"	m	struct:IEC104_MASTER
+TimeOut_t3	iec104_master.h	/^    unsigned char   TimeOut_t3;  \/\/茌长时间Idle状态t3>t1情况下发送S-帧的超时时间,s$/;"	m	struct:IEC104_MASTER
+TimeOut_t4	iec104_master.h	/^    unsigned char   TimeOut_t4;  \/\/????$/;"	m	struct:IEC104_MASTER
+TimeOut_zu	iec104_master.h	/^    unsigned char   TimeOut_zu;  \/\/组召唤周期$/;"	m	struct:IEC104_MASTER
+VOID	iec104_master.h	/^typedef void  VOID;$/;"	t
+WCX_DEBUG	iec104_master.cpp	48;"	d	file:
+WORD	iec104_master.h	/^typedef unsigned short WORD;$/;"	t
+WRITE_REAL_TAGS	iec104_master.cpp	/^WRITE_REAL_VAL_TAG   WRITE_REAL_TAGS;$/;"	v
+WRITE_REAL_VAL_TAG	iec104_master.cpp	/^WRITE_REAL_VAL_TAG::WRITE_REAL_VAL_TAG ()$/;"	f	class:WRITE_REAL_VAL_TAG
+WRITE_REAL_VAL_TAG	iec104_master.h	/^class WRITE_REAL_VAL_TAG$/;"	c
+_IEC104_MASTER_H	iec104_master.h	2;"	d
+_MYCONIO_H	cmd/myconio.h	2;"	d
+_Q_INVALIDATE	queue.h	86;"	d
+_Q_INVALIDATE	queue.h	88;"	d
+_SYS_QUEUE_H_	queue.h	36;"	d
+_iec104_tag_tp	iec104_master.h	/^typedef struct _iec104_tag_tp$/;"	s
+addr_asdu_high	iec104_master.h	/^    BYTE	addr_asdu_high;$/;"	m	struct:tagT_C104_ASDU
+addr_asdu_low	iec104_master.h	/^    BYTE	addr_asdu_low;			\/* 公共地址 *\/$/;"	m	struct:tagT_C104_ASDU
+asdu_addr	iec104_master.h	/^    int             asdu_addr;$/;"	m	struct:IEC104_MASTER
+bits_asdu_addrs	iec104_master.h	/^    int     bits_asdu_addrs;$/;"	m	struct:IEC104_MASTER
+bits_cos	iec104_master.h	/^    int     bits_cos;$/;"	m	struct:IEC104_MASTER
+bits_info_addrs	iec104_master.h	/^    int     bits_info_addrs;$/;"	m	struct:IEC104_MASTER
+c1	iec104_master.h	/^    BYTE	c1;     		\/* 控制域 *\/$/;"	m	struct:tagT_C104_FRAME
+c2	iec104_master.h	/^    BYTE	c2;	        	\/* 控制域 *\/$/;"	m	struct:tagT_C104_FRAME
+c3	iec104_master.h	/^    BYTE	c3;     		\/* 控制域 *\/$/;"	m	struct:tagT_C104_FRAME
+c4	iec104_master.h	/^    BYTE	c4;	        	\/* 控制域 *\/$/;"	m	struct:tagT_C104_FRAME
+collect	test/master.c	/^static void  *collect (void *data)$/;"	f	file:
+connect_nonb	iec104_master.cpp	/^int connect_nonb (int sockfd, const struct sockaddr* server_addr, socklen_t salen, int nsec)$/;"	f
+cot_high	iec104_master.h	/^    BYTE	cot_high;$/;"	m	struct:tagT_C104_ASDU
+cot_low	iec104_master.h	/^    BYTE	cot_low;	        	\/* 传送原因 *\/$/;"	m	struct:tagT_C104_ASDU
+csv_file_path	iec104_master.cpp	/^static char     csv_file_path[100]; \/\/csv文件存放路径$/;"	v	file:
+data	iec104_master.h	/^    BYTE	data[SC104_DATA_SIZE];	\/* 信息体报文 *\/$/;"	m	struct:tagT_C104_ASDU
+data_type	iec104_master.h	/^    uint8_t data_type;$/;"	m	struct:_iec104_tag_tp
+debug	iec104_master.cpp	/^static char                 debug; \/\/debug on\/off$/;"	v	file:
+did	iec104_master.h	/^    int             did;$/;"	m	struct:IEC104_MASTER
+dirGetInfo	cmd/myconio.c	/^char ** dirGetInfo (const char *pathname)$/;"	f
+error_log	iec104_master.cpp	/^static struct log_tp        error_log;$/;"	v	typeref:struct:log_tp	file:
+ev_read	iec104_master.h	/^    struct event    ev_read;$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::event
+ev_timer_C_CI_NA	iec104_master.h	/^    struct event    ev_timer_C_CI_NA; \/\/电度总召唤事件$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::event
+ev_timer_C_IC_NA	iec104_master.h	/^    struct event    ev_timer_C_IC_NA; \/\/总召唤事件$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::event
+ev_timer_WriteDB	iec104_master.h	/^    struct event    ev_timer_WriteDB; \/\/写数据库事件$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::event
+ev_timer_connect	iec104_master.cpp	/^static struct event         ev_timer_connect; \/\/timer 时间对象$/;"	v	typeref:struct:event	file:
+ev_timer_sframe	iec104_master.h	/^    struct event    ev_timer_sframe; \/\/发送S帧事件$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::event
+ev_timer_tframe	iec104_master.h	/^    struct event    ev_timer_tframe; \/\/发送测试帧事件$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::event
+ev_write	iec104_master.h	/^    struct event    ev_write;$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::event
+fd	iec104_master.h	/^    int             fd;$/;"	m	struct:IEC104_MASTER
+getch	cmd/myconio.c	/^int getch()$/;"	f
+handle_abrt	test/master.c	/^static void handle_abrt (int   sig)$/;"	f	file:
+handle_int	test/master.c	/^static void handle_int (int   sig)$/;"	f	file:
+handle_pipe	test/master.c	/^static void handle_pipe (int sig)$/;"	f	file:
+handle_quit	test/master.c	/^static void handle_quit (int   sig)$/;"	f	file:
+handle_segv	test/master.c	/^static void handle_segv (int   sig)$/;"	f	file:
+hour	iec104_master.h	/^    BYTE    hour; \/* 小时 *\/$/;"	m	struct:__anon1
+i	iec104_master.h	/^    int             i;$/;"	m	struct:IEC104_MASTER
+iec104	iec104_master.cpp	/^static struct IEC104_MASTER *iec104[IEC104_SLAVE_IP_NUMS_MAX];$/;"	v	typeref:struct:IEC104_MASTER	file:
+iec104_master_connect	iec104_master.cpp	/^static void iec104_master_connect()$/;"	f	file:
+iec104_master_error_treat	iec104_master.cpp	/^static void iec104_master_error_treat (int code, const char *string, void *arg)$/;"	f	file:
+iec104_send_msg	iec104_master.cpp	/^static void iec104_send_msg (int i)$/;"	f	file:
+iec104_tag_tp	iec104_master.h	/^} iec104_tag_tp;$/;"	t	typeref:struct:_iec104_tag_tp
+info_addr	iec104_master.h	/^    uint32_t info_addr;$/;"	m	struct:_iec104_tag_tp
+info_addr_agc	iec104_master.h	/^    int     info_addr_agc;$/;"	m	struct:IEC104_MASTER
+info_addr_analog	iec104_master.h	/^    int     info_addr_analog;$/;"	m	struct:IEC104_MASTER
+info_addr_analog_argument	iec104_master.h	/^    int     info_addr_analog_argument;$/;"	m	struct:IEC104_MASTER
+info_addr_coils	iec104_master.h	/^    int     info_addr_coils;$/;"	m	struct:IEC104_MASTER
+info_addr_control	iec104_master.h	/^    int     info_addr_control;$/;"	m	struct:IEC104_MASTER
+info_addr_energy	iec104_master.h	/^    int     info_addr_energy;$/;"	m	struct:IEC104_MASTER
+info_addr_position	iec104_master.h	/^    int     info_addr_position;$/;"	m	struct:IEC104_MASTER
+info_addr_status	iec104_master.h	/^    int     info_addr_status;$/;"	m	struct:IEC104_MASTER
+info_h	iec104_master.h	/^    BYTE    info_h;$/;"	m	struct:__anon1
+info_l	iec104_master.h	/^    BYTE    info_l;$/;"	m	struct:__anon1
+info_m	iec104_master.h	/^    BYTE    info_m;$/;"	m	struct:__anon1
+init_sigaction	test/master.c	/^static void init_sigaction()$/;"	f	file:
+ip_addr	iec104_master.h	/^    char            ip_addr[50];$/;"	m	struct:IEC104_MASTER
+is_connect	iec104_master.h	/^    volatile int    is_connect; \/\/连接标志 TRUE: 已经连接 FALSE: 未连接$/;"	m	struct:IEC104_MASTER
+is_idlesse	iec104_master.h	/^    volatile char   is_idlesse; \/\/IEC104通道空闲标志, 如果置1,将定时发送测试帧$/;"	m	struct:IEC104_MASTER
+is_send_sframe	iec104_master.h	/^    volatile char   is_send_sframe; \/\/S帧发送标志$/;"	m	struct:IEC104_MASTER
+k	iec104_master.h	/^    float k;$/;"	m	struct:_iec104_tag_tp
+k	iec104_master.h	/^    volatile unsigned char   k;             \/\/发送I格式应用规约数据单元的未认可帧数$/;"	m	struct:IEC104_MASTER
+len	iec104_master.h	/^    BYTE	len;			\/* APDU长度   *\/$/;"	m	struct:tagT_C104_FRAME
+load_config_from_file	iec104_master.cpp	/^static void load_config_from_file ()$/;"	f	file:
+main	cmd/cmd.c	/^int main (int argc, char *argv[])$/;"	f
+main	test/master.c	/^int main (int argc, char *argv[])$/;"	f
+menu	cmd/myconio.c	/^int menu (const char *menu[], int start_row)$/;"	f
+menu_main	cmd/cmd.c	/^static const char *menu_main[] =$/;"	v	file:
+min	iec104_master.h	/^    BYTE    min; \/* 分钟 *\/$/;"	m	struct:__anon1
+month	iec104_master.h	/^    BYTE    month; \/* 月 *\/$/;"	m	struct:__anon1
+mutex	iec104_master.h	/^    pthread_mutex_t mutex; \/\/写队列mutex$/;"	m	class:WRITE_REAL_VAL_TAG
+on_read	iec104_master.cpp	/^static void on_read (int fd, short ev, void *arg)$/;"	f	file:
+on_timer_C_CI_NA	iec104_master.cpp	/^static void on_timer_C_CI_NA (int fd, short event, void *arg)$/;"	f	file:
+on_timer_C_IC_NA	iec104_master.cpp	/^static void on_timer_C_IC_NA (int fd, short event, void *arg)$/;"	f	file:
+on_timer_WriteDB	iec104_master.cpp	/^static void on_timer_WriteDB (int fd, short event, void *arg)$/;"	f	file:
+on_timer_connect	iec104_master.cpp	/^static void on_timer_connect (int fd, short event, void *arg)$/;"	f	file:
+on_timer_sframe	iec104_master.cpp	/^static void on_timer_sframe (int fd, short event, void *arg)$/;"	f	file:
+on_timer_tframe	iec104_master.cpp	/^static void on_timer_tframe (int fd, short event, void *arg)$/;"	f	file:
+on_write	iec104_master.cpp	/^static void on_write (int fd, short ev, void *arg)$/;"	f	file:
+operate	iec104_master.h	/^    uint8_t operate;$/;"	m	struct:_iec104_tag_tp
+passwd	iec104_master.h	/^    char passwd[20];$/;"	m	struct:__anon2
+pop	iec104_master.cpp	/^void WRITE_REAL_VAL_TAG::pop ()$/;"	f	class:WRITE_REAL_VAL_TAG
+port	iec104_master.h	/^    int             port;$/;"	m	struct:IEC104_MASTER
+pos	iec104_master.h	/^    int pos; \/\/ 记录写队列位置$/;"	m	class:WRITE_REAL_VAL_TAG
+push	iec104_master.cpp	/^void WRITE_REAL_VAL_TAG::push (REAL_VAL_TAG tag)$/;"	f	class:WRITE_REAL_VAL_TAG
+queue	iec104_master.h	/^    std::vector<REAL_VAL_TAG> queue; \/\/ db写队列$/;"	m	class:WRITE_REAL_VAL_TAG
+read_cmd	test/master.c	/^static void  *read_cmd (void *data)$/;"	f	file:
+rtu_sn	iec104_master.cpp	/^static int      rtu_sn;$/;"	v	file:
+sec_h	iec104_master.h	/^    BYTE    sec_h; \/* 秒-高8位 *\/$/;"	m	struct:__anon1
+sec_l	iec104_master.h	/^    BYTE    sec_l; \/* 秒-低8位 *\/$/;"	m	struct:__anon1
+setnonblock	iec104_master.cpp	/^static int setnonblock (int fd)$/;"	f	file:
+start	iec104_master.h	/^    BYTE	start;			\/* 启动字符 *\/$/;"	m	struct:tagT_C104_FRAME
+tag	iec104_master.h	/^    std::vector<iec104_tag_tp> tag;$/;"	m	struct:IEC104_MASTER
+tagT_C104_ASDU	iec104_master.h	/^typedef struct tagT_C104_ASDU$/;"	s
+tagT_C104_FRAME	iec104_master.h	/^typedef struct tagT_C104_FRAME$/;"	s
+tag_file	iec104_master.cpp	/^static char     tag_file[100]; \/\/点表文件$/;"	v	file:
+tag_id	iec104_master.h	/^    uint16_t tag_id;$/;"	m	struct:_iec104_tag_tp
+thread_exit	test/master.c	/^char thread_exit; \/\/thread exit flg$/;"	v
+tv_timer_C_CI_NA	iec104_master.h	/^    struct timeval  tv_timer_C_CI_NA; \/\/电度总召唤定时器$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::timeval
+tv_timer_C_IC_NA	iec104_master.h	/^    struct timeval  tv_timer_C_IC_NA; \/\/总召唤定时器$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::timeval
+tv_timer_WriteDB	iec104_master.h	/^    struct timeval  tv_timer_WriteDB; \/\/写数据库定时器$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::timeval
+tv_timer_connect	iec104_master.cpp	/^static struct timeval       tv_timer_connect;$/;"	v	typeref:struct:timeval	file:
+tv_timer_sframe	iec104_master.h	/^    struct timeval  tv_timer_sframe; \/\/S帧定时器$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::timeval
+tv_timer_tframe	iec104_master.h	/^    struct timeval  tv_timer_tframe; \/\/测试帧定时器$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::timeval
+type	iec104_master.h	/^    BYTE	type;       			\/* 类型标识 *\/$/;"	m	struct:tagT_C104_ASDU
+user_name	iec104_master.h	/^    char user_name[20];$/;"	m	struct:__anon2
+val_0	iec104_master.h	/^    BYTE    val_0;$/;"	m	struct:__anon1
+val_1	iec104_master.h	/^    BYTE    val_1;$/;"	m	struct:__anon1
+val_2	iec104_master.h	/^    BYTE    val_2;$/;"	m	struct:__anon1
+val_3	iec104_master.h	/^    BYTE    val_3;$/;"	m	struct:__anon1
+vsq	iec104_master.h	/^    BYTE	vsq;	        		\/* 可变结构限定词 *\/$/;"	m	struct:tagT_C104_ASDU
+w	iec104_master.h	/^    volatile unsigned char   w;             \/\/接收I格式应用规约数据单元的帧数$/;"	m	struct:IEC104_MASTER
+wcx_debug	iec104_master.cpp	/^static void wcx_debug (const char *file, int line, const char *fmt, ...)$/;"	f	file:
+week_day	iec104_master.h	/^    BYTE    week_day; \/* 星期-日 *\/$/;"	m	struct:__anon1
+wprintf	iec104_master.cpp	41;"	d	file:
+wprintf	iec104_master.cpp	45;"	d	file:
+wprintf	test/master.c	55;"	d	file:
+wprintf	test/master.c	58;"	d	file:
+year	iec104_master.h	/^    BYTE    year; \/* 年 *\/$/;"	m	struct:__anon1
+~WRITE_REAL_VAL_TAG	iec104_master.cpp	/^WRITE_REAL_VAL_TAG::~WRITE_REAL_VAL_TAG ()$/;"	f	class:WRITE_REAL_VAL_TAG

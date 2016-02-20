@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CFLAG	Makefile	/^CFLAG:=-g -rdynamic $/;"	m
+CROSS	Makefile	/^CROSS=arm-linux-$/;"	m
+CallCrc16	wcx_utils.c	/^unsigned int CallCrc16 (unsigned char *p, unsigned char Len)$/;"	f
+CreateDaemon	wcx_utils.c	/^void CreateDaemon()$/;"	f
+DEBUG	wcx_utils.c	22;"	d	file:
+GetCsvFileCol	wcx_utils.c	/^int  GetCsvFileCol (const char *source, const int nCsvFileCol, char *pCsvFileCol)$/;"	f
+MAXFILE	vpn_online.cpp	41;"	d	file:
+MySleep	wcx_utils.c	/^void MySleep (long int s, long int us)$/;"	f
+OUTCHAR	wcx_log.c	44;"	d	file:
+SHM_MAX	vpn_online.cpp	42;"	d	file:
+SRC	Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+StrToHex	wcx_utils.c	/^unsigned long StrToHex (char *str)$/;"	f
+TARGET	Makefile	/^TARGET:=vpn_online.bin$/;"	m
+WCX_UTILS	wcx_utils.h	2;"	d
+_WCX_LOG	wcx_log.h	2;"	d
+die	wcx_utils.c	/^void die (const char* p_text)$/;"	f
+fd	wcx_log.h	/^    char fd[128];$/;"	m	struct:log_tp
+getch	wcx_utils.c	/^int getch()$/;"	f
+head_flg	wcx_log.c	/^static int head_flg = 1;$/;"	v	file:
+is_vpn_online	vpn_online.cpp	/^int is_vpn_online (void)$/;"	f
+log_init	wcx_log.c	/^void log_init (struct log_tp *log, const char *file, const char *soft, const char* version,$/;"	f
+log_tp	wcx_log.h	/^struct log_tp$/;"	s
+main	vpn_online.cpp	/^int main (int argc, char **argv)$/;"	f
+run_log	vpn_online.cpp	/^static struct log_tp run_log;$/;"	v	typeref:struct:log_tp	file:
+seg	wcx_log.h	/^    unsigned int seg;$/;"	m	struct:log_tp
+slprintf	wcx_log.c	/^int slprintf (char *buf, int buflen, char *fmt, ...)$/;"	f
+strlcat	wcx_utils.c	/^size_t strlcat (char *dest, const char *src, size_t len)$/;"	f
+strlcpy	wcx_utils.c	/^size_t strlcpy (char *dest, const char *src, size_t len)$/;"	f
+vpn_connect	vpn_online.cpp	/^static void vpn_connect (void)$/;"	f	file:
+vslprintf	wcx_log.c	/^int vslprintf (char *buf, int buflen, const char *fmt, va_list args)$/;"	f
+wcx_log	wcx_log.c	/^void wcx_log (const char *file, const char *fmt, ...)$/;"	f
+wcx_read	wcx_utils.c	/^int wcx_read (const int fd, void* p_buf, const unsigned int size)$/;"	f
+wcx_read_loop	wcx_utils.c	/^int wcx_read_loop (const int fd, void* p_buf, unsigned int size)$/;"	f
+wcx_recv_peek	wcx_utils.c	/^int wcx_recv_peek (const int fd, void* p_buf, unsigned int len)$/;"	f
+wcx_write	wcx_utils.c	/^int wcx_write (const int fd, const void* p_buf, const unsigned int size)$/;"	f
+wcx_write_loop	wcx_utils.c	/^int wcx_write_loop (const int fd, const void* p_buf, unsigned int size)$/;"	f
+wprintf	vpn_online.cpp	47;"	d	file:
+wprintf	vpn_online.cpp	50;"	d	file:
+wprintf	wcx_utils.c	25;"	d	file:
+wprintf	wcx_utils.c	28;"	d	file:
+write_log	wcx_log.c	/^void write_log (struct log_tp *log, int error_code, const char *fun, const char *fmt, ...)$/;"	f

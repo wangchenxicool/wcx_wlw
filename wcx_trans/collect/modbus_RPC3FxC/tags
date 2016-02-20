@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARCH	Makefile	/^ARCH=ARM$/;"	m
+CFLAG	Makefile	/^CFLAG:=-g -rdynamic $/;"	m
+CROSS	Makefile	/^CROSS=arm-linux-$/;"	m
+DEBUG	modbus_RPC3FxC.c	40;"	d	file:
+INSTALL	Makefile	/^INSTALL=install -o $(USER) -g $(USER)$/;"	m
+IPATH	Makefile	/^IPATH:=-I..\/wcx_utils\/$/;"	m
+OBJS	Makefile	/^OBJS:=$(filter %.o, $(OBJS))$/;"	m
+OBJS	Makefile	/^OBJS:=$(patsubst %.S, %.o, $(SRC))$/;"	m
+OTHERSLIBPWD	Makefile	/^OTHERSLIBPWD=\/home\/project\/usr\/local\/src$/;"	m
+SRC	Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+TAB_HEADER_LENGTH	modbus_RPC3FxC.c	/^static const int TAB_HEADER_LENGTH[2] =$/;"	v	file:
+TARGET	Makefile	/^TARGET:=libmodbus_RPC3FxC_arm.so$/;"	m
+TARGET	Makefile	/^TARGET:=libmodbus_RPC3FxC_ubuntu.so$/;"	m
+UINT16_MAX	modbus_RPC3FxC.c	30;"	d	file:
+UNKNOWN_ERROR_MSG	modbus_RPC3FxC.c	38;"	d	file:
+_MODBUS_RPC3FxC_H	modbus_RPC3FxC.h	2;"	d
+compute_response_length	modbus_RPC3FxC.c	/^static unsigned int compute_response_length (modbus_param_t *mb_param,$/;"	f	file:
+modbus_receive	modbus_RPC3FxC.c	/^static int modbus_receive (modbus_param_t *mb_param, uint8_t *query, uint8_t *response,$/;"	f	file:
+read_coil_status_RPC3FxC	modbus_RPC3FxC.c	/^int read_coil_status_RPC3FxC (modbus_param_t *mb_param, int start_addr,$/;"	f
+read_registers	modbus_RPC3FxC.c	/^static int read_registers (modbus_param_t *mb_param, int function, int start_addr,$/;"	f	file:
+wprintf	modbus_RPC3FxC.c	43;"	d	file:
+wprintf	modbus_RPC3FxC.c	46;"	d	file:

@@ -1,0 +1,773 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACKNOWLEDGE	com.h	54;"	d
+ASDU1	dev_103.h	129;"	d
+ASDU10	dev_103.h	133;"	d
+ASDU2	dev_103.h	130;"	d
+ASDU40	dev_103.h	134;"	d
+ASDU41	dev_103.h	135;"	d
+ASDU44	dev_103.h	136;"	d
+ASDU5	dev_103.h	131;"	d
+ASDU50	dev_103.h	137;"	d
+ASDU64	dev_103.h	138;"	d
+ASDU8	dev_103.h	132;"	d
+BITNMASK	typedef.h	36;"	d
+BOOL	typedef.h	16;"	d
+BYTE	typedef.h	/^typedef unsigned char  BYTE;$/;"	t
+C103_ASDU_SIZE	dev_103.h	39;"	d
+C103_ASDU_TIMEOUT	dev_103.h	38;"	d
+C103_CUR_ZONE	dev_103.h	199;"	d
+C103_FUN_901A	dev_103.h	150;"	d
+C103_FUN_902A	dev_103.h	151;"	d
+C103_FUN_915A	dev_103.h	154;"	d
+C103_FUN_923A	dev_103.h	152;"	d
+C103_FUN_931A	dev_103.h	149;"	d
+C103_FUN_943A	dev_103.h	153;"	d
+C103_FUN_9607	dev_103.h	155;"	d
+C103_FUN_GEN	dev_103.h	157;"	d
+C103_FUN_GLB	dev_103.h	158;"	d
+C103_GIN_ALARM	dev_103.h	166;"	d
+C103_GIN_CHN	dev_103.h	167;"	d
+C103_GIN_DI	dev_103.h	169;"	d
+C103_GIN_DO	dev_103.h	171;"	d
+C103_GIN_EVENT	dev_103.h	165;"	d
+C103_GIN_MS	dev_103.h	168;"	d
+C103_GIN_PS	dev_103.h	170;"	d
+C103_GIN_SET0	dev_103.h	163;"	d
+C103_GIN_SET1	dev_103.h	164;"	d
+C103_GIN_SFC	dev_103.h	174;"	d
+C103_GIN_SOE	dev_103.h	175;"	d
+C103_GIN_SYS0	dev_103.h	161;"	d
+C103_GIN_SYS1	dev_103.h	162;"	d
+C103_GIN_TP	dev_103.h	172;"	d
+C103_GIN_YT	dev_103.h	173;"	d
+C103_Get_Code	dev_103.c	/^static WORD C103_Get_Code (T_IED* p_ied, T_LIST* p_list, WORD code)$/;"	f	file:
+C103_KOD_DEF	dev_103.h	179;"	d
+C103_KOD_FAC	dev_103.h	182;"	d
+C103_KOD_NAM	dev_103.h	184;"	d
+C103_KOD_PRE	dev_103.h	181;"	d
+C103_KOD_RAN	dev_103.h	180;"	d
+C103_KOD_UNI	dev_103.h	183;"	d
+C103_KOD_VAL	dev_103.h	178;"	d
+C103_PLS_STS	dev_103.h	201;"	d
+C103_RUN_ZONE	dev_103.h	200;"	d
+C103_SIG_STS	dev_103.h	202;"	d
+C103_TOD_ASC	dev_103.h	188;"	d
+C103_TOD_DPI	dev_103.h	194;"	d
+C103_TOD_FLOAT	dev_103.h	191;"	d
+C103_TOD_MSQ	dev_103.h	195;"	d
+C103_TOD_NIL	dev_103.h	187;"	d
+C103_TOD_R3223	dev_103.h	192;"	d
+C103_TOD_R6453	dev_103.h	193;"	d
+C103_TOD_SINT	dev_103.h	190;"	d
+C103_TOD_SOE	dev_103.h	196;"	d
+C103_TOD_UINT	dev_103.h	189;"	d
+CFG_ERR	INIFileOP.cpp	33;"	d	file:
+CFG_ERR_CREATE_FILE	INIFileOP.cpp	36;"	d	file:
+CFG_ERR_EXCEED_BUF_SIZE	INIFileOP.cpp	43;"	d	file:
+CFG_ERR_FILE	INIFileOP.cpp	34;"	d	file:
+CFG_ERR_FILE_FORMAT	INIFileOP.cpp	39;"	d	file:
+CFG_ERR_INTERNAL	INIFileOP.cpp	42;"	d	file:
+CFG_ERR_OPEN_FILE	INIFileOP.cpp	35;"	d	file:
+CFG_ERR_READ_FILE	INIFileOP.cpp	37;"	d	file:
+CFG_ERR_SYSTEM	INIFileOP.cpp	40;"	d	file:
+CFG_ERR_SYSTEM_CALL	INIFileOP.cpp	41;"	d	file:
+CFG_ERR_WRITE_FILE	INIFileOP.cpp	38;"	d	file:
+CFG_KEY_NOT_FOUND	INIFileOP.cpp	32;"	d	file:
+CFG_OK	INIFileOP.cpp	30;"	d	file:
+CFG_SECTION_NOT_FOUND	INIFileOP.cpp	31;"	d	file:
+CFG_key_line_no	INIFileOP.cpp	/^int  CFG_section_line_no, CFG_key_line_no, CFG_key_lines;$/;"	v
+CFG_key_lines	INIFileOP.cpp	/^int  CFG_section_line_no, CFG_key_line_no, CFG_key_lines;$/;"	v
+CFG_nis	INIFileOP.cpp	/^char CFG_nis = ':';                 \/*name 与 index 之间的分隔符 *\/$/;"	v
+CFG_nts	INIFileOP.cpp	/^char CFG_nts = '#';                 \/*注释符*\/$/;"	v
+CFG_section_line_no	INIFileOP.cpp	/^int  CFG_section_line_no, CFG_key_line_no, CFG_key_lines;$/;"	v
+CFG_ssl	INIFileOP.cpp	/^char CFG_ssl = '[', CFG_ssr = ']';  \/* 项标志符Section Symbol --可根据特殊需要进行定义更改，如 { }等*\/$/;"	v
+CFG_ssr	INIFileOP.cpp	/^char CFG_ssl = '[', CFG_ssr = ']';  \/* 项标志符Section Symbol --可根据特殊需要进行定义更改，如 { }等*\/$/;"	v
+CFLAG	Makefile	/^CFLAG:=-g -rdynamic $/;"	m
+CFLAG	test/Makefile	/^CFLAG:=-g -rdynamic $/;"	m
+CLRBITN	typedef.h	37;"	d
+COM_NUM	dev_103.h	114;"	d
+CONNECTION_CLOSED	com.h	70;"	d
+COPYF_ERR_CREATE_FILE	INIFileOP.cpp	47;"	d	file:
+COPYF_ERR_OPEN_FILE	INIFileOP.cpp	46;"	d	file:
+COPYF_ERR_READ_FILE	INIFileOP.cpp	48;"	d	file:
+COPYF_ERR_WRITE_FILE	INIFileOP.cpp	49;"	d	file:
+COPYF_OK	INIFileOP.cpp	45;"	d	file:
+CROSS	Makefile	/^CROSS=arm-linux-$/;"	m
+CROSS	test/Makefile	/^CROSS=arm-linux-$/;"	m
+CTRL_FIRST_FUN	dev_103.h	145;"	d
+CTRL_FIRST_INF	dev_103.h	146;"	d
+CallCrc16	wcx_utils.cpp	/^unsigned int CallCrc16 (unsigned char *p, unsigned char Len)$/;"	f
+CommType	system.h	/^    BYTE	CommType;	$/;"	m	struct:tag_SYS_MON_COM
+ConfigGetKey	INIFileOP.cpp	/^int  ConfigGetKey ( const void *CFG_file, const void *section, const void *key, void *buf )$/;"	f
+ConfigGetKeys	INIFileOP.cpp	/^int  ConfigGetKeys ( void *CFG_file, void *section, char *keys[] )$/;"	f
+ConfigGetSections	INIFileOP.cpp	/^int  ConfigGetSections ( void *CFG_file, char *sections[] )$/;"	f
+ConfigSetKey	INIFileOP.cpp	/^int  ConfigSetKey ( const void *CFG_file, const void *section, const void *key, const void *buf )$/;"	f
+CurRx_SN	system.h	/^    BYTE	CurRx_SN;			\/* SN of current Rx message in the pipe. *\/$/;"	m	struct:tag_SYS_MON_COM
+CurTx_SN	system.h	/^    BYTE	CurTx_SN;			\/* SN of current Tx message in the pipe. *\/$/;"	m	struct:tag_SYS_MON_COM
+DEBUG	com.c	31;"	d	file:
+DEBUG	dev_103.c	35;"	d	file:
+DEBUG	test/iec103_master_test.c	49;"	d	file:
+DEV_NUM	dev_103.c	59;"	d	file:
+DI_FIRST_FUN	dev_103.h	143;"	d
+DI_FIRST_INF	dev_103.h	144;"	d
+DWORD	typedef.h	/^typedef unsigned long  DWORD;$/;"	t
+FALSE	com.h	33;"	d
+FALSE	typedef.h	19;"	d
+FLUSH_OR_CONNECT_ON_ERROR	com.h	/^    FLUSH_OR_CONNECT_ON_ERROR, NOP_ON_ERROR $/;"	e	enum:__anon2
+FRAME_T_CON	dev_103.h	61;"	d
+FRAME_T_VOL	dev_103.h	60;"	d
+FailedRet	INIFileOP.cpp	26;"	d	file:
+FileCopy	INIFileOP.cpp	/^int  FileCopy ( const void *source_file, const void *dest_file )$/;"	f
+FileGetLine	INIFileOP.cpp	/^int  FileGetLine ( FILE *fp, char *buffer, int maxlen )$/;"	f
+GATEWAY_PROBLEM_PATH	com.h	59;"	d
+GATEWAY_PROBLEM_TARGET	com.h	60;"	d
+GetCsvFileCol	wcx_utils.cpp	/^int  GetCsvFileCol (const char *source, const int nCsvFileCol, char *pCsvFileCol)$/;"	f
+HIBYTE	typedef.h	26;"	d
+HIWORD	typedef.h	31;"	d
+IEC103_BOOT_FILE	dev_103.h	118;"	d
+IEC103_CONF_FILE	dev_103.h	116;"	d
+IEC103_ERR_FILE	dev_103.h	120;"	d
+IED_Initialize	dev_103cfg.c	/^BOOL IED_Initialize()$/;"	f
+ILLEGAL_DATA_ADDRESS	com.h	50;"	d
+ILLEGAL_DATA_VALUE	com.h	51;"	d
+ILLEGAL_FUNCTION	com.h	49;"	d
+INF_MS_ERROR	inforec.h	81;"	d
+INF_MS_NEGATIVE	inforec.h	83;"	d
+INF_MS_OVERFLOW	inforec.h	80;"	d
+INF_MS_RESERVED	inforec.h	82;"	d
+INF_MS_VALUE_MASK	inforec.h	84;"	d
+INIFileTstmain	INIFileOP.cpp	/^void INIFileTstmain ( void )$/;"	f
+INSTALL	Makefile	/^INSTALL=install -o $(USER) -g $(USER)$/;"	m
+INVALID_CRC	com.h	64;"	d
+INVALID_DATA	com.h	63;"	d
+INVALID_EXCEPTION_CODE	com.h	65;"	d
+IPADDR	typedef.h	/^typedef DWORD	IPADDR;$/;"	t
+IPATH	Makefile	/^IPATH:=-I$(OTHERSLIBPWD)\/socket-lib\/libevent-2.0.12-stable\/output\/arm\/include$/;"	m
+IPATH	Makefile	/^IPATH:=-I$(OTHERSLIBPWD)\/socket-lib\/libevent-2.0.12-stable\/output\/ubuntu\/include$/;"	m
+IS_LEAP_YEAR	system.h	39;"	d
+JoinNameIndexToSection	INIFileOP.cpp	/^int JoinNameIndexToSection ( char **section, const char *name, char *index )$/;"	f
+LIBS	test/Makefile	/^LIBS:=-lpthread$/;"	m
+LIST_T_ALARM	dev_mng.h	88;"	d
+LIST_T_ANALOG	dev_mng.h	84;"	d
+LIST_T_CHANGE	dev_mng.h	193;"	d
+LIST_T_CHANNEL	dev_mng.h	192;"	d
+LIST_T_EVENT	dev_mng.h	87;"	d
+LIST_T_SET	dev_mng.h	85;"	d
+LIST_T_SFC	dev_mng.h	86;"	d
+LOBYTE	typedef.h	25;"	d
+LOG_APPEND	wcx_utils.h	5;"	d
+LOG_NEW	wcx_utils.h	4;"	d
+LOG_NOTIME	wcx_utils.h	7;"	d
+LOG_TIME	wcx_utils.h	6;"	d
+LOWORD	typedef.h	30;"	d
+LPATH	Makefile	/^LPATH:=-L$(OTHERSLIBPWD)\/socket-lib\/libevent-2.0.12-stable\/output\/arm\/lib$/;"	m
+LPATH	Makefile	/^LPATH:=-L$(OTHERSLIBPWD)\/socket-lib\/libevent-2.0.12-stable\/output\/ubuntu\/lib$/;"	m
+MAKEDWORD	typedef.h	28;"	d
+MAKEWORD	typedef.h	23;"	d
+MAX_ADU_LENGTH_TCP	com.h	27;"	d
+MAX_CFG_BUF	INIFileOP.cpp	28;"	d	file:
+MAX_CHANGE_NUM	dev_mng.h	196;"	d
+MAX_DI_GROUPS	inforec.h	65;"	d
+MAX_EVENT_PARA	inforec.h	13;"	d
+MAX_SFC_GROUPS	inforec.h	104;"	d
+MAX_WAVE_DATA	dev_mng.h	199;"	d
+MAX_WAVE_NUM	dev_mng.h	202;"	d
+MB_EXCEPTION	com.h	71;"	d
+MEA_FIRST_FUN	dev_103.h	141;"	d
+MEA_FIRST_INF	dev_103.h	142;"	d
+MEMORY_PARITY_ERROR	com.h	58;"	d
+MSG_F_CHANNEL	dev_mng.h	188;"	d
+MSG_F_CHECK	dev_mng.h	30;"	d
+MSG_F_DATA	dev_mng.h	189;"	d
+MSG_F_NONCE	dev_mng.h	187;"	d
+MSG_F_ORIGINALITY	dev_mng.h	186;"	d
+MSG_F_READ	dev_mng.h	28;"	d
+MSG_F_READY	dev_mng.h	184;"	d
+MSG_F_STATE	dev_mng.h	185;"	d
+MSG_F_TABLE	dev_mng.h	183;"	d
+MSG_F_WRITE	dev_mng.h	29;"	d
+MSG_LENGTH_UNDEFINED	com.h	74;"	d
+MSG_T_ANALOG	dev_mng.h	19;"	d
+MSG_T_CLOCK	dev_mng.h	25;"	d
+MSG_T_CTRL	dev_mng.h	23;"	d
+MSG_T_INIT	dev_mng.h	16;"	d
+MSG_T_LIST	dev_mng.h	18;"	d
+MSG_T_OPEN	dev_mng.h	17;"	d
+MSG_T_SET	dev_mng.h	20;"	d
+MSG_T_SFC	dev_mng.h	22;"	d
+MSG_T_SIGNAL	dev_mng.h	24;"	d
+MSG_T_WAVE	dev_mng.h	180;"	d
+MSG_T_ZONE	dev_mng.h	21;"	d
+MaxLen	system.h	/^    WORD	MaxLen;$/;"	m	struct:tag_SYS_MON_COM
+MySleep	wcx_utils.cpp	/^void MySleep (long int s, long int us)$/;"	f
+NAME_SIZE	dev_mng.h	90;"	d
+NEGATIVE_ACKNOWLEDGE	com.h	57;"	d
+NEGBITN	typedef.h	39;"	d
+NOP_ON_ERROR	com.h	/^    FLUSH_OR_CONNECT_ON_ERROR, NOP_ON_ERROR $/;"	e	enum:__anon2
+OBJS	Makefile	/^OBJS:=$(filter %.o, $(OBJS))$/;"	m
+OBJS	Makefile	/^OBJS:=$(patsubst %.S, %.o, $(SRC))$/;"	m
+OFF	com.h	41;"	d
+OFFLINE	dev_103.h	126;"	d
+ON	com.h	45;"	d
+ONLINE	dev_103.h	125;"	d
+OTHERSLIBPWD	Makefile	/^OTHERSLIBPWD=\/home\/project\/usr\/local\/src$/;"	m
+OUTCHAR	wcx_log.cpp	42;"	d	file:
+Port_Param	system.h	/^    BYTE	Port_Param[6];		\/* IP address and port number in UDP\/TCP. *\/$/;"	m	struct:tag_SYS_MON_COM
+PreRx_SN	system.h	/^    BYTE	PreRx_SN;			\/* SN of the previous Rx in the pipe. *\/$/;"	m	struct:tag_SYS_MON_COM
+PreTx_SN	system.h	/^    BYTE	PreTx_SN;			\/* SN of the previous Tx in the pipe. *\/$/;"	m	struct:tag_SYS_MON_COM
+RCS901A	dev_103cfg.c	6;"	d	file:
+RCS915A	dev_103cfg.c	7;"	d	file:
+RCS931A	dev_103cfg.c	5;"	d	file:
+RCS943A	dev_103cfg.c	9;"	d	file:
+RCS9607	dev_103cfg.c	8;"	d	file:
+RTU	com.h	/^    RTU = 0, TCP$/;"	e	enum:__anon1
+SELECT_FAILURE	com.h	68;"	d
+SELECT_TIMEOUT	com.h	67;"	d
+SERVER_BUSY	com.h	56;"	d
+SERVER_FAILURE	com.h	53;"	d
+SETBITN	typedef.h	38;"	d
+SET_T_FLOAT	dev_mng.h	65;"	d
+SET_T_UINT	dev_mng.h	64;"	d
+SLAVE_DEVICE_BUSY	com.h	55;"	d
+SLAVE_DEVICE_FAILURE	com.h	52;"	d
+SOCKET_FAILURE	com.h	69;"	d
+SRC	Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+SRC	test/Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+SYS_ASSERT_IED	system.h	15;"	d
+SYS_IED_ANY	system.h	13;"	d
+SYS_IED_MIN	system.h	11;"	d
+SYS_IED_NIL	system.h	10;"	d
+SYS_IED_RSV	system.h	12;"	d
+SYS_MAX_CHANGE	system.h	24;"	d
+SYS_MAX_CHANNEL	system.h	17;"	d
+SYS_MAX_DI	system.h	18;"	d
+SYS_MAX_IED	system.h	9;"	d
+SYS_MAX_MEASURE	system.h	21;"	d
+SYS_MAX_PULSE	system.h	22;"	d
+SYS_MAX_RCHANNEL	system.h	23;"	d
+SYS_MAX_SET	system.h	20;"	d
+SYS_MAX_SFC	system.h	19;"	d
+SYS_MON_COM	system.h	/^} SYS_MON_COM;$/;"	t	typeref:struct:tag_SYS_MON_COM
+SYS_NUCLEUS_TICK	system.h	7;"	d
+SplitKeyValue	INIFileOP.cpp	/^int  SplitKeyValue ( char *buf, char **key, char **val )$/;"	f
+SplitSectionToNameIndex	INIFileOP.cpp	/^int  SplitSectionToNameIndex ( char *section, char **name, char **index )$/;"	f
+StrToHex	wcx_utils.cpp	/^unsigned long StrToHex (char *str)$/;"	f
+SuccessRet	INIFileOP.cpp	25;"	d	file:
+TAG_FILE	dev_103.h	122;"	d
+TAG_FILE_OPTIMIZED	dev_103.h	124;"	d
+TARGET	Makefile	/^TARGET:=libiec103_master_arm.so$/;"	m
+TARGET	Makefile	/^TARGET:=libiec103_master_ubuntu.so$/;"	m
+TARGET	test/Makefile	/^TARGET:=iec103_master_test_arm.bin$/;"	m
+TARGET	test/Makefile	/^TARGET:=iec103_master_test_ubuntu.bin$/;"	m
+TCP	com.h	/^    RTU = 0, TCP$/;"	e	enum:__anon1
+TCP_CLI	system.h	54;"	d
+TCP_SVR	system.h	55;"	d
+TIME_OUT_END_OF_TRAME	com.h	30;"	d
+TRUE	com.h	37;"	d
+TRUE	typedef.h	18;"	d
+TSOFTINFO	system.h	/^} TSOFTINFO;$/;"	t	typeref:struct:tagTSOFTINFO
+TSTBITN	typedef.h	40;"	d
+TXTF_ERR_DELETE_FILE	INIFileOP.cpp	55;"	d	file:
+TXTF_ERR_NOT_FOUND	INIFileOP.cpp	56;"	d	file:
+TXTF_ERR_OPEN_FILE	INIFileOP.cpp	52;"	d	file:
+TXTF_ERR_READ_FILE	INIFileOP.cpp	53;"	d	file:
+TXTF_ERR_WRITE_FILE	INIFileOP.cpp	54;"	d	file:
+TXTF_OK	INIFileOP.cpp	51;"	d	file:
+TY_PORT	system.h	51;"	d
+T_103_ASDU	x103.h	/^}	T_103_ASDU;$/;"	t	typeref:struct:tagT_103_ASDU
+T_103_DATA	x103.h	/^}	T_103_DATA;$/;"	t	typeref:struct:tagT_103_DATA
+T_103_ENTRY	x103.h	/^}	T_103_ENTRY;$/;"	t	typeref:struct:tagT_103_ENTRY
+T_ALARM	inforec.h	/^}	T_ALARM;				\/\/end modify 2003.8.27.$/;"	t	typeref:struct:tagT_ALARM
+T_ALARM_ENTRY	dev_mng.h	/^}	T_ALARM_ENTRY;$/;"	t	typeref:struct:tagT_ALARM_ENTRY
+T_ANALOG_ENTRY	dev_mng.h	/^}	T_ANALOG_ENTRY;$/;"	t	typeref:struct:tagT_ANALOG_ENTRY
+T_C103_ASDU	dev_103.h	/^}	T_C103_ASDU;$/;"	t	typeref:struct:tagT_C103_ASDU
+T_C103_CODE_TABLE	dev_103.h	/^}	T_C103_CODE_TABLE;$/;"	t	typeref:struct:tagT_C103_CODE_TABLE
+T_C103_DATA	dev_103.h	/^}	T_C103_DATA;$/;"	t	typeref:struct:tagT_C103_DATA
+T_C103_FRAME	dev_103.h	/^}	T_C103_FRAME;$/;"	t	typeref:struct:tagT_C103_FRAME
+T_CHANGE_ENTRY	dev_mng.h	/^}	T_CHANGE_ENTRY;					\/\/ 录波带标志的变位遥信的描述表定义	$/;"	t	typeref:struct:tagT_CHANGE_ENTRY
+T_CHANNEL	dev_mng.h	/^}	T_CHANNEL;$/;"	t	typeref:struct:tagT_CHANNEL
+T_CHANNEL_ENTRY	dev_mng.h	/^}	T_CHANNEL_ENTRY;				\/\/ 录波通道号的描述表定义			$/;"	t	typeref:struct:tagT_CHANNEL_ENTRY
+T_DATE	system.h	/^} T_DATE;$/;"	t	typeref:struct:tagT_DATE
+T_DI	inforec.h	/^}	T_DI;$/;"	t	typeref:struct:tagT_DI
+T_DIC	inforec.h	/^}	T_DIC;$/;"	t	typeref:struct:tagT_DIC
+T_EVENT	inforec.h	/^}	T_EVENT;$/;"	t	typeref:struct:tagT_EVENT
+T_EVENT_ENTRY	dev_mng.h	/^}	T_EVENT_ENTRY;$/;"	t	typeref:struct:tagT_EVENT_ENTRY
+T_EVENT_PARA	x103.h	/^}	T_EVENT_PARA;				\/\/end modify 2003.8.27.$/;"	t	typeref:struct:tagT_EVENT_PARA
+T_EVENT_PARAITEM	inforec.h	/^}	T_EVENT_PARAITEM;$/;"	t	typeref:struct:tagT_EVENT_PARAITEM
+T_EVENT_PARATABLE	inforec.h	/^}	T_EVENT_PARATABLE;$/;"	t	typeref:struct:tagT_EVENT_PARATABLE
+T_IED	dev_mng.h	/^}	T_IED;$/;"	t	typeref:struct:t_ied_struct
+T_LIST	dev_mng.h	/^}	T_LIST;$/;"	t	typeref:struct:tagT_LIST
+T_MEASURE	inforec.h	/^}	T_MEASURE;$/;"	t	typeref:struct:tagT_MEASURE
+T_MESSAGE	dev_mng.h	/^}	T_MESSAGE;$/;"	t	typeref:struct:tagT_MESSAGE
+T_OVERLINE	inforec.h	/^}	T_OVERLINE;$/;"	t	typeref:struct:tagT_OVERLINE
+T_PARAFLAG	inforec.h	/^typedef BOOL T_PARAFLAG;				$/;"	t
+T_PULSE	inforec.h	/^}	T_PULSE;$/;"	t	typeref:struct:tagT_PULSE
+T_SERVICE	dev_mng.h	/^typedef BOOL (*T_SERVICE)(struct t_ied_struct *p_ied, T_MESSAGE *p_msg);$/;"	t
+T_SESSION	x103.h	/^}	T_SESSION;$/;"	t	typeref:struct:tagT_SESSION
+T_SET	dev_mng.h	/^}	T_SET;$/;"	t	typeref:struct:tagT_SET
+T_SET_ENTRY	dev_mng.h	/^}	T_SET_ENTRY;$/;"	t	typeref:struct:tagT_SET_ENTRY
+T_SET_ITEM	dev_mng.h	/^}	T_SET_ITEM;$/;"	t	typeref:struct:tagT_SET_ITEM
+T_SFC	inforec.h	/^}	T_SFC;$/;"	t	typeref:struct:tagT_SFC
+T_SFCC	inforec.h	/^typedef T_DIC T_SFCC;$/;"	t
+T_SFC_ENTRY	dev_mng.h	/^}	T_SFC_ENTRY;$/;"	t	typeref:struct:tagT_SFC_ENTRY
+T_SOE	inforec.h	/^typedef T_ALARM	T_SOE;		\/\/end modify 2003.8.27$/;"	t
+T_STATE	inforec.h	/^typedef BOOL T_STATE;$/;"	t
+T_SYS_CONFIG	system.h	/^}	T_SYS_CONFIG;$/;"	t	typeref:struct:tagT_SYS_CONFIG
+T_WAVE	dev_mng.h	/^}	T_WAVE;$/;"	t	typeref:struct:tagT_DEV_WAVE
+T_WAVE_DATA	dev_mng.h	/^}	T_WAVE_DATA;$/;"	t	typeref:struct:tagT_WAVE_DATA
+T_WAVE_STATE	dev_mng.h	/^}	T_WAVE_STATE;$/;"	t	typeref:struct:tagT_WAVE_STATE
+T_WAVE_TABLE	dev_mng.h	/^}	T_WAVE_TABLE;$/;"	t	typeref:struct:tagT_WAVE_TABLE
+UART_PACKET_SIZE	dev_103.h	46;"	d
+UART_PKT_CON	dev_103.h	43;"	d
+UART_PKT_ERR	dev_103.h	44;"	d
+UART_PKT_FIN	dev_103.h	42;"	d
+UDP_CLI	system.h	52;"	d
+UDP_SVR	system.h	53;"	d
+VOID	typedef.h	/^typedef void  VOID;$/;"	t
+WAIT_DATA	com.c	149;"	d	file:
+WCX_UTILS	wcx_utils.h	2;"	d
+WORD	typedef.h	/^typedef unsigned short WORD;$/;"	t
+X103_ASDU_SIZE	x103.h	32;"	d
+X103_ASDU_TIMEOUT	x103.h	31;"	d
+X103_CUR_ZONE	x103.h	131;"	d
+X103_GIN_ALARM	x103.h	98;"	d
+X103_GIN_CHN	x103.h	99;"	d
+X103_GIN_DI	x103.h	101;"	d
+X103_GIN_DO	x103.h	103;"	d
+X103_GIN_EVENT	x103.h	97;"	d
+X103_GIN_MS	x103.h	100;"	d
+X103_GIN_PS	x103.h	102;"	d
+X103_GIN_SET0	x103.h	95;"	d
+X103_GIN_SET1	x103.h	96;"	d
+X103_GIN_SFC	x103.h	106;"	d
+X103_GIN_SOE	x103.h	107;"	d
+X103_GIN_SYS0	x103.h	93;"	d
+X103_GIN_SYS1	x103.h	94;"	d
+X103_GIN_TP	x103.h	104;"	d
+X103_GIN_YT	x103.h	105;"	d
+X103_KOD_DEF	x103.h	111;"	d
+X103_KOD_FAC	x103.h	114;"	d
+X103_KOD_NAM	x103.h	116;"	d
+X103_KOD_PRE	x103.h	113;"	d
+X103_KOD_RAN	x103.h	112;"	d
+X103_KOD_UNI	x103.h	115;"	d
+X103_KOD_VAL	x103.h	110;"	d
+X103_PLS_STS	x103.h	133;"	d
+X103_RUN_ZONE	x103.h	132;"	d
+X103_SIG_STS	x103.h	134;"	d
+X103_TOD_ASC	x103.h	120;"	d
+X103_TOD_DPI	x103.h	126;"	d
+X103_TOD_FLOAT	x103.h	123;"	d
+X103_TOD_MSQ	x103.h	127;"	d
+X103_TOD_NIL	x103.h	119;"	d
+X103_TOD_R3223	x103.h	124;"	d
+X103_TOD_R6453	x103.h	125;"	d
+X103_TOD_SINT	x103.h	122;"	d
+X103_TOD_SOE	x103.h	128;"	d
+X103_TOD_UINT	x103.h	121;"	d
+_IEC103_COM_H_	com.h	2;"	d
+_INIFILEOP	INIFileOP.h	2;"	d
+_WCX_LOG	wcx_log.h	2;"	d
+__DEV_MNG__	dev_mng.h	2;"	d
+__INFOREC__	inforec.h	2;"	d
+__NR_103__	dev_103.h	2;"	d
+__SYSTEM__	system.h	2;"	d
+__TYPEDEF__	typedef.h	5;"	d
+__X103__	x103.h	2;"	d
+_iec103_tag_tp	dev_103.h	/^typedef struct _iec103_tag_tp$/;"	s
+addr	dev_103.h	/^	BYTE	addr;			\/* 公共地址 *\/$/;"	m	struct:tagT_C103_ASDU
+addr	x103.h	/^	BYTE	addr;$/;"	m	struct:tagT_103_ASDU
+address	dev_103.h	/^	BYTE	address;		\/* 地址域 *\/$/;"	m	struct:tagT_C103_FRAME
+baud	com.h	/^    int baud;$/;"	m	struct:__anon3
+c103_check_control	dev_103.c	/^BOOL c103_check_control (int sn, iec103_tag_tp *p_tag, WORD ctrl_no)$/;"	f
+c103_check_packet	dev_103.c	/^static WORD c103_check_packet (const BYTE *p_data, WORD data_len)$/;"	f	file:
+c103_device_initialize	dev_103.c	/^BOOL c103_device_initialize (int sn, iec103_tag_tp* p_tag)$/;"	f
+c103_generic_ackwrite	dev_103.c	/^static BOOL c103_generic_ackwrite (T_IED *p_ied, BYTE ngd, BYTE len)$/;"	f	file:
+c103_generic_exewrite	dev_103.c	/^static BOOL c103_generic_exewrite (T_IED *p_ied, BYTE ngd, BYTE len)$/;"	f	file:
+c103_generic_read	dev_103.c	/^static BOOL c103_generic_read (T_IED *p_ied, BYTE ginl, BYTE ginh, BYTE kod)$/;"	f	file:
+c103_get_List	dev_103.c	/^BOOL c103_get_List (T_IED *p_ied, T_LIST* p_list)$/;"	f
+c103_get_analog	dev_103.c	/^BOOL c103_get_analog (T_IED *p_ied, T_CHANNEL *p_chn)$/;"	f
+c103_get_setting	dev_103.c	/^BOOL c103_get_setting (T_IED *p_ied, T_SET *p_set)$/;"	f
+c103_get_sfc	dev_103.c	/^BOOL c103_get_sfc (T_IED *p_ied)$/;"	f
+c103_get_zone	dev_103.c	/^BOOL c103_get_zone (T_IED *p_ied, WORD *p_set_no)$/;"	f
+c103_open_ied	dev_103.c	/^static BOOL c103_open_ied (T_IED *p_ied)$/;"	f	file:
+c103_remote_control	dev_103.c	/^BOOL c103_remote_control (int sn, iec103_tag_tp *p_tag, WORD ctrl_no)$/;"	f
+c103_request_first	dev_103.c	/^BOOL c103_request_first (int sn, iec103_tag_tp* p_tag)$/;"	f
+c103_request_gi	dev_103.c	/^BOOL c103_request_gi (int sn, iec103_tag_tp* p_tag) \/\/asdu07$/;"	f
+c103_request_second	dev_103.c	/^BOOL c103_request_second (int sn, iec103_tag_tp* p_tag)$/;"	f
+c103_reset_cu	dev_103.c	/^BOOL c103_reset_cu (int sn, iec103_tag_tp* p_tag)$/;"	f
+c103_reset_fcb	dev_103.c	/^BOOL c103_reset_fcb (int sn, iec103_tag_tp* p_tag)$/;"	f
+c103_reset_signal	dev_103.c	/^BOOL c103_reset_signal (T_IED *p_ied)$/;"	f
+c103_select_zone	dev_103.c	/^static BOOL c103_select_zone (T_IED *p_ied, BYTE set_no)$/;"	f	file:
+c103_serial_com	dev_103.c	/^WORD c103_serial_com (int sn, iec103_tag_tp* p_tag, T_C103_FRAME* p_frame, BOOL brx)$/;"	f
+c103_service	dev_103.c	/^BOOL c103_service (T_IED *p_ied, T_MESSAGE *p_msg)$/;"	f
+c103_set_clock	dev_103.c	/^BOOL c103_set_clock (T_IED *p_ied, const T_DATE *p_date)$/;"	f
+calc_check_sum	dev_103.c	/^BYTE  calc_check_sum (const BYTE *p_data, WORD data_len)$/;"	f
+chn_num	dev_mng.h	/^	WORD	chn_num;$/;"	m	struct:tagT_CHANNEL
+chn_val	dev_mng.h	/^	float	chn_val[SYS_MAX_CHANNEL];$/;"	m	struct:tagT_CHANNEL
+com	dev_103.h	/^    iec103_com_t                com;$/;"	m	struct:iec103_tag_table
+com_mutex	dev_103.h	/^    pthread_mutex_t             com_mutex;$/;"	m	struct:iec103_tag_table
+com_space_time	dev_103.h	/^    WORD                        com_space_time;$/;"	m	struct:iec103_tag_table
+com_th_id	dev_103.h	/^    pthread_t                   com_th_id;$/;"	m	struct:iec103_tag_table
+com_time_out	dev_103.h	/^    WORD                        com_time_out;$/;"	m	struct:iec103_tag_table
+contral	dev_103.h	/^	BYTE	contral;		\/* 控制域 *\/$/;"	m	struct:tagT_C103_FRAME
+cot	dev_103.h	/^	BYTE	cot;			\/* 传送原因 *\/$/;"	m	struct:tagT_C103_ASDU
+cot	x103.h	/^	BYTE	cot;$/;"	m	struct:tagT_103_ASDU
+crc	dev_103.h	/^	BYTE	crc;			\/* 帧校验和 *\/$/;"	m	struct:tagT_C103_FRAME
+create_optimized_table	dev_103.c	/^static inline int create_optimized_table (sqlite3 * db)$/;"	f	file:
+data	dev_103.h	/^	BYTE	data[16];		\/* 数据值 *\/$/;"	m	struct:tagT_C103_DATA
+data	dev_103.h	/^	BYTE	data[C103_ASDU_SIZE-7];	\/* 信息体报文 *\/$/;"	m	struct:tagT_C103_ASDU
+data	x103.h	/^	BYTE	data[16];	$/;"	m	struct:tagT_EVENT_PARA
+data	x103.h	/^	BYTE	data[80];	\/\/end modify 2003.8.27.$/;"	m	struct:tagT_103_DATA
+data	x103.h	/^	BYTE	data[X103_ASDU_SIZE-6];$/;"	m	struct:tagT_103_ASDU
+data_bit	com.h	/^    uint8_t data_bit;$/;"	m	struct:__anon3
+day	system.h	/^	BYTE day;$/;"	m	struct:tagT_DATE
+debug	com.h	/^    int debug;$/;"	m	struct:__anon3
+dev_data	dev_mng.h	/^	BYTE		dev_data[6];	\/* 设备描述用数据 *\/$/;"	m	struct:t_ied_struct
+dev_flag	dev_103.h	/^    WORD            dev_flag;$/;"	m	struct:_iec103_tag_tp
+dev_flag	dev_mng.h	/^	WORD		dev_flag;		\/* 设备标志 *\/$/;"	m	struct:t_ied_struct
+dev_id	dev_mng.h	/^	WORD		dev_id;			\/* 设备编号 *\/$/;"	m	struct:t_ied_struct
+dev_id	inforec.h	/^	WORD		dev_id;					\/* 设备标识号 *\/$/;"	m	struct:tagT_EVENT
+dev_id	inforec.h	/^	WORD	dev_id;			\/* 设备标识号 *\/$/;"	m	struct:tagT_ALARM
+dev_id	inforec.h	/^	WORD	dev_id;$/;"	m	struct:tagT_DIC
+dev_id	inforec.h	/^	WORD dev_id;$/;"	m	struct:tagT_OVERLINE
+dev_if	dev_mng.h	/^    T_SERVICE	dev_if;			\/* 设备服务接口 *\/$/;"	m	struct:t_ied_struct
+dev_type	dev_103.h	/^	WORD			dev_type;	\/* 设备类型 *\/	$/;"	m	struct:tagT_C103_CODE_TABLE
+dev_type	dev_mng.h	/^	WORD		dev_type;		\/* 设备类型 *\/$/;"	m	struct:t_ied_struct
+device	com.h	/^    char device[16];$/;"	m	struct:__anon3
+device	com.h	/^    char device[64];$/;"	m	struct:__anon3
+device	dev_103.h	/^    char                        device[50];$/;"	m	struct:iec103_tag_table
+device_addr	dev_103.h	/^    BYTE            device_addr;$/;"	m	struct:_iec103_tag_tp
+di_num	inforec.h	/^	WORD  di_num;$/;"	m	struct:tagT_DI
+di_val	inforec.h	/^	DWORD di_val[MAX_DI_GROUPS];$/;"	m	struct:tagT_DI
+e_code	inforec.h	/^	WORD		e_code;					\/* 事件条目号(最小值为1) *\/$/;"	m	struct:tagT_EVENT
+e_code	inforec.h	/^	WORD	e_code;			\/* 事件条目号(最小值为1) *\/$/;"	m	struct:tagT_ALARM
+e_code	inforec.h	/^	WORD	e_code;$/;"	m	struct:tagT_DIC
+e_date	inforec.h	/^	T_DATE		e_date;					\/* 事件日期 *\/$/;"	m	struct:tagT_EVENT
+e_date	inforec.h	/^	T_DATE	e_date;			\/* 事件日期 *\/	$/;"	m	struct:tagT_ALARM
+e_eventpara	inforec.h	/^	T_EVENT_PARATABLE	e_eventpara;	\/* 事件参数 *\/$/;"	m	struct:tagT_EVENT
+e_key	dev_mng.h	/^	WORD	e_key;$/;"	m	struct:tagT_ALARM_ENTRY
+e_key	dev_mng.h	/^	WORD	e_key;$/;"	m	struct:tagT_ANALOG_ENTRY
+e_key	dev_mng.h	/^	WORD	e_key;$/;"	m	struct:tagT_CHANGE_ENTRY
+e_key	dev_mng.h	/^	WORD	e_key;$/;"	m	struct:tagT_CHANNEL_ENTRY
+e_key	dev_mng.h	/^	WORD	e_key;$/;"	m	struct:tagT_EVENT_ENTRY
+e_key	dev_mng.h	/^	WORD	e_key;$/;"	m	struct:tagT_SET_ENTRY
+e_key	dev_mng.h	/^	WORD	e_key;$/;"	m	struct:tagT_SFC_ENTRY
+e_paraflag	inforec.h	/^	T_PARAFLAG	e_paraflag;				\/* 事件参数有效标志 *\/$/;"	m	struct:tagT_EVENT
+e_state	inforec.h	/^	T_STATE		e_state;				\/* 事件状态 *\/$/;"	m	struct:tagT_EVENT
+e_state	inforec.h	/^	T_STATE	e_state;		\/* 事件状态 *\/$/;"	m	struct:tagT_ALARM
+e_state	inforec.h	/^	T_STATE	e_state;$/;"	m	struct:tagT_DIC
+endbyte	dev_103.h	/^	BYTE	endbyte;		\/* 结束字符 *\/$/;"	m	struct:tagT_C103_FRAME
+error_handling	com.h	/^    uint8_t error_handling;$/;"	m	struct:__anon3
+error_handling_t	com.h	/^} error_handling_t;$/;"	t	typeref:enum:__anon2
+error_treat	com.c	/^void error_treat (iec103_com_t *mb_param, int code, const char *string)$/;"	f
+f_val	dev_mng.h	/^		float   f_val;$/;"	m	union:tagT_SET_ITEM::__anon4
+factor	dev_103.h	/^    float           factor;$/;"	m	struct:_iec103_tag_tp
+false	typedef.h	21;"	d
+fcb	dev_103.h	/^    volatile BYTE   fcb;$/;"	m	struct:_iec103_tag_tp
+fd	com.h	/^    int fd;$/;"	m	struct:__anon3
+fd	wcx_log.h	/^    char fd[128];$/;"	m	struct:log_tp
+find_next_device	dev_103.c	/^static int find_next_device (int sn, int i)$/;"	f	file:
+fun	dev_103.h	/^	BYTE	fun;			\/* 功能类型 *\/$/;"	m	struct:tagT_C103_ASDU
+fun	dev_103.h	/^    BYTE            fun;$/;"	m	struct:_iec103_tag_tp
+fun	x103.h	/^	BYTE	fun;$/;"	m	struct:tagT_103_ASDU
+g_c103_code	dev_103cfg.c	/^T_C103_CODE_TABLE g_c103_code[] =$/;"	v
+g_c103_code_size	dev_103cfg.c	/^WORD g_c103_code_size = sizeof (g_c103_code) \/ sizeof (T_C103_CODE_TABLE);$/;"	v
+g_ied_list	dev_103cfg.c	/^static T_IED g_ied_list[] =$/;"	v	file:
+get_did_from_pid	dev_103.c	/^static inline int get_did_from_pid (sqlite3 * db, int tag_id)$/;"	f	file:
+get_factor_from_pid	dev_103.c	/^static inline float get_factor_from_pid (sqlite3 * db, int PID)$/;"	f	file:
+getch	wcx_utils.cpp	/^int getch()$/;"	f
+ginh	dev_103.h	/^	BYTE	ginh;			\/* 通用分类标识序号高 *\/$/;"	m	struct:tagT_C103_DATA
+ginh	x103.h	/^	BYTE	ginh;$/;"	m	struct:tagT_103_DATA
+ginl	dev_103.h	/^	BYTE	ginl;			\/* 通用分类标识序号低 *\/$/;"	m	struct:tagT_C103_DATA
+ginl	x103.h	/^	BYTE	ginl;$/;"	m	struct:tagT_103_DATA
+handle_abrt	test/iec103_master_test.c	/^static void handle_abrt (int   sig)$/;"	f	file:
+handle_int	test/iec103_master_test.c	/^static void handle_int (int   sig)$/;"	f	file:
+handle_pipe	test/iec103_master_test.c	/^static void handle_pipe (int sig)$/;"	f	file:
+handle_quit	test/iec103_master_test.c	/^static void handle_quit (int   sig)$/;"	f	file:
+handle_segv	test/iec103_master_test.c	/^static void handle_segv (int   sig)$/;"	f	file:
+head_flg	wcx_log.cpp	/^static int head_flg = 1;$/;"	v	file:
+hour	system.h	/^	BYTE hour;$/;"	m	struct:tagT_DATE
+iec103_close	com.c	/^void iec103_close (iec103_com_t *mb_param)$/;"	f
+iec103_close_rtu	com.c	/^static void iec103_close_rtu (iec103_com_t *mb_param)$/;"	f	file:
+iec103_close_tcp	com.c	/^static void iec103_close_tcp (iec103_com_t *mb_param)$/;"	f	file:
+iec103_com_t	com.h	/^} iec103_com_t;$/;"	t	typeref:struct:__anon3
+iec103_connect	com.c	/^int iec103_connect (iec103_com_t *mb_param)$/;"	f
+iec103_connect_rtu	com.c	/^static int iec103_connect_rtu (iec103_com_t *mb_param)$/;"	f	file:
+iec103_connect_tcp	com.c	/^static int iec103_connect_tcp (iec103_com_t *mb_param)$/;"	f	file:
+iec103_flush	com.c	/^static void iec103_flush (iec103_com_t *mb_param)$/;"	f	file:
+iec103_init	dev_103.c	/^static int iec103_init ()$/;"	f	file:
+iec103_init_rtu	com.c	/^void iec103_init_rtu (iec103_com_t *mb_param, const char *device,$/;"	f
+iec103_init_tcp	com.c	/^void iec103_init_tcp (iec103_com_t *mb_param, const char *ip, int port)$/;"	f
+iec103_master_exit	dev_103.c	/^int iec103_master_exit (void *arg)$/;"	f
+iec103_master_run	dev_103.c	/^int iec103_master_run (void *arg)$/;"	f
+iec103_receive	com.c	/^int iec103_receive (iec103_com_t *mb_param, uint8_t *rcv_buf, int select_time)$/;"	f
+iec103_send	com.c	/^int iec103_send (iec103_com_t *mb_param, uint8_t *query, int query_length)$/;"	f
+iec103_set_debug	com.c	/^void iec103_set_debug (iec103_com_t *mb_param, int boolean)$/;"	f
+iec103_slave_accept_tcp	com.c	/^int iec103_slave_accept_tcp (iec103_com_t *mb_param, int *socket)$/;"	f
+iec103_slave_close_tcp	com.c	/^void iec103_slave_close_tcp (int socket)$/;"	f
+iec103_slave_listen_tcp	com.c	/^int iec103_slave_listen_tcp (iec103_com_t *mb_param, int nb_connection)$/;"	f
+iec103_tag_table	dev_103.h	/^struct iec103_tag_table$/;"	s
+iec103_tag_tp	dev_103.h	/^} iec103_tag_tp;$/;"	t	typeref:struct:_iec103_tag_tp
+iec103_type	dev_103.h	/^    BYTE            iec103_type;$/;"	m	struct:_iec103_tag_tp
+inf	dev_103.h	/^	BYTE	inf;			\/* 信息序号 *\/$/;"	m	struct:tagT_C103_ASDU
+inf	dev_103.h	/^    BYTE            inf;$/;"	m	struct:_iec103_tag_tp
+inf	x103.h	/^	BYTE	inf;$/;"	m	struct:tagT_103_ASDU
+init_sigaction	test/iec103_master_test.c	/^static void init_sigaction()$/;"	f	file:
+insert_optimized_table	dev_103.c	/^static inline int insert_optimized_table (sqlite3 * db,$/;"	f	file:
+ip	com.h	/^    char ip[16];$/;"	m	struct:__anon3
+kod	dev_103.h	/^	BYTE	kod;			\/* 描述的类别 *\/$/;"	m	struct:tagT_C103_DATA
+kod	x103.h	/^	BYTE	kod;$/;"	m	struct:tagT_103_DATA
+l_ptr	dev_mng.h	/^	void   *l_ptr;$/;"	m	struct:tagT_LIST
+l_size	dev_mng.h	/^	WORD	l_size;$/;"	m	struct:tagT_LIST
+l_type	dev_mng.h	/^	WORD	l_type;$/;"	m	struct:tagT_LIST
+len	dev_103.h	/^	BYTE	len;			\/* 长度   *\/$/;"	m	struct:tagT_C103_FRAME
+load_config	dev_103.c	/^static int load_config ()$/;"	f	file:
+load_taglist	dev_103.c	/^static int load_taglist ()$/;"	f	file:
+log_init	wcx_log.cpp	/^void log_init (struct log_tp *log, const char *file, const char *soft, const char* version,$/;"	f
+log_tp	wcx_log.h	/^struct log_tp$/;"	s
+m_901a_alSize	dev_103cfg.c	260;"	d	file:
+m_901a_evSize	dev_103cfg.c	235;"	d	file:
+m_901a_setSize	dev_103cfg.c	343;"	d	file:
+m_915a_alSize	dev_103cfg.c	405;"	d	file:
+m_915a_evSize	dev_103cfg.c	382;"	d	file:
+m_915a_setSize	dev_103cfg.c	439;"	d	file:
+m_931a_alSize	dev_103cfg.c	494;"	d	file:
+m_931a_evSize	dev_103cfg.c	467;"	d	file:
+m_931a_setSize	dev_103cfg.c	580;"	d	file:
+m_943a_alSize	dev_103cfg.c	120;"	d	file:
+m_943a_evSize	dev_103cfg.c	68;"	d	file:
+m_943a_setSize	dev_103cfg.c	208;"	d	file:
+m_boot_log	dev_103.c	/^static struct log_tp                m_boot_log;$/;"	v	typeref:struct:log_tp	file:
+m_c103_fcb	dev_103.c	/^volatile BYTE m_c103_fcb[DEV_NUM] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};$/;"	v
+m_c103_rii	dev_103.c	/^volatile BYTE m_c103_rii = 0;$/;"	v
+m_c103_sn	dev_103.c	/^volatile BYTE m_c103_sn = 0;$/;"	v
+m_com	dev_103.c	/^static struct iec103_tag_table      m_com[COM_NUM];$/;"	v	typeref:struct:iec103_tag_table	file:
+m_csv_file_path	dev_103.c	/^static char     m_csv_file_path[100]; \/\/csv文件存放路径$/;"	v	file:
+m_data	dev_mng.h	/^	DWORD	m_data;		\/* message data *\/$/;"	m	struct:tagT_MESSAGE
+m_debug	dev_103.c	/^static bool     m_debug;$/;"	v	file:
+m_display_on	dev_103.c	/^static bool     m_display_on;$/;"	v	file:
+m_error_log	dev_103.c	/^static struct log_tp                m_error_log;$/;"	v	typeref:struct:log_tp	file:
+m_exit_flg	dev_103.c	/^static bool                         m_exit_flg;$/;"	v	file:
+m_flag	dev_mng.h	/^	WORD	m_flag;		\/* message flag *\/$/;"	m	struct:tagT_MESSAGE
+m_rx_buf	dev_103.c	/^static  BYTE		 m_rx_buf[UART_PACKET_SIZE];$/;"	v	file:
+m_space_time	dev_103.c	/^static WORD                         m_space_time;$/;"	v	file:
+m_step	dev_103.c	/^static bool     m_step;$/;"	v	file:
+m_tag_file	dev_103.c	/^static char     m_tag_file[100];$/;"	v	file:
+m_tag_file_optimized	dev_103.c	/^static char     m_tag_file_optimized[100]; \/\/优化点表文件$/;"	v	file:
+m_tx_buf	dev_103.c	/^static  BYTE		 m_tx_buf[UART_PACKET_SIZE];$/;"	v	file:
+m_type	dev_mng.h	/^	WORD	m_type;		\/* message type *\/$/;"	m	struct:tagT_MESSAGE
+m_write_csv	dev_103.c	/^static bool     m_write_csv;$/;"	v	file:
+main	test/iec103_master_test.c	/^int main (int argc, char *argv[])$/;"	f
+minute	system.h	/^	BYTE minute;$/;"	m	struct:tagT_DATE
+month	system.h	/^	BYTE month;$/;"	m	struct:tagT_DATE
+ms_num	inforec.h	/^	WORD ms_num;$/;"	m	struct:tagT_MEASURE
+ms_val	inforec.h	/^	WORD ms_val[SYS_MAX_MEASURE];$/;"	m	struct:tagT_MEASURE
+msec	system.h	/^	WORD msec;$/;"	m	struct:tagT_DATE
+name	dev_mng.h	/^	char	name[NAME_SIZE];$/;"	m	struct:tagT_ALARM_ENTRY
+name	dev_mng.h	/^	char	name[NAME_SIZE];$/;"	m	struct:tagT_ANALOG_ENTRY
+name	dev_mng.h	/^	char	name[NAME_SIZE];$/;"	m	struct:tagT_CHANGE_ENTRY
+name	dev_mng.h	/^	char	name[NAME_SIZE];$/;"	m	struct:tagT_CHANNEL_ENTRY
+name	dev_mng.h	/^	char	name[NAME_SIZE];$/;"	m	struct:tagT_EVENT_ENTRY
+name	dev_mng.h	/^	char	name[NAME_SIZE];$/;"	m	struct:tagT_SET_ENTRY
+name	dev_mng.h	/^	char	name[NAME_SIZE];$/;"	m	struct:tagT_SFC_ENTRY
+name	system.h	/^	char name[16];$/;"	m	struct:tagTSOFTINFO
+net1_ip	system.h	/^	unsigned char	net1_ip[4];$/;"	m	struct:tagT_SYS_CONFIG
+net1_mask	system.h	/^	unsigned char	net1_mask[4];$/;"	m	struct:tagT_SYS_CONFIG
+net2_ip	system.h	/^	unsigned char	net2_ip[4];$/;"	m	struct:tagT_SYS_CONFIG
+net2_mask	system.h	/^	unsigned char	net2_mask[4];$/;"	m	struct:tagT_SYS_CONFIG
+net3_ip	system.h	/^	unsigned char	net3_ip[4];$/;"	m	struct:tagT_SYS_CONFIG
+net3_mask	system.h	/^	unsigned char	net3_mask[4];$/;"	m	struct:tagT_SYS_CONFIG
+nr_901a_alarm_table	dev_103cfg.c	/^static T_ALARM_ENTRY nr_901a_alarm_table[] =$/;"	v	file:
+nr_901a_event_table	dev_103cfg.c	/^static T_EVENT_ENTRY nr_901a_event_table[] =$/;"	v	file:
+nr_901a_set_table	dev_103cfg.c	/^static T_SET_ENTRY nr_901a_set_table[] =$/;"	v	file:
+nr_915a_alarm_table	dev_103cfg.c	/^static T_ALARM_ENTRY nr_915a_alarm_table[] =$/;"	v	file:
+nr_915a_event_table	dev_103cfg.c	/^static T_EVENT_ENTRY nr_915a_event_table[] =$/;"	v	file:
+nr_915a_set_table	dev_103cfg.c	/^static T_SET_ENTRY nr_915a_set_table[] =$/;"	v	file:
+nr_931a_alarm_table	dev_103cfg.c	/^static T_ALARM_ENTRY nr_931a_alarm_table[] =$/;"	v	file:
+nr_931a_event_table	dev_103cfg.c	/^static T_EVENT_ENTRY nr_931a_event_table[] =$/;"	v	file:
+nr_931a_set_table	dev_103cfg.c	/^static T_SET_ENTRY nr_931a_set_table[] =$/;"	v	file:
+nr_943a_alarm_table	dev_103cfg.c	/^static T_ALARM_ENTRY nr_943a_alarm_table[] =$/;"	v	file:
+nr_943a_event_table	dev_103cfg.c	/^static T_EVENT_ENTRY nr_943a_event_table[] =$/;"	v	file:
+nr_943a_set_table	dev_103cfg.c	/^static T_SET_ENTRY nr_943a_set_table[] =$/;"	v	file:
+num	dev_103.h	/^	BYTE	num;			\/* 数目 *\/$/;"	m	struct:tagT_C103_DATA
+num	x103.h	/^	BYTE	num;$/;"	m	struct:tagT_103_DATA
+num	x103.h	/^	BYTE	num;$/;"	m	struct:tagT_EVENT_PARA
+old_tios	com.h	/^    struct termios old_tios;$/;"	m	struct:__anon3	typeref:struct:__anon3::termios
+opened	x103.h	/^	BOOL		 opened;		\/* 设备通讯打开标志 *\/$/;"	m	struct:tagT_SESSION
+operation	dev_103.h	/^    BYTE            operation;$/;"	m	struct:_iec103_tag_tp
+ovl_no	inforec.h	/^	WORD ovl_no;$/;"	m	struct:tagT_OVERLINE
+ovl_val	inforec.h	/^	WORD ovl_val;$/;"	m	struct:tagT_OVERLINE
+p_alarm	dev_103.h	/^	T_ALARM_ENTRY  *p_alarm;	\/* 告警码表 *\/$/;"	m	struct:tagT_C103_CODE_TABLE
+p_event	dev_103.h	/^	T_EVENT_ENTRY  *p_event;	\/* 事件码表 *\/$/;"	m	struct:tagT_C103_CODE_TABLE
+p_setting	dev_103.h	/^	T_SET_ENTRY    *p_setting;	\/* 定值码表 *\/$/;"	m	struct:tagT_C103_CODE_TABLE
+p_wave_data	dev_mng.h	/^	WORD	*p_wave_data;			\/\/单个扰动值$/;"	m	struct:tagT_WAVE_DATA
+p_wave_nostate	dev_mng.h	/^	T_WAVE_STATE	*p_wave_nostate;	\/\/带标志的状态变位信息$/;"	m	struct:tagT_DEV_WAVE
+p_wave_orstate	dev_mng.h	/^	T_WAVE_STATE	*p_wave_orstate;	\/\/带标志的原始状态信息$/;"	m	struct:tagT_DEV_WAVE
+pad_0	x103.h	/^	BYTE	    pad_0;$/;"	m	struct:tagT_103_ENTRY
+para_byte	inforec.h	/^		BYTE	para_byte;$/;"	m	union:tagT_EVENT_PARAITEM::__anon5
+para_complex	inforec.h	/^		float	para_complex[2];$/;"	m	union:tagT_EVENT_PARAITEM::__anon5
+para_float	inforec.h	/^		float	para_float;$/;"	m	union:tagT_EVENT_PARAITEM::__anon5
+para_index	inforec.h	/^	WORD	para_index;					\/\/参数索引号$/;"	m	struct:tagT_EVENT_PARAITEM
+para_num	inforec.h	/^	BYTE	para_num;					\/\/ 实际使用参数个数$/;"	m	struct:tagT_EVENT_PARATABLE
+para_table	inforec.h	/^	T_EVENT_PARAITEM	para_table[MAX_EVENT_PARA];	\/\/ 参数表 $/;"	m	struct:tagT_EVENT_PARATABLE
+para_type	inforec.h	/^	WORD	para_type;					\/\/参数数据类型$/;"	m	struct:tagT_EVENT_PARAITEM
+parity	com.h	/^    char parity[5];$/;"	m	struct:__anon3
+pmonNext	system.h	/^    struct	tag_SYS_MON_COM	*pmonNext;$/;"	m	struct:tag_SYS_MON_COM	typeref:struct:tag_SYS_MON_COM::tag_SYS_MON_COM
+pmonPipe	system.h	/^    BYTE	*pmonPipe;$/;"	m	struct:tag_SYS_MON_COM
+port	com.h	/^    int port;$/;"	m	struct:__anon3
+ps_num	inforec.h	/^	WORD  ps_num;$/;"	m	struct:tagT_PULSE
+ps_val	inforec.h	/^	DWORD ps_val[SYS_MAX_PULSE];$/;"	m	struct:tagT_PULSE
+pthread_quit	dev_103.c	/^static void pthread_quit()$/;"	f	file:
+query_according_did	dev_103.c	/^static inline int query_according_did (sqlite3 * db, int ID, int TYPE, char *result, int result_size)$/;"	f	file:
+query_att_according_pid	dev_103.c	/^static inline int query_att_according_pid (sqlite3 * db, int ID, int TYPE, char *result, int result_size)$/;"	f	file:
+query_protocol_according_pid	dev_103.c	/^static inline int query_protocol_according_pid (sqlite3 * db, int pid)$/;"	f	file:
+read_cmd	test/iec103_master_test.c	/^static void  *read_cmd (void *data)$/;"	f	file:
+receive_msg	com.c	/^int receive_msg (iec103_com_t *mb_param, int msg_length_computed, uint8_t *msg, int select_time)$/;"	f
+rx_buf	dev_103.h	/^    BYTE                        rx_buf[UART_PACKET_SIZE];$/;"	m	struct:iec103_tag_table
+rx_buf	x103.h	/^	BYTE		 rx_buf[X103_ASDU_SIZE];$/;"	m	struct:tagT_SESSION
+rx_len	x103.h	/^	WORD		 rx_len;		\/* 会话接收缓冲区 *\/$/;"	m	struct:tagT_SESSION
+seg	wcx_log.h	/^    unsigned int seg;$/;"	m	struct:log_tp
+set_no	dev_mng.h	/^	WORD		set_no;$/;"	m	struct:tagT_SET
+set_num	dev_mng.h	/^	WORD		set_num;$/;"	m	struct:tagT_SET
+set_val	dev_mng.h	/^	T_SET_ITEM	set_val[SYS_MAX_SET];$/;"	m	struct:tagT_SET
+sfc_num	inforec.h	/^	WORD  sfc_num;$/;"	m	struct:tagT_SFC
+sfc_val	inforec.h	/^	DWORD sfc_val[MAX_SFC_GROUPS];$/;"	m	struct:tagT_SFC
+size	dev_103.h	/^	BYTE	size;			\/* 数据宽度 *\/$/;"	m	struct:tagT_C103_DATA
+size	x103.h	/^	BYTE	size;$/;"	m	struct:tagT_103_DATA
+size	x103.h	/^	BYTE	size;$/;"	m	struct:tagT_EVENT_PARA
+slprintf	wcx_log.cpp	/^int slprintf (char *buf, int buflen, char *fmt, ...)$/;"	f
+stop_bit	com.h	/^    uint8_t stop_bit;$/;"	m	struct:__anon3
+strlcat	wcx_utils.cpp	/^size_t strlcat (char *dest, const char *src, size_t len)$/;"	f
+strlcpy	wcx_utils.cpp	/^size_t strlcpy (char *dest, const char *src, size_t len)$/;"	f
+strtriml	INIFileOP.cpp	/^char * strtriml ( char * buf )$/;"	f
+strtrimr	INIFileOP.cpp	/^char * strtrimr ( char * buf )$/;"	f
+struct_lenth	inforec.h	/^	BYTE	struct_lenth;				\/\/ 所有数据结构字节总长度$/;"	m	struct:tagT_EVENT_PARATABLE
+sys_init	dev_103.c	/^static int sys_init ()$/;"	f	file:
+t_ied_struct	dev_mng.h	/^typedef struct t_ied_struct$/;"	s
+tag	dev_103.h	/^    std::vector<iec103_tag_tp>  tag;$/;"	m	struct:iec103_tag_table
+tagTSOFTINFO	system.h	/^typedef struct tagTSOFTINFO$/;"	s
+tagT_103_ASDU	x103.h	/^typedef struct tagT_103_ASDU$/;"	s
+tagT_103_DATA	x103.h	/^typedef struct tagT_103_DATA$/;"	s
+tagT_103_ENTRY	x103.h	/^typedef struct tagT_103_ENTRY$/;"	s
+tagT_ALARM	inforec.h	/^typedef struct tagT_ALARM   $/;"	s
+tagT_ALARM_ENTRY	dev_mng.h	/^typedef struct tagT_ALARM_ENTRY$/;"	s
+tagT_ANALOG_ENTRY	dev_mng.h	/^typedef struct tagT_ANALOG_ENTRY$/;"	s
+tagT_C103_ASDU	dev_103.h	/^typedef struct tagT_C103_ASDU$/;"	s
+tagT_C103_CODE_TABLE	dev_103.h	/^typedef struct tagT_C103_CODE_TABLE$/;"	s
+tagT_C103_DATA	dev_103.h	/^typedef struct tagT_C103_DATA$/;"	s
+tagT_C103_FRAME	dev_103.h	/^typedef struct tagT_C103_FRAME$/;"	s
+tagT_CHANGE_ENTRY	dev_mng.h	/^typedef struct tagT_CHANGE_ENTRY$/;"	s
+tagT_CHANNEL	dev_mng.h	/^typedef struct tagT_CHANNEL$/;"	s
+tagT_CHANNEL_ENTRY	dev_mng.h	/^typedef struct tagT_CHANNEL_ENTRY$/;"	s
+tagT_DATE	system.h	/^typedef struct tagT_DATE$/;"	s
+tagT_DEV_WAVE	dev_mng.h	/^typedef struct tagT_DEV_WAVE$/;"	s
+tagT_DI	inforec.h	/^typedef struct tagT_DI$/;"	s
+tagT_DIC	inforec.h	/^typedef struct tagT_DIC$/;"	s
+tagT_EVENT	inforec.h	/^typedef struct tagT_EVENT$/;"	s
+tagT_EVENT_ENTRY	dev_mng.h	/^typedef struct tagT_EVENT_ENTRY$/;"	s
+tagT_EVENT_PARA	x103.h	/^typedef struct tagT_EVENT_PARA	\/\/modify by linjun 2003.8.27$/;"	s
+tagT_EVENT_PARAITEM	inforec.h	/^typedef struct tagT_EVENT_PARAITEM		\/\/单个参数结构$/;"	s
+tagT_EVENT_PARATABLE	inforec.h	/^typedef struct tagT_EVENT_PARATABLE		\/\/事件参数表$/;"	s
+tagT_LIST	dev_mng.h	/^typedef struct tagT_LIST$/;"	s
+tagT_MEASURE	inforec.h	/^typedef struct tagT_MEASURE$/;"	s
+tagT_MESSAGE	dev_mng.h	/^typedef struct tagT_MESSAGE$/;"	s
+tagT_OVERLINE	inforec.h	/^typedef struct tagT_OVERLINE$/;"	s
+tagT_PULSE	inforec.h	/^typedef struct tagT_PULSE$/;"	s
+tagT_SESSION	x103.h	/^typedef struct tagT_SESSION$/;"	s
+tagT_SET	dev_mng.h	/^typedef struct tagT_SET$/;"	s
+tagT_SET_ENTRY	dev_mng.h	/^typedef struct tagT_SET_ENTRY$/;"	s
+tagT_SET_ITEM	dev_mng.h	/^typedef struct tagT_SET_ITEM$/;"	s
+tagT_SFC	inforec.h	/^typedef struct tagT_SFC$/;"	s
+tagT_SFC_ENTRY	dev_mng.h	/^typedef struct tagT_SFC_ENTRY$/;"	s
+tagT_SYS_CONFIG	system.h	/^typedef struct tagT_SYS_CONFIG$/;"	s
+tagT_WAVE_DATA	dev_mng.h	/^typedef struct tagT_WAVE_DATA$/;"	s
+tagT_WAVE_STATE	dev_mng.h	/^typedef struct tagT_WAVE_STATE$/;"	s
+tagT_WAVE_TABLE	dev_mng.h	/^typedef struct tagT_WAVE_TABLE$/;"	s
+tag_SYS_MON_COM	system.h	/^typedef struct tag_SYS_MON_COM$/;"	s
+tag_id	dev_103.h	/^    WORD            tag_id;$/;"	m	struct:_iec103_tag_tp
+task_c103	dev_103.c	/^void task_c103 (int argc, void *argv)$/;"	f
+thread_iec103_collect	dev_103.c	/^static void *thread_iec103_collect (void * com_no)$/;"	f	file:
+true	typedef.h	20;"	d
+tx_buf	dev_103.h	/^    BYTE                        tx_buf[UART_PACKET_SIZE];$/;"	m	struct:iec103_tag_table
+tx_buf	x103.h	/^	BYTE		 tx_buf[X103_ASDU_SIZE];$/;"	m	struct:tagT_SESSION
+tx_len	x103.h	/^	WORD		 tx_len;		\/* 会话发送缓冲区 *\/$/;"	m	struct:tagT_SESSION
+type	dev_103.h	/^	BYTE	type;			\/* 类型标识 *\/$/;"	m	struct:tagT_C103_ASDU
+type	dev_103.h	/^	BYTE	type;			\/* 数据类型 *\/$/;"	m	struct:tagT_C103_DATA
+type	dev_103.h	/^	BYTE	type;			\/* 帧类型 *\/$/;"	m	struct:tagT_C103_FRAME
+type	dev_mng.h	/^	WORD	type;		\/\/定值项类型$/;"	m	struct:tagT_SET_ENTRY
+type	dev_mng.h	/^	WORD	type;$/;"	m	struct:tagT_SET_ITEM
+type	x103.h	/^	BYTE	type;$/;"	m	struct:tagT_103_ASDU
+type	x103.h	/^	BYTE	type;$/;"	m	struct:tagT_103_DATA
+type	x103.h	/^	BYTE	type;$/;"	m	struct:tagT_EVENT_PARA
+type_com	com.h	/^    type_com_t type_com;$/;"	m	struct:__anon3
+type_com_t	com.h	/^type_com_t;$/;"	t	typeref:enum:__anon1
+u_val	dev_mng.h	/^		WORD	u_val;$/;"	m	union:tagT_SET_ITEM::__anon4
+un_val	dev_mng.h	/^	} un_val;$/;"	m	struct:tagT_SET_ITEM	typeref:union:tagT_SET_ITEM::__anon4
+un_val	inforec.h	/^	}un_val;$/;"	m	struct:tagT_EVENT_PARAITEM	typeref:union:tagT_EVENT_PARAITEM::__anon5
+unit	dev_mng.h	/^	char	unit[4];$/;"	m	struct:tagT_ANALOG_ENTRY
+unit	dev_mng.h	/^	char	unit[4];$/;"	m	struct:tagT_SET_ENTRY
+user_defined_1	dev_mng.h	/^	DWORD		user_defined_1; \/* 用户自定义数据 *\/$/;"	m	struct:t_ied_struct
+vslprintf	wcx_log.cpp	/^int vslprintf (char *buf, int buflen, const char *fmt, va_list args)$/;"	f
+vsq	dev_103.h	/^	BYTE	vsq;			\/* 可变结构限定词 *\/$/;"	m	struct:tagT_C103_ASDU
+vsq	x103.h	/^	BYTE	vsq;$/;"	m	struct:tagT_103_ASDU
+wCRC	system.h	/^	WORD wCRC;$/;"	m	struct:tagTSOFTINFO
+wType	system.h	/^	WORD wType;$/;"	m	struct:tagTSOFTINFO
+wVersion	system.h	/^	WORD wVersion;$/;"	m	struct:tagTSOFTINFO
+w_alarm	dev_103.h	/^	WORD			w_alarm;	\/* 告警个数 *\/$/;"	m	struct:tagT_C103_CODE_TABLE
+w_even	dev_103.h	/^	WORD			w_even;		\/* 事件个数 *\/$/;"	m	struct:tagT_C103_CODE_TABLE
+w_setting	dev_103.h	/^	WORD			w_setting;	\/* 定值个数 *\/$/;"	m	struct:tagT_C103_CODE_TABLE
+wave_acc	dev_mng.h	/^	BYTE	wave_acc;					\/\/实际通道号$/;"	m	struct:tagT_DEV_WAVE
+wave_acc	dev_mng.h	/^	BYTE	wave_acc;				\/\/实际通道号$/;"	m	struct:tagT_WAVE_DATA
+wave_data	dev_mng.h	/^	T_WAVE_DATA		wave_data;			\/\/扰动值$/;"	m	struct:tagT_DEV_WAVE
+wave_date	dev_mng.h	/^	T_DATE	wave_date;					\/\/七个八位组的二进制时间$/;"	m	struct:tagT_DEV_WAVE
+wave_date	dev_mng.h	/^	T_DATE	wave_date[MAX_WAVE_NUM];	\/\/七个八位组的二进制时间$/;"	m	struct:tagT_WAVE_TABLE
+wave_dpi	dev_mng.h	/^	BYTE	wave_dpi;				\/\/双点信息$/;"	m	struct:tagT_WAVE_STATE
+wave_end	dev_mng.h	/^	BOOL	wave_end;					\/\/数据结束$/;"	m	struct:tagT_DEV_WAVE
+wave_fan	dev_mng.h	/^	WORD	wave_fan;					\/\/故障序号$/;"	m	struct:tagT_DEV_WAVE
+wave_fan	dev_mng.h	/^	WORD	wave_fan[MAX_WAVE_NUM];		\/\/故障序号$/;"	m	struct:tagT_WAVE_TABLE
+wave_fun	dev_mng.h	/^	BYTE	wave_fun;				\/\/功能类型	$/;"	m	struct:tagT_WAVE_STATE
+wave_inf	dev_mng.h	/^	BYTE	wave_inf;				\/\/信息序号	$/;"	m	struct:tagT_WAVE_STATE
+wave_int	dev_mng.h	/^	WORD	wave_int;					\/\/信息元素之间的间隔$/;"	m	struct:tagT_DEV_WAVE
+wave_ndv	dev_mng.h	/^	WORD	wave_ndv;				\/\/每个ASDU有关联扰动值的数目$/;"	m	struct:tagT_WAVE_DATA
+wave_nfe	dev_mng.h	/^	WORD	wave_nfe;				\/\/ASDU第一个信息元素的序号$/;"	m	struct:tagT_WAVE_DATA
+wave_noc	dev_mng.h	/^	BYTE	wave_noc;					\/\/通道数目$/;"	m	struct:tagT_DEV_WAVE
+wave_noe	dev_mng.h	/^	WORD	wave_noe;					\/\/一个通道信息元素的数目$/;"	m	struct:tagT_DEV_WAVE
+wave_nof	dev_mng.h	/^	WORD	wave_nof;					\/\/电网故障序号$/;"	m	struct:tagT_DEV_WAVE
+wave_not	dev_mng.h	/^	BYTE	wave_not;					\/\/带标志的状态变位的数目$/;"	m	struct:tagT_DEV_WAVE
+wave_num	dev_mng.h	/^	BYTE	wave_num;					\/\/录波条目数$/;"	m	struct:tagT_WAVE_TABLE
+wave_rfa	dev_mng.h	/^	float	wave_rfa;				\/\/参比因子$/;"	m	struct:tagT_WAVE_DATA
+wave_rpv	dev_mng.h	/^	float	wave_rpv;				\/\/额定一次值$/;"	m	struct:tagT_WAVE_DATA
+wave_rsv	dev_mng.h	/^	float	wave_rsv;				\/\/额定二次值$/;"	m	struct:tagT_WAVE_DATA
+wave_sof	dev_mng.h	/^	BYTE	wave_sof;					\/\/故障的状态$/;"	m	struct:tagT_DEV_WAVE
+wave_sof	dev_mng.h	/^	BYTE	wave_sof[MAX_WAVE_NUM];		\/\/故障的状态$/;"	m	struct:tagT_WAVE_TABLE
+wave_tap	dev_mng.h	/^	WORD	wave_tap;				\/\/标志的位置$/;"	m	struct:tagT_WAVE_STATE
+wave_time	dev_mng.h	/^	DWORD	wave_time;					\/\/四个八位组的二进制时间$/;"	m	struct:tagT_DEV_WAVE
+wave_tov	dev_mng.h	/^	BYTE	wave_tov;				\/\/扰动值的类型$/;"	m	struct:tagT_WAVE_DATA
+wcx_log	wcx_log.cpp	/^void wcx_log (const char *file, const char *fmt, ...)$/;"	f
+week	system.h	/^	BYTE week;$/;"	m	struct:tagT_DATE
+wprintf	com.c	34;"	d	file:
+wprintf	com.c	37;"	d	file:
+wprintf	dev_103.c	73;"	d	file:
+wprintf	dev_103.c	76;"	d	file:
+wprintf	test/iec103_master_test.c	52;"	d	file:
+wprintf	test/iec103_master_test.c	55;"	d	file:
+write_log	wcx_log.cpp	/^void write_log (struct log_tp *log, int error_code, const char *fun, const char *fmt, ...)$/;"	f
+write_to_log	wcx_utils.cpp	/^void write_to_log (char *file_name, const char *msg, char flg)$/;"	f
+write_to_log	wcx_utils.cpp	/^void write_to_log (const char *path, const char *file_name, const char *msg, char flg)$/;"	f
+x103_addr	x103.h	/^	BYTE	    x103_addr;		\/* 103通讯公共地址 *\/$/;"	m	struct:tagT_103_ENTRY
+x103_com	x103.h	/^	T_SESSION  *x103_com;		\/* 会话设施 *\/$/;"	m	struct:tagT_103_ENTRY
+x103_flag	x103.h	/^	WORD		x103_flag;$/;"	m	struct:tagT_103_ENTRY
+x103_id	x103.h	/^	WORD	    x103_id;		\/* 系统标识号 *\/$/;"	m	struct:tagT_103_ENTRY
+x103_if	x103.h	/^	T_SERVICE   x103_if;$/;"	m	struct:tagT_103_ENTRY
+x103_ip	x103.h	/^	IPADDR	    x103_ip;		\/* 通讯链路描述 *\/$/;"	m	struct:tagT_103_ENTRY
+x103_mail	x103.h	/^	NU_MAILBOX	 x103_mail;		\/* 会话消息传递设施 *\/$/;"	m	struct:tagT_SESSION
+x103_sema	x103.h	/^	NU_SEMAPHORE x103_sema;		\/* 会话资源保护设施 *\/$/;"	m	struct:tagT_SESSION
+x103_sn	x103.h	/^	BYTE		 x103_sn;		\/* ASDU扫描序号 *\/$/;"	m	struct:tagT_SESSION
+x103_type	x103.h	/^	WORD		x103_type;$/;"	m	struct:tagT_103_ENTRY
+year	system.h	/^	WORD year;$/;"	m	struct:tagT_DATE

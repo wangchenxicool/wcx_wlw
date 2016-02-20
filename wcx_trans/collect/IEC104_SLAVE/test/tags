@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARCH	Makefile	/^ARCH=ARM$/;"	m
+CFLAG	Makefile	/^CFLAG:=-g -rdynamic $/;"	m
+CMDPORT	slave.c	203;"	d	file:
+CROSS	Makefile	/^CROSS=arm-linux-$/;"	m
+DEBUG	slave.c	53;"	d	file:
+IEC104_Slave_Addrs	slave.c	/^const char *IEC104_Slave_Addrs[] =$/;"	v
+IPATH	Makefile	/^IPATH:=-I\/usr\/local\/src\/socket-lib\/libevent-2.0.12-stable\/output\/arm\/include$/;"	m
+IPATH	Makefile	/^IPATH:=-I\/usr\/local\/src\/socket-lib\/libevent-2.0.12-stable\/output\/ubuntu\/include$/;"	m
+LIBS	Makefile	/^LIBS:=-lpthread$/;"	m
+LPATH	Makefile	/^LPATH:=-L\/usr\/local\/src\/socket-lib\/libevent-2.0.12-stable\/output\/arm\/lib$/;"	m
+LPATH	Makefile	/^LPATH:=-L\/usr\/local\/src\/socket-lib\/libevent-2.0.12-stable\/output\/ubuntu\/lib$/;"	m
+MAXLINE	slave.c	202;"	d	file:
+NAME_SIZE	slave.c	51;"	d	file:
+SRC	Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+TARGET	Makefile	/^TARGET:=104_slave_arm.bin$/;"	m
+TARGET	Makefile	/^TARGET:=104_slave_ubuntu.bin$/;"	m
+handle_abrt	slave.c	/^static void handle_abrt (int   sig)$/;"	f	file:
+handle_int	slave.c	/^static void handle_int (int   sig)$/;"	f	file:
+handle_pipe	slave.c	/^static void handle_pipe (int sig)$/;"	f	file:
+handle_quit	slave.c	/^static void handle_quit (int   sig)$/;"	f	file:
+handle_segv	slave.c	/^static void handle_segv (int   sig)$/;"	f	file:
+init_sigaction	slave.c	/^static void init_sigaction()$/;"	f	file:
+main	slave.c	/^int main (int argc, char *argv[])$/;"	f
+read_cmd	slave.c	/^static void  *read_cmd (void *data)$/;"	f	file:
+thread_exit	slave.c	/^char thread_exit; \/\/thread exit flg$/;"	v
+wprintf	slave.c	56;"	d	file:
+wprintf	slave.c	59;"	d	file:

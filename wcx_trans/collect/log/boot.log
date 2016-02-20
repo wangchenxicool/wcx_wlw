@@ -1,0 +1,64 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$Log File Created On: <Sat Nov  3 19:53:19 2012>
+$Software: <ort3000c_modbus_collect>
+$Editor: <wang_chen_xi>
+$Version: <v0.10.1>
+$Remark: all time values are in Local Time
+$Log Type: <Boot log>
+$Fields:
+$seg                        time Err            funtion  comment
+     1  Sat Nov  3 19:53:19 2012   1             main()   demo_start...
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$Log File Created On: <Sat Nov  3 19:53:54 2012>
+$Software: <ort3000c_modbus_collect>
+$Editor: <wang_chen_xi>
+$Version: <v0.10.1>
+$Remark: all time values are in Local Time
+$Log Type: <Boot log>
+$Fields:
+$seg                        time Err            funtion  comment
+     1  Sat Nov  3 19:53:54 2012   1             main()   demo_start...
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$Log File Created On: <Sat Nov  3 19:55:51 2012>
+$Software: <ort3000c_modbus_collect>
+$Editor: <wang_chen_xi>
+$Version: <v0.10.1>
+$Remark: all time values are in Local Time
+$Log Type: <Boot log>
+$Fields:
+$seg                        time Err            funtion  comment
+     1  Sat Nov  3 19:55:51 2012   1             main()   demo_start...
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$Log File Created On: <Sat Nov  3 19:56:17 2012>
+$Software: <ort3000c_modbus_collect>
+$Editor: <wang_chen_xi>
+$Version: <v0.10.1>
+$Remark: all time values are in Local Time
+$Log Type: <Boot log>
+$Fields:
+$seg                        time Err            funtion  comment
+     1  Sat Nov  3 19:56:17 2012   1             main()   demo_start...
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$Log File Created On: <Sat Nov  3 19:57:07 2012>
+$Software: <ort3000c_modbus_collect>
+$Editor: <wang_chen_xi>
+$Version: <v0.10.1>
+$Remark: all time values are in Local Time
+$Log Type: <Boot log>
+$Fields:
+$seg                        time Err            funtion  comment
+     1  Sat Nov  3 19:57:07 2012   1             main()   demo_start...
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$Log File Created On: <Sat Nov  3 20:08:42 2012>
+$Software: <ort3000c_modbus_collect>
+$Editor: <wang_chen_xi>
+$Version: <v0.10.1>
+$Remark: all time values are in Local Time
+$Log Type: <Boot log>
+$Fields:
+$seg                        time Err            funtion  comment
+     1  Sat Nov  3 20:08:42 2012   1             main()   demo_start...
+     2  Sat Nov  3 20:08:45 2012  -1             main()   thread_read_cmd_attr finished!
+     3  Sat Nov  3 20:08:45 2012  -1             main()   thread_send[0] creat OK!
+     4  Sat Nov  3 20:08:45 2012   1thread_modbus_collect()   modbus_collect_thread[0] startting...
+     5  Sat Nov  3 20:08:45 2012   1  thread_read_cmd()   thread_read_cmd start....

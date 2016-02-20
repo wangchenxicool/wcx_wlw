@@ -1,0 +1,12 @@
+# written by pptpsetup
+#pty "pptp 221.6.35.150 --nolaunchpppd"
+pty "pptp 221.226.186.98 --nolaunchpppd"
+#pty "pptp ortserver.cn --nolaunchpppd"
+lock
+noauth
+nobsdcomp
+nodeflate
+name ort3000b
+remotename vpn
+ipparam vpn
+#require-mppe-128

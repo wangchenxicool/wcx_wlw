@@ -1,0 +1,53 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARCH	Makefile	/^ARCH=ARM$/;"	m
+ARCH	test/Makefile	/^ARCH=ARM$/;"	m
+CFLAG	Makefile	/^CFLAG:=-g -rdynamic $/;"	m
+CFLAG	test/Makefile	/^CFLAG:=-g -O0 -rdynamic -fstack-protector-all$/;"	m
+CFLAG	test/Makefile	/^CFLAG:=-g -rdynamic -fno-stack-protector $/;"	m
+COUNTS	test/main.c	/^static int COUNTS = 1;$/;"	v	file:
+CROSS	Makefile	/^CROSS=arm-linux-$/;"	m
+CROSS	test/Makefile	/^CROSS=arm-linux-$/;"	m
+DEBUG	modbus_LD-B10_220.c	40;"	d	file:
+INSTALL	Makefile	/^INSTALL=install -o $(USER) -g $(USER)$/;"	m
+IPATH	Makefile	/^IPATH:=-I..\/wcx_utils\/$/;"	m
+IPATH	test/Makefile	/^IPATH:=-I$(OTHERSLIBPWD)\/sqlite-3.7.3\/output\/arm\/include$/;"	m
+IPATH	test/Makefile	/^IPATH:=-I$(OTHERSLIBPWD)\/sqlite-3.7.3\/output\/ubuntu\/include$/;"	m
+LIBS	test/Makefile	/^LIBS:=-lwcx_utils_arm$/;"	m
+LIBS	test/Makefile	/^LIBS:=-lwcx_utils_ubuntu$/;"	m
+LPATH	test/Makefile	/^LPATH:=-L$(OTHERSLIBPWD)\/sqlite-3.7.3\/output\/arm\/lib$/;"	m
+LPATH	test/Makefile	/^LPATH:=-L$(OTHERSLIBPWD)\/sqlite-3.7.3\/output\/ubuntu\/lib$/;"	m
+NB_TAB_ERROR_MSG	modbus_LD-B10_220.c	/^static const uint8_t NB_TAB_ERROR_MSG = 12;$/;"	v	file:
+OBJS	Makefile	/^OBJS:=$(filter %.o, $(OBJS))$/;"	m
+OBJS	Makefile	/^OBJS:=$(patsubst %.S, %.o, $(SRC))$/;"	m
+OTHERSLIBPWD	Makefile	/^OTHERSLIBPWD=\/home\/project\/usr\/local\/src$/;"	m
+OTHERSLIBPWD	test/Makefile	/^OTHERSLIBPWD=\/home\/project\/usr\/local\/src$/;"	m
+SLAVE	test/main.c	20;"	d	file:
+SPACE_TIME	test/main.c	/^static int SPACE_TIME = 50;$/;"	v	file:
+SRC	Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+SRC	test/Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+STEP_MODE	test/main.c	/^static int STEP_MODE = 0;$/;"	v	file:
+TAB_CHECKSUM_LENGTH	modbus_LD-B10_220.c	/^static const int TAB_CHECKSUM_LENGTH[2] =$/;"	v	file:
+TAB_ERROR_MSG	modbus_LD-B10_220.c	/^static const char *TAB_ERROR_MSG[] =$/;"	v	file:
+TAB_HEADER_LENGTH	modbus_LD-B10_220.c	/^static const int TAB_HEADER_LENGTH[2] =$/;"	v	file:
+TARGET	Makefile	/^TARGET:=libmodbus_LD-B10-220_arm.so$/;"	m
+TARGET	Makefile	/^TARGET:=libmodbus_LD-B10-220_ubuntu.so$/;"	m
+TARGET	test/Makefile	/^TARGET:=read_coil_status_RPC3FxC_arm.bin$/;"	m
+TARGET	test/Makefile	/^TARGET:=read_coil_status_RPC3FxC_ubuntu.bin$/;"	m
+UINT16_MAX	modbus_LD-B10_220.c	30;"	d	file:
+UNKNOWN_ERROR_MSG	modbus_LD-B10_220.c	38;"	d	file:
+_MODBUS_RPC3FxC_H	modbus_LD-B10_220.h	2;"	d
+compute_response_length_RPC3FxC	modbus_LD-B10_220.c	/^static unsigned int compute_response_length_RPC3FxC (modbus_param_t *mb_param, uint8_t *query)$/;"	f	file:
+force_single_coil_RPC3FxC	modbus_LD-B10_220.c	/^int force_single_coil_RPC3FxC (modbus_param_t *mb_param, int coil_addr, int state, int select_time)$/;"	f
+main	test/main.c	/^int main (int argc, char *argv[])$/;"	f
+modbus_receive	modbus_LD-B10_220.c	/^static int modbus_receive (modbus_param_t *mb_param, uint8_t *query, uint8_t *response, int select_time)$/;"	f	file:
+parse_opts	test/main.c	/^void parse_opts (int argc, char *argv[])$/;"	f
+print_usage	test/main.c	/^void print_usage (const char *prog)$/;"	f
+read_coil_status_RPC3FxC	modbus_LD-B10_220.c	/^int read_coil_status_RPC3FxC (modbus_param_t *mb_param, int start_addr,$/;"	f
+read_registers	modbus_LD-B10_220.c	/^static int read_registers (modbus_param_t *mb_param, int function, int start_addr,$/;"	f	file:
+wprintf	modbus_LD-B10_220.c	43;"	d	file:
+wprintf	modbus_LD-B10_220.c	46;"	d	file:

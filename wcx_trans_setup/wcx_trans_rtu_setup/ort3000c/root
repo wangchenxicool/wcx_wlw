@@ -1,0 +1,1 @@
+1 3 * * * /ort3000/code/collect/bin/kill_collect.bin

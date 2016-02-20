@@ -1,0 +1,317 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOOL	wcx_client.h	/^typedef bool  BOOL;$/;"	t
+BYTE	wcx_client.h	/^typedef unsigned char  BYTE;$/;"	t
+C104_APDU_LEN	wcx_client.h	111;"	d
+C104_APDU_SATRT	wcx_client.h	110;"	d
+C104_APDU_SIZE	wcx_client.h	112;"	d
+C104_ASDU_SIZE	wcx_client.h	113;"	d
+C104_DATA_SIZE	wcx_client.h	114;"	d
+CFLAGS	Makefile	/^CFLAGS=-c -W -O2$/;"	m
+CIRCLEQ_EMPTY	queue.h	436;"	d
+CIRCLEQ_END	queue.h	433;"	d
+CIRCLEQ_ENTRY	queue.h	422;"	d
+CIRCLEQ_FIRST	queue.h	431;"	d
+CIRCLEQ_FOREACH	queue.h	439;"	d
+CIRCLEQ_FOREACH_REVERSE	queue.h	444;"	d
+CIRCLEQ_HEAD	queue.h	413;"	d
+CIRCLEQ_HEAD_INITIALIZER	queue.h	419;"	d
+CIRCLEQ_INIT	queue.h	452;"	d
+CIRCLEQ_INSERT_AFTER	queue.h	457;"	d
+CIRCLEQ_INSERT_BEFORE	queue.h	467;"	d
+CIRCLEQ_INSERT_HEAD	queue.h	477;"	d
+CIRCLEQ_INSERT_TAIL	queue.h	487;"	d
+CIRCLEQ_LAST	queue.h	432;"	d
+CIRCLEQ_NEXT	queue.h	434;"	d
+CIRCLEQ_PREV	queue.h	435;"	d
+CIRCLEQ_REMOVE	queue.h	497;"	d
+CIRCLEQ_REPLACE	queue.h	512;"	d
+CONNECTION_CLOSED	wcx_client.h	66;"	d
+CONNECT_CHECK_TIME	wcx_client.h	46;"	d
+CROSS	Makefile	/^CROSS=arm-linux-$/;"	m
+CSV_FILE_PATH	wcx_client.h	50;"	d
+C_CI_NA	wcx_client.h	99;"	d
+C_CI_NA_QOI	wcx_client.cpp	/^static int      C_CI_NA_QOI; \/\/电度总度召限定词$/;"	v	file:
+C_CS_NA	wcx_client.h	100;"	d
+C_DC_NA	wcx_client.h	96;"	d
+C_IC_NA	wcx_client.h	98;"	d
+C_IC_NA_QOI	wcx_client.cpp	/^static int      C_IC_NA_QOI; \/\/总召限定词$/;"	v	file:
+C_SC_NA	wcx_client.h	95;"	d
+C_SE_NA	wcx_client.h	97;"	d
+Connect	wcx_client.cpp	/^static int Connect (int i)$/;"	f	file:
+DBSERVER_PORT	wcx_client.h	42;"	d
+DEBUG	wcx_client.cpp	38;"	d	file:
+DWORD	wcx_client.h	/^typedef unsigned long  DWORD;$/;"	t
+FALSE	wcx_client.h	30;"	d
+GetDeviceProperty	wcx_client.cpp	/^static int GetDeviceProperty (sqlite3 * db, int DID, struct IEC104_MASTER *IEC104)$/;"	f	file:
+GetPid	wcx_client.cpp	/^static inline uint16_t GetPid (struct IEC104_MASTER *IEC104, uint32_t info_addr, float *K)$/;"	f	file:
+GetPidProperty	wcx_client.cpp	/^static int GetPidProperty (sqlite3 * db, int PID, struct IEC104_MASTER *IEC104)$/;"	f	file:
+Get_DID_From_PID	wcx_client.cpp	/^static int Get_DID_From_PID (sqlite3 * db, int PID)$/;"	f	file:
+Get_K_From_PID	wcx_client.cpp	/^static inline float Get_K_From_PID (sqlite3 * db, int PID)$/;"	f	file:
+IEC104MASTER_CONF_FILE	wcx_client.h	49;"	d
+IEC104MASTER_Display	wcx_client.cpp	/^static void IEC104MASTER_Display (struct IEC104_MASTER *IEC104)$/;"	f	file:
+IEC104MASTER_Exit	wcx_client.cpp	/^int IEC104MASTER_Exit (void *arg)$/;"	f
+IEC104MASTER_LOG	wcx_client.h	47;"	d
+IEC104MASTER_RCV_LOG	wcx_client.h	48;"	d
+IEC104MASTER_Run	wcx_client.cpp	/^int IEC104MASTER_Run (void *arg)$/;"	f
+IEC104_MASTER	wcx_client.h	/^struct IEC104_MASTER$/;"	s
+IEC104_Master_Display	wcx_client.cpp	/^int IEC104_Master_Display (void *arg)$/;"	f
+IEC104_Master_LOGIN	wcx_client.cpp	/^static void IEC104_Master_LOGIN (int i)$/;"	f	file:
+IEC104_Master_sAssociateAck	wcx_client.cpp	/^static void IEC104_Master_sAssociateAck (int i)$/;"	f	file:
+IEC104_Master_sAssociateAct	wcx_client.cpp	/^static void IEC104_Master_sAssociateAct (int i)$/;"	f	file:
+IEC104_Master_sC_CI_NA	wcx_client.cpp	/^void IEC104_Master_sC_CI_NA (int i, int asdu_addr, uint32_t info_addr, int qoi)$/;"	f
+IEC104_Master_sC_CS_NA	wcx_client.cpp	/^void IEC104_Master_sC_CS_NA (int i)$/;"	f
+IEC104_Master_sC_DC_NA_Execute	wcx_client.cpp	/^void IEC104_Master_sC_DC_NA_Execute (int i, int asdu_addr, uint32_t info_addr, unsigned char co)$/;"	f
+IEC104_Master_sC_DC_NA_PreSet	wcx_client.cpp	/^void IEC104_Master_sC_DC_NA_PreSet (int i, int asdu_addr, uint32_t info_addr, unsigned char dco)$/;"	f
+IEC104_Master_sC_DC_NA_Term	wcx_client.cpp	/^void IEC104_Master_sC_DC_NA_Term (int i, int asdu_addr, uint32_t info_addr, unsigned char co)$/;"	f
+IEC104_Master_sC_IC_NA	wcx_client.cpp	/^void IEC104_Master_sC_IC_NA (int i, int asdu_addr, uint32_t info_addr, int qoi)$/;"	f
+IEC104_Master_sC_RD_NA	wcx_client.cpp	/^void IEC104_Master_sC_RD_NA (int i)$/;"	f
+IEC104_Master_sSFrame	wcx_client.cpp	/^static void IEC104_Master_sSFrame (int i)$/;"	f	file:
+IEC104_Master_sTestAck	wcx_client.cpp	/^static void IEC104_Master_sTestAck (int i)$/;"	f	file:
+IEC104_Master_sTestAct	wcx_client.cpp	/^static void IEC104_Master_sTestAct (int i)$/;"	f	file:
+IEC104_SLAVE_IP_NUMS	wcx_client.cpp	/^static int                  IEC104_SLAVE_IP_NUMS; \/\/ip地址数$/;"	v	file:
+IEC104_SLAVE_IP_NUMS_MAX	wcx_client.h	45;"	d
+INSTALL	Makefile	/^INSTALL=install -o $(USER) -g $(USER)$/;"	m
+INVALID_CRC	wcx_client.h	60;"	d
+INVALID_DATA	wcx_client.h	59;"	d
+INVALID_EXCEPTION_CODE	wcx_client.h	61;"	d
+IPATH	Makefile	/^IPATH:=-I$(OTHERSLIBPWD)\/socket-lib\/libevent-2.0.12-stable\/output\/arm\/include$/;"	m
+IPATH	Makefile	/^IPATH:=-I$(OTHERSLIBPWD)\/socket-lib\/libevent-2.0.12-stable\/output\/ubuntu\/include$/;"	m
+LIBS	Makefile	/^LIBS:=-lwcx_utils_arm$/;"	m
+LIBS	Makefile	/^LIBS:=-lwcx_utils_ubuntu$/;"	m
+LIST_EMPTY	queue.h	186;"	d
+LIST_END	queue.h	185;"	d
+LIST_ENTRY	queue.h	175;"	d
+LIST_FIRST	queue.h	184;"	d
+LIST_FOREACH	queue.h	189;"	d
+LIST_HEAD	queue.h	167;"	d
+LIST_HEAD_INITIALIZER	queue.h	172;"	d
+LIST_INIT	queue.h	197;"	d
+LIST_INSERT_AFTER	queue.h	201;"	d
+LIST_INSERT_BEFORE	queue.h	209;"	d
+LIST_INSERT_HEAD	queue.h	216;"	d
+LIST_NEXT	queue.h	187;"	d
+LIST_REMOVE	queue.h	223;"	d
+LIST_REPLACE	queue.h	232;"	d
+LPATH	Makefile	/^LPATH:=-L$(OTHERSLIBPWD)\/socket-lib\/libevent-2.0.12-stable\/output\/arm\/lib$/;"	m
+LPATH	Makefile	/^LPATH:=-L$(OTHERSLIBPWD)\/socket-lib\/libevent-2.0.12-stable\/output\/ubuntu\/lib$/;"	m
+MAX_DATA_LEN	wcx_client.h	53;"	d
+MB_EXCEPTION	wcx_client.h	67;"	d
+M_BO_NA	wcx_client.h	74;"	d
+M_BO_TB	wcx_client.h	86;"	d
+M_DP_NA	wcx_client.h	72;"	d
+M_DP_TB	wcx_client.h	84;"	d
+M_EI_NA	wcx_client.h	81;"	d
+M_EP_TD	wcx_client.h	91;"	d
+M_EP_TE	wcx_client.h	92;"	d
+M_EP_TF	wcx_client.h	93;"	d
+M_IT_NA	wcx_client.h	78;"	d
+M_IT_TB	wcx_client.h	90;"	d
+M_ME_NA	wcx_client.h	75;"	d
+M_ME_NB	wcx_client.h	76;"	d
+M_ME_NC	wcx_client.h	77;"	d
+M_ME_ND	wcx_client.h	80;"	d
+M_ME_TD	wcx_client.h	87;"	d
+M_ME_TE	wcx_client.h	88;"	d
+M_ME_TF	wcx_client.h	89;"	d
+M_PS_NA	wcx_client.h	79;"	d
+M_SP_NA	wcx_client.h	71;"	d
+M_SP_TB	wcx_client.h	83;"	d
+M_ST_NA	wcx_client.h	73;"	d
+M_ST_TB	wcx_client.h	85;"	d
+MaxListDsp	wcx_client.h	54;"	d
+Max_k	wcx_client.h	/^    unsigned char   Max_k;       \/\/发送状态变量的最大不同的接收序号$/;"	m	struct:IEC104_MASTER
+Max_w	wcx_client.h	/^    unsigned char   Max_w;       \/\/接收w个I格式APDUs之后的最后的认可$/;"	m	struct:IEC104_MASTER
+OFF	wcx_client.h	36;"	d
+ON	wcx_client.h	39;"	d
+OTHERSLIBPWD	Makefile	/^OTHERSLIBPWD=\/home\/project\/usr\/local\/src$/;"	m
+QueryAttAccordingDid	wcx_client.cpp	/^static inline int QueryAttAccordingDid (sqlite3 * db, int ID, int TYPE, char *result, int result_size)$/;"	f	file:
+QueryAttAccordingPid	wcx_client.cpp	/^static inline int QueryAttAccordingPid (sqlite3 * db, int ID, int TYPE, char *result, int result_size)$/;"	f	file:
+QueryProtocolAccordingPid	wcx_client.cpp	/^static int QueryProtocolAccordingPid (sqlite3 * db, int ID)$/;"	f	file:
+REAL_VAL_TAG	wcx_client.h	/^} REAL_VAL_TAG;$/;"	t	typeref:struct:__anon1
+REAL_VAL_TAG_COUNT	wcx_client.h	222;"	d
+REAL_VAL_TAG_SIZE	wcx_client.h	221;"	d
+RTU_ADDR	wcx_client.h	43;"	d
+RecvBuf	wcx_client.h	/^    unsigned char   RecvBuf[MAX_DATA_LEN];$/;"	m	struct:IEC104_MASTER
+RecvLen	wcx_client.h	/^    volatile unsigned short  RecvLen;  \/\/已经接收到的数据长度$/;"	m	struct:IEC104_MASTER
+RecvNum	wcx_client.h	/^    volatile unsigned short  RecvNum;  \/\/已经接收到的帧$/;"	m	struct:IEC104_MASTER
+SELECT_FAILURE	wcx_client.h	64;"	d
+SELECT_TIMEOUT	wcx_client.h	63;"	d
+SIMPLEQ_EMPTY	queue.h	264;"	d
+SIMPLEQ_END	queue.h	263;"	d
+SIMPLEQ_ENTRY	queue.h	254;"	d
+SIMPLEQ_FIRST	queue.h	262;"	d
+SIMPLEQ_FOREACH	queue.h	267;"	d
+SIMPLEQ_HEAD	queue.h	245;"	d
+SIMPLEQ_HEAD_INITIALIZER	queue.h	251;"	d
+SIMPLEQ_INIT	queue.h	275;"	d
+SIMPLEQ_INSERT_AFTER	queue.h	292;"	d
+SIMPLEQ_INSERT_HEAD	queue.h	280;"	d
+SIMPLEQ_INSERT_TAIL	queue.h	286;"	d
+SIMPLEQ_NEXT	queue.h	265;"	d
+SIMPLEQ_REMOVE_HEAD	queue.h	298;"	d
+SLIST_EMPTY	queue.h	112;"	d
+SLIST_END	queue.h	111;"	d
+SLIST_ENTRY	queue.h	102;"	d
+SLIST_FIRST	queue.h	110;"	d
+SLIST_FOREACH	queue.h	115;"	d
+SLIST_FOREACH_PREVPTR	queue.h	120;"	d
+SLIST_HEAD	queue.h	94;"	d
+SLIST_HEAD_INITIALIZER	queue.h	99;"	d
+SLIST_INIT	queue.h	128;"	d
+SLIST_INSERT_AFTER	queue.h	132;"	d
+SLIST_INSERT_HEAD	queue.h	137;"	d
+SLIST_NEXT	queue.h	113;"	d
+SLIST_REMOVE	queue.h	150;"	d
+SLIST_REMOVE_HEAD	queue.h	146;"	d
+SLIST_REMOVE_NEXT	queue.h	142;"	d
+SOCKET_FAILURE	wcx_client.h	65;"	d
+SRC	Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+SendBuf	wcx_client.h	/^    unsigned char   SendBuf[MAX_DATA_LEN];$/;"	m	struct:IEC104_MASTER
+SendLen	wcx_client.h	/^    volatile unsigned short  SendLen;  \/\/已经发送了的数据长度$/;"	m	struct:IEC104_MASTER
+SendNum	wcx_client.h	/^    volatile unsigned short  SendNum;  \/\/已经发送出的帧$/;"	m	struct:IEC104_MASTER
+Socket	wcx_client.cpp	/^static int Socket (int i)$/;"	f	file:
+TAG_FILE	wcx_client.h	51;"	d
+TAG_FILE_OPTIMIZED	wcx_client.h	52;"	d
+TAILQ_EMPTY	queue.h	332;"	d
+TAILQ_END	queue.h	325;"	d
+TAILQ_ENTRY	queue.h	315;"	d
+TAILQ_FIRST	queue.h	324;"	d
+TAILQ_FOREACH	queue.h	335;"	d
+TAILQ_FOREACH_REVERSE	queue.h	340;"	d
+TAILQ_HEAD	queue.h	306;"	d
+TAILQ_HEAD_INITIALIZER	queue.h	312;"	d
+TAILQ_INIT	queue.h	348;"	d
+TAILQ_INSERT_AFTER	queue.h	370;"	d
+TAILQ_INSERT_BEFORE	queue.h	380;"	d
+TAILQ_INSERT_HEAD	queue.h	353;"	d
+TAILQ_INSERT_TAIL	queue.h	363;"	d
+TAILQ_LAST	queue.h	327;"	d
+TAILQ_NEXT	queue.h	326;"	d
+TAILQ_PREV	queue.h	330;"	d
+TAILQ_REMOVE	queue.h	387;"	d
+TAILQ_REPLACE	queue.h	398;"	d
+TARGET	Makefile	/^TARGET:=wcx_client.bin$/;"	m
+TIME_OUT_WRITEDB	wcx_client.h	55;"	d
+TRUE	wcx_client.h	33;"	d
+TYPE_LOG_IN	wcx_client.h	244;"	d
+T_C104_ASDU	wcx_client.h	/^} T_C104_ASDU;$/;"	t	typeref:struct:tagT_C104_ASDU
+T_C104_FRAME	wcx_client.h	/^} T_C104_FRAME;$/;"	t	typeref:struct:tagT_C104_FRAME
+T_LOG_IN_INF	wcx_client.h	/^} T_LOG_IN_INF;$/;"	t	typeref:struct:__anon2
+TimeOut_C_CI_NA	wcx_client.h	/^    unsigned char   TimeOut_C_CI_NA;  \/\/电度总召唤请求周期$/;"	m	struct:IEC104_MASTER
+TimeOut_C_IC_NA	wcx_client.h	/^    unsigned char   TimeOut_C_IC_NA;  \/\/总召唤请求周期$/;"	m	struct:IEC104_MASTER
+TimeOut_clock	wcx_client.h	/^    unsigned char   TimeOut_clock;  \/\/时钟同步周期$/;"	m	struct:IEC104_MASTER
+TimeOut_t0	wcx_client.h	/^    unsigned char   TimeOut_t0;  \/\/连接建立超时值,单位s$/;"	m	struct:IEC104_MASTER
+TimeOut_t1	wcx_client.h	/^    unsigned char   TimeOut_t1;  \/\/APDU的发送或测试的超时时间,s$/;"	m	struct:IEC104_MASTER
+TimeOut_t2	wcx_client.h	/^    unsigned char   TimeOut_t2;  \/\/无数据报文t2<t1情况下认可的超时时间,s$/;"	m	struct:IEC104_MASTER
+TimeOut_t3	wcx_client.h	/^    unsigned char   TimeOut_t3;  \/\/茌长时间Idle状态t3>t1情况下发送S-帧的超时时间,s$/;"	m	struct:IEC104_MASTER
+TimeOut_t4	wcx_client.h	/^    unsigned char   TimeOut_t4;  \/\/????$/;"	m	struct:IEC104_MASTER
+TimeOut_zu	wcx_client.h	/^    unsigned char   TimeOut_zu;  \/\/组召唤周期$/;"	m	struct:IEC104_MASTER
+VOID	wcx_client.h	/^typedef void  VOID;$/;"	t
+WCX_DEBUG	wcx_client.cpp	48;"	d	file:
+WORD	wcx_client.h	/^typedef unsigned short WORD;$/;"	t
+_IEC104_MASTER_H	wcx_client.h	2;"	d
+_Q_INVALIDATE	queue.h	86;"	d
+_Q_INVALIDATE	queue.h	88;"	d
+_SYS_QUEUE_H_	queue.h	36;"	d
+_iec104_tag_tp	wcx_client.h	/^typedef struct _iec104_tag_tp$/;"	s
+addr_asdu_high	wcx_client.h	/^    BYTE	addr_asdu_high;$/;"	m	struct:tagT_C104_ASDU
+addr_asdu_low	wcx_client.h	/^    BYTE	addr_asdu_low;			\/* 公共地址 *\/$/;"	m	struct:tagT_C104_ASDU
+asdu_addr	wcx_client.h	/^    int             asdu_addr;$/;"	m	struct:IEC104_MASTER
+bits_asdu_addrs	wcx_client.h	/^    int     bits_asdu_addrs;$/;"	m	struct:IEC104_MASTER
+bits_cos	wcx_client.h	/^    int     bits_cos;$/;"	m	struct:IEC104_MASTER
+bits_info_addrs	wcx_client.h	/^    int     bits_info_addrs;$/;"	m	struct:IEC104_MASTER
+c1	wcx_client.h	/^    BYTE	c1;     		\/* 控制域 *\/$/;"	m	struct:tagT_C104_FRAME
+c2	wcx_client.h	/^    BYTE	c2;	        	\/* 控制域 *\/$/;"	m	struct:tagT_C104_FRAME
+c3	wcx_client.h	/^    BYTE	c3;     		\/* 控制域 *\/$/;"	m	struct:tagT_C104_FRAME
+c4	wcx_client.h	/^    BYTE	c4;	        	\/* 控制域 *\/$/;"	m	struct:tagT_C104_FRAME
+connect_nonb	wcx_client.cpp	/^int connect_nonb (int sockfd, const struct sockaddr* server_addr, socklen_t salen, int nsec)$/;"	f
+cot_high	wcx_client.h	/^    BYTE	cot_high;$/;"	m	struct:tagT_C104_ASDU
+cot_low	wcx_client.h	/^    BYTE	cot_low;	        	\/* 传送原因 *\/$/;"	m	struct:tagT_C104_ASDU
+csv_file_path	wcx_client.cpp	/^static char     csv_file_path[100]; \/\/csv文件存放路径$/;"	v	file:
+data	wcx_client.h	/^    BYTE	data[C104_DATA_SIZE];	\/* 信息体报文 *\/$/;"	m	struct:tagT_C104_ASDU
+data_type	wcx_client.h	/^    uint8_t data_type;$/;"	m	struct:_iec104_tag_tp
+debug	wcx_client.cpp	/^static char                 debug; \/\/debug on\/off$/;"	v	file:
+did	wcx_client.h	/^    int             did;$/;"	m	struct:IEC104_MASTER
+error_log	wcx_client.cpp	/^static struct log_tp        error_log;$/;"	v	typeref:struct:log_tp	file:
+ev_read	wcx_client.h	/^    struct event    ev_read;$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::event
+ev_timer_C_CI_NA	wcx_client.h	/^    struct event    ev_timer_C_CI_NA; \/\/电度总召唤事件$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::event
+ev_timer_C_IC_NA	wcx_client.h	/^    struct event    ev_timer_C_IC_NA; \/\/总召唤事件$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::event
+ev_timer_connect	wcx_client.cpp	/^struct event                ev_timer_connect; \/\/timer 时间对象$/;"	v	typeref:struct:event
+ev_timer_sframe	wcx_client.h	/^    struct event    ev_timer_sframe; \/\/发送S帧事件$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::event
+ev_timer_tframe	wcx_client.h	/^    struct event    ev_timer_tframe; \/\/发送测试帧事件$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::event
+ev_write	wcx_client.h	/^    struct event    ev_write;$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::event
+fd	wcx_client.h	/^    int             fd;$/;"	m	struct:IEC104_MASTER
+hour	wcx_client.h	/^    BYTE    hour; \/* 小时 *\/$/;"	m	struct:__anon1
+i	wcx_client.h	/^    int             i;$/;"	m	struct:IEC104_MASTER
+iec104	wcx_client.cpp	/^static struct IEC104_MASTER *iec104[IEC104_SLAVE_IP_NUMS_MAX];$/;"	v	typeref:struct:IEC104_MASTER	file:
+iec104_master_connect	wcx_client.cpp	/^static void iec104_master_connect()$/;"	f	file:
+iec104_master_error_treat	wcx_client.cpp	/^static void iec104_master_error_treat (int code, const char *string, void *arg)$/;"	f	file:
+iec104_send_msg	wcx_client.cpp	/^static void iec104_send_msg (int i)$/;"	f	file:
+iec104_tag_tp	wcx_client.h	/^} iec104_tag_tp;$/;"	t	typeref:struct:_iec104_tag_tp
+info_addr	wcx_client.h	/^    uint32_t info_addr;$/;"	m	struct:_iec104_tag_tp
+info_addr_agc	wcx_client.h	/^    int     info_addr_agc;$/;"	m	struct:IEC104_MASTER
+info_addr_analog	wcx_client.h	/^    int     info_addr_analog;$/;"	m	struct:IEC104_MASTER
+info_addr_analog_argument	wcx_client.h	/^    int     info_addr_analog_argument;$/;"	m	struct:IEC104_MASTER
+info_addr_coils	wcx_client.h	/^    int     info_addr_coils;$/;"	m	struct:IEC104_MASTER
+info_addr_control	wcx_client.h	/^    int     info_addr_control;$/;"	m	struct:IEC104_MASTER
+info_addr_energy	wcx_client.h	/^    int     info_addr_energy;$/;"	m	struct:IEC104_MASTER
+info_addr_position	wcx_client.h	/^    int     info_addr_position;$/;"	m	struct:IEC104_MASTER
+info_addr_status	wcx_client.h	/^    int     info_addr_status;$/;"	m	struct:IEC104_MASTER
+info_h	wcx_client.h	/^    BYTE    info_h;$/;"	m	struct:__anon1
+info_l	wcx_client.h	/^    BYTE    info_l;$/;"	m	struct:__anon1
+info_m	wcx_client.h	/^    BYTE    info_m;$/;"	m	struct:__anon1
+ip_addr	wcx_client.h	/^    char            ip_addr[250];$/;"	m	struct:IEC104_MASTER
+is_connect	wcx_client.h	/^    volatile int    is_connect; \/\/连接标志 TRUE: 已经连接 FALSE: 未连接$/;"	m	struct:IEC104_MASTER
+is_idlesse	wcx_client.h	/^    volatile char   is_idlesse; \/\/IEC104通道空闲标志, 如果置1,将定时发送测试帧$/;"	m	struct:IEC104_MASTER
+is_send_sframe	wcx_client.h	/^    volatile char   is_send_sframe; \/\/S帧发送标志$/;"	m	struct:IEC104_MASTER
+k	wcx_client.h	/^    float k;$/;"	m	struct:_iec104_tag_tp
+k	wcx_client.h	/^    volatile unsigned char   k;             \/\/发送I格式应用规约数据单元的未认可帧数$/;"	m	struct:IEC104_MASTER
+len	wcx_client.h	/^    BYTE	len;			\/* APDU长度   *\/$/;"	m	struct:tagT_C104_FRAME
+load_config_from_file	wcx_client.cpp	/^static void load_config_from_file ()$/;"	f	file:
+main	wcx_client.cpp	/^int main ()$/;"	f
+min	wcx_client.h	/^    BYTE    min; \/* 分钟 *\/$/;"	m	struct:__anon1
+month	wcx_client.h	/^    BYTE    month; \/* 月 *\/$/;"	m	struct:__anon1
+on_read	wcx_client.cpp	/^static void on_read (int fd, short ev, void *arg)$/;"	f	file:
+on_timer_C_CI_NA	wcx_client.cpp	/^static void on_timer_C_CI_NA (int fd, short event, void *arg)$/;"	f	file:
+on_timer_C_IC_NA	wcx_client.cpp	/^static void on_timer_C_IC_NA (int fd, short event, void *arg)$/;"	f	file:
+on_timer_connect	wcx_client.cpp	/^static void on_timer_connect (int fd, short event, void *arg)$/;"	f	file:
+on_timer_sframe	wcx_client.cpp	/^static void on_timer_sframe (int fd, short event, void *arg)$/;"	f	file:
+on_timer_tframe	wcx_client.cpp	/^static void on_timer_tframe (int fd, short event, void *arg)$/;"	f	file:
+on_write	wcx_client.cpp	/^static void on_write (int fd, short ev, void *arg)$/;"	f	file:
+operate	wcx_client.h	/^    uint8_t operate;$/;"	m	struct:_iec104_tag_tp
+passwd	wcx_client.h	/^    char passwd[20];$/;"	m	struct:__anon2
+port	wcx_client.h	/^    int             port;$/;"	m	struct:IEC104_MASTER
+sec_h	wcx_client.h	/^    BYTE    sec_h; \/* 秒-高8位 *\/$/;"	m	struct:__anon1
+sec_l	wcx_client.h	/^    BYTE    sec_l; \/* 秒-低8位 *\/$/;"	m	struct:__anon1
+setnonblock	wcx_client.cpp	/^static int setnonblock (int fd)$/;"	f	file:
+start	wcx_client.h	/^    BYTE	start;			\/* 启动字符 *\/$/;"	m	struct:tagT_C104_FRAME
+tag	wcx_client.h	/^    std::vector<iec104_tag_tp> tag;$/;"	m	struct:IEC104_MASTER
+tagT_C104_ASDU	wcx_client.h	/^typedef struct tagT_C104_ASDU$/;"	s
+tagT_C104_FRAME	wcx_client.h	/^typedef struct tagT_C104_FRAME$/;"	s
+tag_file	wcx_client.cpp	/^static char     tag_file[100]; \/\/点表文件$/;"	v	file:
+tag_file_optimized	wcx_client.cpp	/^static char     tag_file_optimized[100]; \/\/优化点表文件$/;"	v	file:
+tag_id	wcx_client.h	/^    uint16_t tag_id;$/;"	m	struct:_iec104_tag_tp
+tv_read	wcx_client.cpp	/^static struct timeval       tv_read; \/\/read timeout$/;"	v	typeref:struct:timeval	file:
+tv_timer_C_CI_NA	wcx_client.h	/^    struct timeval  tv_timer_C_CI_NA; \/\/电度总召唤定时器$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::timeval
+tv_timer_C_IC_NA	wcx_client.h	/^    struct timeval  tv_timer_C_IC_NA; \/\/总召唤定时器$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::timeval
+tv_timer_connect	wcx_client.cpp	/^static struct timeval       tv_timer_connect;$/;"	v	typeref:struct:timeval	file:
+tv_timer_sframe	wcx_client.h	/^    struct timeval  tv_timer_sframe; \/\/S帧定时器$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::timeval
+tv_timer_tframe	wcx_client.h	/^    struct timeval  tv_timer_tframe; \/\/测试帧定时器$/;"	m	struct:IEC104_MASTER	typeref:struct:IEC104_MASTER::timeval
+type	wcx_client.h	/^    BYTE	type;       			\/* 类型标识 *\/$/;"	m	struct:tagT_C104_ASDU
+user_name	wcx_client.h	/^    char user_name[20];$/;"	m	struct:__anon2
+val_0	wcx_client.h	/^    BYTE    val_0;$/;"	m	struct:__anon1
+val_1	wcx_client.h	/^    BYTE    val_1;$/;"	m	struct:__anon1
+val_2	wcx_client.h	/^    BYTE    val_2;$/;"	m	struct:__anon1
+val_3	wcx_client.h	/^    BYTE    val_3;$/;"	m	struct:__anon1
+vsq	wcx_client.h	/^    BYTE	vsq;	        		\/* 可变结构限定词 *\/$/;"	m	struct:tagT_C104_ASDU
+w	wcx_client.h	/^    volatile unsigned char   w;             \/\/接收I格式应用规约数据单元的帧数$/;"	m	struct:IEC104_MASTER
+wcx_debug	wcx_client.cpp	/^static void wcx_debug (const char *file, int line, const char *fmt, ...)$/;"	f	file:
+week_day	wcx_client.h	/^    BYTE    week_day; \/* 星期-日 *\/$/;"	m	struct:__anon1
+wprintf	wcx_client.cpp	41;"	d	file:
+wprintf	wcx_client.cpp	45;"	d	file:
+year	wcx_client.h	/^    BYTE    year; \/* 年 *\/$/;"	m	struct:__anon1

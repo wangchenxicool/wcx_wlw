@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADDRESS_START	main.c	19;"	d	file:
+ARCH	Makefile	/^ARCH=ARM$/;"	m
+CFLAG	Makefile	/^CFLAG:=-g -O0 -rdynamic -fstack-protector-all$/;"	m
+CROSS	Makefile	/^CROSS=arm-linux-$/;"	m
+IPATH	Makefile	/^IPATH:=-I\/usr\/local\/src\/sqlite-3.7.3\/output\/arm\/include$/;"	m
+IPATH	Makefile	/^IPATH:=-I\/usr\/local\/src\/sqlite-3.7.3\/output\/ubuntu\/include$/;"	m
+LIBS	Makefile	/^LIBS:=-lwcx_utils_arm$/;"	m
+LIBS	Makefile	/^LIBS:=-lwcx_utils_ubuntu$/;"	m
+LPATH	Makefile	/^LPATH:=-L\/usr\/local\/src\/sqlite-3.7.3\/output\/arm\/lib$/;"	m
+LPATH	Makefile	/^LPATH:=-L\/usr\/local\/src\/sqlite-3.7.3\/output\/ubuntu\/lib$/;"	m
+SLAVE	main.c	18;"	d	file:
+SRC	Makefile	/^SRC:=$(shell ls *.c)$/;"	m
+TARGET	Makefile	/^TARGET:=modbus_send.bin$/;"	m
+TARGET	Makefile	/^TARGET:=modbus_send_ubuntu.bin$/;"	m
+free_time	main.c	/^static int free_time = 60; \/\/ modbus总线空闲时间$/;"	v	file:
+main	main.c	/^int main (int argc, char *argv[])$/;"	f
+parse_opts	main.c	/^void parse_opts (int argc, char *argv[])$/;"	f
+print_usage	main.c	/^void print_usage (const char *prog)$/;"	f
+slaves	main.c	/^static int slaves = 1; \/\/ 从机个数$/;"	v	file:
+step	main.c	/^static int step = 0; \/\/ 是否单步运行$/;"	v	file:

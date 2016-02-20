@@ -1,0 +1,19 @@
+1354714516: 1: Dmalloc version '5.5.2' from 'http://dmalloc.com/'
+1354714516: 1: flags = 0xb, logfile 'dmalloc_log'
+1354714516: 1: interval = 0, addr = 0, seen # = 0, limit = 0
+1354714516: 1: threads enabled, lock-on = 50, lock-init = 2
+1354714516: 1: starting time = 1354714516
+1354714516: 1: process pid = 23208
+1354714516: 1: WARNING: tried to free(0) from 'ra=0x3500d2'
+1354714516: 2: *** alloc: at 'ra=0x338aa0' for 15 bytes, got '0xa15ff0|s1'
+1354714516: 3: *** alloc: at 'ra=0x3212b8' for 352 bytes, got '0x54be00|s1'
+1354714516: 4: WARNING: tried to free(0) from 'ra=0x35078c'
+1354714516: 5: *** alloc: at 'ra=0x3508be' for 976 bytes, got '0xe84c00|s1'
+1354714516: 6: *** alloc: at 'ra=0x34f88c' for 31 bytes, got '0x219fe0|s1'
+1354714516: 7: *** free: at 'ra=0x3209ca' pnt '0x54be00|s2': size 352, alloced at 'ra=0x3212b8'
+1354714516: 8: *** alloc: at 'ra=0x34f88c' for 12 bytes, got '0xa15fe0|s1'
+1354714516: 9: *** alloc: at 'ra=0x34f88c' for 12 bytes, got '0xa15fd0|s1'
+1354714516: 10: *** alloc: at 'ra=0x34f88c' for 12 bytes, got '0xa15fc0|s1'
+1354714516: 11: *** alloc: at 'ra=0x34f88c' for 12 bytes, got '0xa15fb0|s1'
+1354714516: 12: *** free: at 'ra=0x3500d2' pnt '0xa15ff0|s2': size 15, alloced at 'ra=0x338aa0'
+1354714516: 13: *** alloc: at 'ra=0x338aa0' for 15 bytes, got '0xa15fa0|s1'
